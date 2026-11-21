@@ -448,6 +448,36 @@ Outputs: `morphospace_genome_species.csv`, `morphospace.png`.
   to relate gene counts to geometry; no pattern is claimed. More power needs many more
   species with both a shell measurement and an annotated genome.
 
+## Horns: what public data allow
+Literature and data search (2026-11-21) for genes behind horn SHAPE in sheep, goats and
+other bovids, to parallel the shell work. Summary:
+- **No study maps a continuous horn-shape variable** (curvature, expansion per turn,
+  torsion, divergence) to genes, and **no public dataset pairs per-animal horn geometry
+  with genotypes**. Public genotype data carry only horn length, base circumference, horn
+  type (normal/scurred/polled) or horn number (e.g. bighorn, Miller et al. 2018 PeerJ;
+  four-horned sheep, HOXD1).
+- **Every shape-gene result points to RXFP2** (sheep chromosome 10, ~29.4-29.5 Mb), with
+  shape scored as classes:
+  - Prairie Tibetan sheep: spiral, sideways-extended vs tightly curled close to the face,
+    associated with RXFP2 missense variants (Pan et al. 2018 GigaScience,
+    doi:10.1093/gigascience/giy019); an RXFP2 segment introgressed from argali in
+    "plateau-horned" sheep (Hu et al. 2019 MBE, doi:10.1093/molbev/msy208).
+  - Original Valachian sheep: sideways spiral vs backward-curled, RXFP2 plus suggestive
+    loci near PCP4, NKX1-2, THRB (n = 90; Arch Anim Breed 67:373, 2024).
+  - Icelandic sheep: oval-section horns all carry an RXFP2 insertion (Simon et al. 2024).
+  - RXFP2 also explains most variance in horn size in wild Soay sheep (Johnston et al.
+    2011, 2013).
+- **No published Raup-type parameters for real horns.** The closest is a computer-graphics
+  3D spiral model with hand-set (not fitted) parameters for bighorn, ibex, impala and kudu
+  (Harary & Tal 2011).
+- The classic explanation for horn coiling (D'Arcy Thompson) is unequal growth around the
+  horn sheath; no gene has been tied to that asymmetry.
+
+So the horn analogue of the snail work would need new shape data: fitting W and torsion to
+photos or scans of horns from animals with public genotypes (Soay sheep, Ram Mountain
+bighorn), which would need those projects' photos. measure.py's spiral fit could be
+extended to horns for that.
+
 ## Caveats
 - Adding family as a covariate is conservative: it removes between-family genetic
   differences, which lowers LODs. Both versions are reported.

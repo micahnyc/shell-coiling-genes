@@ -92,6 +92,7 @@ a { color: var(--accent2); }
     <li>Matched the LG6 candidates to their oyster counterparts, compared them with known shell genes, and checked them against proteins found in the shells of six molluscs.</li>
     <li>Tested the periwinkle regions again in 1,130 wild snails (Koch et al. 2022).</li>
     <li>Placed the species with genomes among 358 snail shells measured in Raup's terms (Noshita et al. 2012).</li>
+    <li>Searched the literature and public data for the horn equivalent.</li>
   </ol>
 
   <h2>What we found</h2>
@@ -111,7 +112,8 @@ a { color: var(--accent2); }
   <ul class="plain">
     <li>Which genes inside the LG6 inversion matter. Recombination is suppressed there, so mapping alone cannot separate them. The shortlist is now the crok-like Ly6 gene, rhoGAP6 and diaphanous.</li>
     <li>Whether the periwinkle diaphanous gene affects shell shape, as its pond-snail relative affects coiling direction.</li>
-    <li>Clams, nautilus and horns. Few of these species have annotated genomes and measured shells, too few for a comparison across species.</li>
+    <li>Clams and nautilus. Few of these species have annotated genomes and measured shells, too few for a comparison across species.</li>
+    <li>Horns. Horn shape so far links only to RXFP2, scored as categories; measured horn spirals paired with genotypes do not exist publicly (section 13).</li>
   </ul>
   <p class="note">The sections below hold the data behind each step. Every result is from public data; the code is at <a href="https://github.com/micahnyc/shell-coiling-genes" target="_blank" rel="noopener">github.com/micahnyc/shell-coiling-genes</a>.</p>
 </section>
@@ -340,6 +342,27 @@ a { color: var(--accent2); }
 </section>
 
 <section>
+  <div class="eyebrow">13 · Horns</div>
+  <h2>Ram's horns: one gene, and no shape measurements yet</h2>
+  <p>Ram's horns coil like shells, so we looked for the horn version of this study. A search of the literature and public data repositories found the following.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Species</th><th>Horn shape compared</th><th>Gene</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>Tibetan sheep</td><td>spiral and extended sideways vs tightly curled against the face</td><td>RXFP2 (2 amino-acid changes)</td><td>Pan et al. 2018</td></tr>
+      <tr><td>Tibetan sheep and argali</td><td>large spiral "plateau" horns</td><td>RXFP2 segment inherited from argali</td><td>Hu et al. 2019</td></tr>
+      <tr><td>Slovak Valachian sheep</td><td>sideways spiral vs backward curl</td><td>RXFP2, plus weaker signals elsewhere</td><td>Arch. Anim. Breed. 2024</td></tr>
+      <tr><td>Icelandic sheep</td><td>oval instead of edged cross-section</td><td>RXFP2 insertion</td><td>Simon et al. 2024</td></tr>
+      <tr><td>Soay sheep (wild)</td><td>horn size</td><td>RXFP2, most of the genetic variation</td><td>Johnston et al. 2011, 2013</td></tr>
+    </tbody>
+  </table></div>
+  <ul class="plain">
+    <li>Every horn-shape result so far points to one gene, RXFP2, and scores shape as a few categories.</li>
+    <li>No public dataset pairs measured horn geometry (expansion per turn, twist) with genotypes, and no one has published Raup-type values for real horns. A horn analysis like the snail one is not possible yet.</li>
+    <li>The way forward would be to measure the spiral on photos or scans of horns from animals that are already genotyped, such as the wild Soay sheep of St Kilda. The photo-measuring tool in this project could be extended to horns for that.</li>
+  </ul>
+</section>
+
+<section>
   <div class="eyebrow">Sources</div>
   <ul class="plain note">
     <li>Koch et al. 2021, Evolution Letters: F2 cross, markers and shell measurements (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8190449" target="_blank" rel="noopener">article</a>, <a href="https://datadryad.org/dataset/doi:10.5061/dryad.zgmsbccb4" target="_blank" rel="noopener">Dryad data</a>)</li>
@@ -347,6 +370,7 @@ a { color: var(--accent2); }
     <li>De Jode et al. 2024: chromosome-level genome GCF_037325665.1 (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11050657/" target="_blank" rel="noopener">article</a>); Westram et al. 2018 assembly (<a href="https://zenodo.org/records/5003441" target="_blank" rel="noopener">Zenodo</a>)</li>
     <li>NCBI RefSeq annotation GCF_037325665.1-RS_2024_12: genes and tissue TPMs (PRJNA550990)</li>
     <li>Davison et al. 2016, Current Biology: Lsdia1 and coiling direction in Lymnaea</li>
+    <li>Horns: Pan et al. 2018 GigaScience (doi:10.1093/gigascience/giy019); Hu et al. 2019 Mol Biol Evol (doi:10.1093/molbev/msy208); Original Valachian sheep GWAS, Arch Anim Breed 67:373 (2024); Simon et al. 2024 Arch Anim Breed 67:237; Johnston et al. 2011 Mol Ecol and 2013 Nature</li>
     <li>Shell proteomes: Mann et al. 2012 (Lottia), Batzel et al. 2022 (Crepidula fornicata), Crepidula atrasolea 2024 (BMC Ecol Evol), Mann et al. 2018 (Haliotis laevigata), Liu et al. 2015 (Pinctada fucata), Mann &amp; Jackson 2014 (Cepaea)</li>
     <li>Koch et al. 2022, Evolution: wild hybrid-zone snails with inversion karyotypes (<a href="https://datadryad.org/dataset/doi:10.5061/dryad.m905qfv4b" target="_blank" rel="noopener">Dryad</a>)</li>
     <li>Noshita, Asami &amp; Ubukata 2012, Paleobiology: Raup parameters of 358 gastropods (<a href="https://datadryad.org/dataset/doi:10.5061/dryad.6mk023c0" target="_blank" rel="noopener">Dryad</a>); Tajika &amp; Klug 2020, PeerJ: Nautilus</li>
