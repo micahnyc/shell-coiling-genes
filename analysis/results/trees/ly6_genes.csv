@@ -1,0 +1,105 @@
+family,species,group,shell,gene_id,symbol,name,chrom,protein,length,label
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138958625,LOC138958625,UPAR/Ly6 domain-containing protein crok-like,LG2,XP_070185936.1,145,Littorina_saxatilis|LOC138958625|XP_070185936.1
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138958607,LOC138958607,UPAR/Ly6 domain-containing protein crok-like,LG2,XP_070185911.1,149,Littorina_saxatilis|LOC138958607|XP_070185911.1
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138960256,LOC138960256,UPAR/Ly6 domain-containing protein crok-like,LG2,XP_070188169.1,131,Littorina_saxatilis|LOC138960256|XP_070188169.1
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138968436,LOC138968436,UPAR/Ly6 domain-containing protein crok-like,LG6,XP_070197117.1,161,Littorina_saxatilis|LOC138968436|XP_070197117.1
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138958349,LOC138958349,UPAR/Ly6 domain-containing protein cold-like,LG2,XP_070185563.1,141,Littorina_saxatilis|LOC138958349|XP_070185563.1
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138958927,LOC138958927,UPAR/Ly6 domain-containing protein bou-like,LG2,XP_070186366.1,144,Littorina_saxatilis|LOC138958927|XP_070186366.1
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138971800,LOC138971800,UPAR/Ly6 domain-containing protein crim-like,LG7,XP_070200719.1,153,Littorina_saxatilis|LOC138971800|XP_070200719.1
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138946896,LOC138946896,UPAR/Ly6 domain-containing protein qvr-like,LG14,XP_070174390.1,153,Littorina_saxatilis|LOC138946896|XP_070174390.1
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138958582,LOC138958582,ly6/PLAUR domain-containing protein 5-like,LG2,XP_070185882.1,255,Littorina_saxatilis|LOC138958582|XP_070185882.1
+ly6,Littorina saxatilis,snail,"coiled, right-handed",138959778,LOC138959778,ly6/PLAUR domain-containing protein 6-like,LG2,XP_070187489.1,201,Littorina_saxatilis|LOC138959778|XP_070187489.1
+ly6,Pomacea canaliculata,snail,"coiled, right-handed",112556886,LOC112556886,ly6/PLAUR domain-containing protein 6-like,LG1,XP_025082099.1,178,Pomacea_canaliculata|LOC112556886|XP_025082099.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143281611,LOC143281611,UPAR/Ly6 domain-containing protein crok-like,1,XP_076442975.1,152,Babylonia_areolata|LOC143281611|XP_076442975.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143281629,LOC143281629,UPAR/Ly6 domain-containing protein crok-like,1,XP_076442993.1,203,Babylonia_areolata|LOC143281629|XP_076442993.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143286340,LOC143286340,UPAR/Ly6 domain-containing protein crok-like,1,XP_076449998.1,131,Babylonia_areolata|LOC143286340|XP_076449998.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143292645,LOC143292645,UPAR/Ly6 domain-containing protein crok-like,18,XP_076459252.1,132,Babylonia_areolata|LOC143292645|XP_076459252.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143298958,LOC143298958,UPAR/Ly6 domain-containing protein crok-like,24,XP_076468123.1,156,Babylonia_areolata|LOC143298958|XP_076468123.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143278128,LOC143278128,UPAR/Ly6 domain-containing protein cold-like,1,XP_076439309.1,146,Babylonia_areolata|LOC143278128|XP_076439309.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143287140,LOC143287140,UPAR/Ly6 domain-containing protein bou-like,1,XP_076451200.1,145,Babylonia_areolata|LOC143287140|XP_076451200.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143290157,LOC143290157,UPAR/Ly6 domain-containing protein qvr-like,15,XP_076455576.1,173,Babylonia_areolata|LOC143290157|XP_076455576.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143293175,LOC143293175,UPAR/Ly6 domain-containing protein bou-like,18,XP_076460217.1,168,Babylonia_areolata|LOC143293175|XP_076460217.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143292322,LOC143292322,UPAR/Ly6 domain-containing protein bou-like,18,XP_076458626.1,177,Babylonia_areolata|LOC143292322|XP_076458626.1
+ly6,Babylonia areolata,snail,"coiled, right-handed",143286775,LOC143286775,ly6/PLAUR domain-containing protein 6-like,1,XP_076450668.1,204,Babylonia_areolata|LOC143286775|XP_076450668.1
+ly6,Gigantopelta aegis,snail,"coiled, right-handed",121387748,LOC121387748,ly6/PLAUR domain-containing protein 6-like,13,XP_041374883.1,173,Gigantopelta_aegis|LOC121387748|XP_041374883.1
+ly6,Gigantopelta aegis,snail,"coiled, right-handed",121389938,LOC121389938,ly6/PLAUR domain-containing protein 1-like,15,XP_041377541.1,164,Gigantopelta_aegis|LOC121389938|XP_041377541.1
+ly6,Physella acuta,snail,"coiled, left-handed",131952139,LOC131952139,ly6/PLAUR domain-containing protein 1-like,,XP_059170659.1,197,Physella_acuta|LOC131952139|XP_059170659.1
+ly6,Physella acuta,snail,"coiled, left-handed",131954217,LOC131954217,lymphocyte antigen 6C2-like,,XP_059173762.1,141,Physella_acuta|LOC131954217|XP_059173762.1
+ly6,Haliotis rufescens,snail,ear-shaped (abalone),124149532,LOC124149532,ly6/PLAUR domain-containing protein 6-like,,XP_046377152.1,161,Haliotis_rufescens|LOC124149532|XP_046377152.1
+ly6,Aplysia californica,snail,"reduced, internal",101847831,LOC101847831,ly6/PLAUR domain-containing protein 6,,XP_012941406.1,163,Aplysia_californica|LOC101847831|XP_012941406.1
+ly6,Berghia stephanieae,snail,none (sea slug),144973597,LOC144973597,UPAR/Ly6 domain-containing protein crok-like,5,XP_078772362.1,145,Berghia_stephanieae|LOC144973597|XP_078772362.1
+ly6,Berghia stephanieae,snail,none (sea slug),144973598,LOC144973598,UPAR/Ly6 domain-containing protein crok-like,5,XP_078772363.1,146,Berghia_stephanieae|LOC144973598|XP_078772363.1
+ly6,Berghia stephanieae,snail,none (sea slug),144973439,LOC144973439,UPAR/Ly6 domain-containing protein bou-like,5,XP_078772021.1,147,Berghia_stephanieae|LOC144973439|XP_078772021.1
+ly6,Berghia stephanieae,snail,none (sea slug),144978906,LOC144978906,UPAR/Ly6 domain-containing protein crim-like,8,XP_078781638.1,151,Berghia_stephanieae|LOC144978906|XP_078781638.1
+ly6,Berghia stephanieae,snail,none (sea slug),144957527,LOC144957527,UPAR/Ly6 domain-containing protein qvr-like,12,XP_078744991.1,178,Berghia_stephanieae|LOC144957527|XP_078744991.1
+ly6,Berghia stephanieae,snail,none (sea slug),144958801,LOC144958801,UPAR/Ly6 domain-containing protein cold-like,13,XP_078747132.1,142,Berghia_stephanieae|LOC144958801|XP_078747132.1
+ly6,Mercenaria mercenaria,clam,two valves,123558359,LOC123558359,ly6/PLAUR domain-containing protein 6-like,5,XP_045206175.2,161,Mercenaria_mercenaria|LOC123558359|XP_045206175.2
+ly6,Mercenaria mercenaria,clam,two valves,123545857,LOC123545857,lymphocyte antigen 6S-like,15,XP_053380058.1,112,Mercenaria_mercenaria|LOC123545857|XP_053380058.1
+ly6,Ruditapes philippinarum,clam,two valves,132748571,LOC132748571,ly6/PLAUR domain-containing protein 6-like,,XP_060594156.1,124,Ruditapes_philippinarum|LOC132748571|XP_060594156.1
+ly6,Ruditapes philippinarum,clam,two valves,132748572,LOC132748572,ly6/PLAUR domain-containing protein 6-like,,XP_060594157.1,192,Ruditapes_philippinarum|LOC132748572|XP_060594157.1
+ly6,Ruditapes philippinarum,clam,two valves,132713868,LOC132713868,ly6/PLAUR domain-containing protein 6-like,,XP_060552549.1,173,Ruditapes_philippinarum|LOC132713868|XP_060552549.1
+ly6,Ruditapes philippinarum,clam,two valves,132713869,LOC132713869,ly6/PLAUR domain-containing protein 6-like,,XP_060552550.1,164,Ruditapes_philippinarum|LOC132713869|XP_060552550.1
+ly6,Ruditapes philippinarum,clam,two valves,132714744,LOC132714744,ly6/PLAUR domain-containing protein 6-like,,XP_060553647.1,164,Ruditapes_philippinarum|LOC132714744|XP_060553647.1
+ly6,Ruditapes philippinarum,clam,two valves,132714745,LOC132714745,ly6/PLAUR domain-containing protein 6-like,,XP_060553648.1,164,Ruditapes_philippinarum|LOC132714745|XP_060553648.1
+ly6,Crassostrea virginica,clam,two valves (oyster),111123745,LOC111123745,UPAR/Ly6 domain-containing protein crok-like,4,XP_022322013.2,151,Crassostrea_virginica|LOC111123745|XP_022322013.2
+ly6,Crassostrea virginica,clam,two valves (oyster),111120702,LOC111120702,UPAR/Ly6 domain-containing protein crok-like,9,XP_022317333.1,144,Crassostrea_virginica|LOC111120702|XP_022317333.1
+ly6,Crassostrea virginica,clam,two valves (oyster),144620867,LOC144620867,UPAR/Ly6 domain-containing protein crok-like,9,XP_078318975.1,170,Crassostrea_virginica|LOC144620867|XP_078318975.1
+ly6,Crassostrea virginica,clam,two valves (oyster),111124407,LOC111124407,UPAR/Ly6 domain-containing protein cold-like,2,XP_022322967.2,143,Crassostrea_virginica|LOC111124407|XP_022322967.2
+ly6,Crassostrea virginica,clam,two valves (oyster),111110162,LOC111110162,UPAR/Ly6 domain-containing protein crim-like,4,XP_022302263.2,152,Crassostrea_virginica|LOC111110162|XP_022302263.2
+ly6,Crassostrea virginica,clam,two valves (oyster),111101281,LOC111101281,UPAR/Ly6 domain-containing protein qvr-like,4,XP_022289434.1,149,Crassostrea_virginica|LOC111101281|XP_022289434.1
+ly6,Crassostrea virginica,clam,two valves (oyster),111102318,LOC111102318,UPAR/Ly6 domain-containing protein qvr-like,4,XP_022290708.2,145,Crassostrea_virginica|LOC111102318|XP_022290708.2
+ly6,Crassostrea virginica,clam,two valves (oyster),111119413,LOC111119413,UPAR/Ly6 domain-containing protein bou-like,9,XP_022315261.1,137,Crassostrea_virginica|LOC111119413|XP_022315261.1
+ly6,Pecten maximus,clam,two valves (scallop),117317617,LOC117317617,ly6/PLAUR domain-containing protein 6-like,19,XP_033728358.1,190,Pecten_maximus|LOC117317617|XP_033728358.1
+ly6,Liolophura sinensis,chiton,eight plates,135467496,LOC135467496,UPAR/Ly6 domain-containing protein crok-like,1,XP_064601342.1,143,Liolophura_sinensis|LOC135467496|XP_064601342.1
+ly6,Liolophura sinensis,chiton,eight plates,135482219,LOC135482219,UPAR/Ly6 domain-containing protein qvr-like,1,XP_064618163.1,194,Liolophura_sinensis|LOC135482219|XP_064618163.1
+ly6,Liolophura sinensis,chiton,eight plates,135479525,LOC135479525,UPAR/Ly6 domain-containing protein qvr-like,1,XP_064615470.1,161,Liolophura_sinensis|LOC135479525|XP_064615470.1
+ly6,Liolophura sinensis,chiton,eight plates,135464940,LOC135464940,UPAR/Ly6 domain-containing protein cold-like,4,XP_064598598.1,144,Liolophura_sinensis|LOC135464940|XP_064598598.1
+ly6,Liolophura sinensis,chiton,eight plates,135466399,LOC135466399,UPAR/Ly6 domain-containing protein crim-like,6,XP_064599917.1,153,Liolophura_sinensis|LOC135466399|XP_064599917.1
+ly6,Liolophura sinensis,chiton,eight plates,135462546,LOC135462546,ly6/PLAUR domain-containing protein 6B-like,2,XP_064595842.1,159,Liolophura_sinensis|LOC135462546|XP_064595842.1
+ly6,Liolophura sinensis,chiton,eight plates,135462547,LOC135462547,ly6/PLAUR domain-containing protein 6B-like,2,XP_064595843.1,159,Liolophura_sinensis|LOC135462547|XP_064595843.1
+ly6,Liolophura sinensis,chiton,eight plates,135462548,LOC135462548,ly6/PLAUR domain-containing protein 6B-like,2,XP_064595844.1,147,Liolophura_sinensis|LOC135462548|XP_064595844.1
+ly6,Liolophura sinensis,chiton,eight plates,135462549,LOC135462549,ly6/PLAUR domain-containing protein 6B-like,2,XP_064595845.1,159,Liolophura_sinensis|LOC135462549|XP_064595845.1
+ly6,Liolophura sinensis,chiton,eight plates,135463335,LOC135463335,ly6/PLAUR domain-containing protein 6-like,3,XP_064596665.1,159,Liolophura_sinensis|LOC135463335|XP_064596665.1
+ly6,Liolophura sinensis,chiton,eight plates,135464551,LOC135464551,ly6/PLAUR domain-containing protein 1-like,4,XP_064598046.1,149,Liolophura_sinensis|LOC135464551|XP_064598046.1
+ly6,Liolophura sinensis,chiton,eight plates,135477972,LOC135477972,ly6/PLAUR domain-containing protein 6-like,11,XP_064614280.1,158,Liolophura_sinensis|LOC135477972|XP_064614280.1
+ly6,Euprymna scolopes,cephalopod,"reduced, internal",145248264,LOC145248264,UPAR/Ly6 domain-containing protein crok-like,26,XP_079966262.1,145,Euprymna_scolopes|LOC145248264|XP_079966262.1
+ly6,Euprymna scolopes,cephalopod,"reduced, internal",145252430,LOC145252430,UPAR/Ly6 domain-containing protein crok-like,29,XP_079967953.1,140,Euprymna_scolopes|LOC145252430|XP_079967953.1
+ly6,Euprymna scolopes,cephalopod,"reduced, internal",145252448,LOC145252448,UPAR/Ly6 domain-containing protein crok-like,29,XP_079967977.1,141,Euprymna_scolopes|LOC145252448|XP_079967977.1
+ly6,Euprymna scolopes,cephalopod,"reduced, internal",145248237,LOC145248237,UPAR/Ly6 domain-containing protein cold-like,26,XP_079966243.1,147,Euprymna_scolopes|LOC145248237|XP_079966243.1
+ly6,Euprymna scolopes,cephalopod,"reduced, internal",145249552,LOC145249552,UPAR/Ly6 domain-containing protein bou-like,28,XP_079967352.1,146,Euprymna_scolopes|LOC145249552|XP_079967352.1
+ly6,Euprymna scolopes,cephalopod,"reduced, internal",145258088,LOC145258088,UPAR/Ly6 domain-containing protein qvr-like,33,XP_079971943.1,188,Euprymna_scolopes|LOC145258088|XP_079971943.1
+ly6,Euprymna scolopes,cephalopod,"reduced, internal",145258208,LOC145258208,UPAR/Ly6 domain-containing protein qvr-like,33,XP_079972272.1,145,Euprymna_scolopes|LOC145258208|XP_079972272.1
+ly6,Octopus bimaculoides,cephalopod,none,106879419,LOC106879419,UPAR/Ly6 domain-containing protein crok,2,XP_014784464.1,141,Octopus_bimaculoides|LOC106879419|XP_014784464.1
+ly6,Octopus bimaculoides,cephalopod,none,106877004,LOC106877004,UPAR/Ly6 domain-containing protein crok,5,XP_014781271.1,135,Octopus_bimaculoides|LOC106877004|XP_014781271.1
+ly6,Octopus bimaculoides,cephalopod,none,106877008,LOC106877008,UPAR/Ly6 domain-containing protein crok,5,XP_014781273.1,139,Octopus_bimaculoides|LOC106877008|XP_014781273.1
+ly6,Octopus bimaculoides,cephalopod,none,106876016,LOC106876016,UPAR/Ly6 domain-containing protein bou,1,XP_014779872.1,152,Octopus_bimaculoides|LOC106876016|XP_014779872.1
+ly6,Octopus bimaculoides,cephalopod,none,106870646,LOC106870646,UPAR/Ly6 domain-containing protein bou,2,XP_014772275.1,148,Octopus_bimaculoides|LOC106870646|XP_014772275.1
+ly6,Octopus bimaculoides,cephalopod,none,149135006,LOC149135006,UPAR/Ly6 domain-containing protein qvr-like,6,XP_089209859.1,175,Octopus_bimaculoides|LOC149135006|XP_089209859.1
+ly6,Octopus bimaculoides,cephalopod,none,106874787,LOC106874787,UPAR/Ly6 domain-containing protein qvr,6,XP_014778126.1,146,Octopus_bimaculoides|LOC106874787|XP_014778126.1
+ly6,Octopus bimaculoides,cephalopod,none,106874124,LOC106874124,UPAR/Ly6 domain-containing protein crim,7,XP_014777225.1,154,Octopus_bimaculoides|LOC106874124|XP_014777225.1
+ly6,Octopus bimaculoides,cephalopod,none,106871673,LOC106871673,UPAR/Ly6 domain-containing protein bou,10,XP_052827106.1,159,Octopus_bimaculoides|LOC106871673|XP_052827106.1
+ly6,Octopus bimaculoides,cephalopod,none,106880290,LOC106880290,UPAR/Ly6 domain-containing protein cold,21,XP_014785647.1,148,Octopus_bimaculoides|LOC106880290|XP_014785647.1
+ly6,Octopus sinensis,cephalopod,none,118764580,LOC118764580,ly6/PLAUR domain-containing protein 1-like,LG8,XP_036361350.1,151,Octopus_sinensis|LOC118764580|XP_036361350.1
+ly6,Homo sapiens,human,reference,646627,LYPD8,LY6/PLAUR domain containing 8,1,NP_001078943.2,237,Homo_sapiens|LYPD8|NP_001078943.2
+ly6,Homo sapiens,human,reference,116372,LYPD1,LY6/PLAUR domain containing 1,2,NP_001308163.1,157,Homo_sapiens|LYPD1|NP_001308163.1
+ly6,Homo sapiens,human,reference,130576,LYPD6B,LY6/PLAUR domain containing 6B,2,XP_047299357.1,241,Homo_sapiens|LYPD6B|XP_047299357.1
+ly6,Homo sapiens,human,reference,130574,LYPD6,LY6/PLAUR domain containing 6,2,NP_919298.1,171,Homo_sapiens|LYPD6|NP_919298.1
+ly6,Homo sapiens,human,reference,57152,SLURP1,secreted LY6/PLAUR domain containing 1,8,NP_065160.1,103,Homo_sapiens|SLURP1|NP_065160.1
+ly6,Homo sapiens,human,reference,137797,LYPD2,LY6/PLAUR domain containing 2,8,NP_991108.1,125,Homo_sapiens|LYPD2|NP_991108.1
+ly6,Homo sapiens,human,reference,432355,SLURP2,secreted LY6/PLAUR domain containing 2,8,NP_803253.1,97,Homo_sapiens|SLURP2|NP_803253.1
+ly6,Homo sapiens,human,reference,147719,LYPD4,LY6/PLAUR domain containing 4,19,XP_005258600.1,259,Homo_sapiens|LYPD4|XP_005258600.1
+ly6,Homo sapiens,human,reference,27076,LYPD3,LY6/PLAUR domain containing 3,19,NP_055215.2,346,Homo_sapiens|LYPD3|NP_055215.2
+ly6,Homo sapiens,human,reference,390940,PINLYP,phospholipase A2 inhibitor and LY6/PLAUR domain containing,19,XP_047294786.1,228,Homo_sapiens|PINLYP|XP_047294786.1
+ly6,Homo sapiens,human,reference,284348,LYPD5,LY6/PLAUR domain containing 5,19,NP_001026919.2,251,Homo_sapiens|LYPD5|NP_001026919.2
+ly6,Homo sapiens,human,reference,58496,LY6G5B,lymphocyte antigen 6 family member G5B,6,NP_067044.2,201,Homo_sapiens|LY6G5B|NP_067044.2
+ly6,Homo sapiens,human,reference,80741,LY6G5C,lymphocyte antigen 6 family member G5C,6,NP_079538.3,150,Homo_sapiens|LY6G5C|NP_079538.3
+ly6,Homo sapiens,human,reference,259215,LY6G6F,lymphocyte antigen 6 family member G6F,6,NP_001003693.1,297,Homo_sapiens|LY6G6F|NP_001003693.1
+ly6,Homo sapiens,human,reference,58530,LY6G6D,lymphocyte antigen 6 family member G6D,6,NP_067069.2,133,Homo_sapiens|LY6G6D|NP_067069.2
+ly6,Homo sapiens,human,reference,80740,LY6G6C,lymphocyte antigen 6 family member G6C,6,NP_079537.1,125,Homo_sapiens|LY6G6C|NP_079537.1
+ly6,Homo sapiens,human,reference,54742,LY6K,lymphocyte antigen 6 family member K,8,NP_059997.3,165,Homo_sapiens|LY6K|NP_059997.3
+ly6,Homo sapiens,human,reference,8581,LY6D,lymphocyte antigen 6 family member D,8,NP_003686.1,128,Homo_sapiens|LY6D|NP_003686.1
+ly6,Homo sapiens,human,reference,4061,LY6E,lymphocyte antigen 6 family member E,8,NP_002337.1,131,Homo_sapiens|LY6E|NP_002337.1
+ly6,Homo sapiens,human,reference,101928108,LY6L,lymphocyte antigen 6 family member L,8,NP_001355089.1,138,Homo_sapiens|LY6L|NP_001355089.1
+ly6,Homo sapiens,human,reference,4062,LY6H,lymphocyte antigen 6 family member H,8,XP_016868902.1,166,Homo_sapiens|LY6H|XP_016868902.1
+ly6,Homo sapiens,human,reference,105375795,LY6S,lymphocyte antigen 6 family member S,8,NP_001393406.1,134,Homo_sapiens|LY6S|NP_001393406.1
+ly6,Drosophila melanogaster,fly,reference,34646,crok,crooked,2L,NP_609557.1,151,Drosophila_melanogaster|crok|NP_609557.1

@@ -299,6 +299,50 @@ tests as controls.
 - CD109 and murinoglobulin (alpha-macroglobulin family) share one non-reciprocal mussel match,
   so their mussel values are the same gene; not informative.
 
+**Ly6/uPAR family tree** (`gene_trees.py fetch ly6` + `run_trees.sh ly6`; 104 proteins of
+80-400 aa named crok/UPAR-Ly6/Ly6-PLAUR/lymphocyte antigen 6, incl. 22 human; WAG+R7;
+files in `results/trees/ly6.*`). Names are inconsistent across annotations (Mya, Patella,
+Biomphalaria show 0), so only the tree topology is used, not counts.
+- The LG6 crok-like gene's closest relative is a Babylonia gene (bootstrap 100): a
+  one-to-one caenogastropod ortholog pair.
+- Its sister pair is periwinkle's LG2 crok-like gene (LOC138958607) plus another Babylonia
+  gene (bootstrap 81), so the LG6 copy arose by a duplication within caenogastropods.
+- The wider clade (bootstrap 84-91) also holds octopus, squid, sea slug, chiton and the
+  oyster's mantle-biased crok-like gene: the family is old and not limited to shelled species.
+- After the duplication the copies diverged in expression: the LG6 copy is mantle-specific
+  (88 vs 2 TPM elsewhere, 99.5th percentile) and the LG2 copy is broad (90 vs 70 TPM,
+  highest in head). That fits a mantle role taken on by the LG6 copy (an interpretation, not
+  a test).
+
+**Shell proteomes** (`analysis/shell_proteome_homologs.py`, `orthologs/run_shellprot.sh`).
+Published shell-matrix proteomes (proteins found by mass spectrometry in shell): Lottia
+gigantea (Mann et al. 2012, 600 consensus proteins), Crepidula fornicata (Batzel et al. 2022,
+185), C. atrasolea (2024, 18), Haliotis laevigata (Mann et al. 2018, 80), Pinctada fucata
+(Liu et al. 2015, 43), Cepaea nemoralis (Mann & Jackson 2014, 59 contigs). Searched with DIAMOND
+against the periwinkle proteome (e <= 1e-10, best hit per shell protein): 528 periwinkle genes.
+- None of the shell proteins hits the three shortlisted genes.
+- Lottia's shell proteome has two Ly6-family proteins (ESO89087 "Sleepless/QVR" type, in the
+  acid-insoluble consensus; ESP04019 Boudin-like, acid-soluble). Their periwinkle
+  counterparts are an LG2 crok-like gene (LOC138958625, 71% identity, 26.42 Mb) and an LG2
+  bou-like gene (62%), not the LG6 copy (29%, family-level). LOC138958625 sits beside
+  LOC138958607, the LG6 copy's sister in the Ly6 tree. So the LG2 crok-like cluster holds
+  the gene whose limpet version is a shell protein, and the LG6 copy is a caenogastropod
+  duplicate of that cluster that became mantle-specific. This makes the LG6 copy more
+  plausible as a shell-related gene, without showing it is in shell.
+- The inversions are not enriched for shell-proteome homologs: LG6 inversion 5 of 384 genes
+  (expected 7.3, mostly histones and a ribosomal protein, i.e. cellular carry-over); LG17
+  inversion 1 of 194 (expected 3.7).
+- Check on the mantle ranking: shell-proteome homologs are 3x over-represented among the
+  periwinkle genome's 5% most mantle-biased genes (88 of 514, 17%).
+- Formins (diaphanous) are absent from all shell proteomes, as expected for an
+  intracellular protein; any effect on coiling would act through development.
+
+**Crab vs Wave expression data:** none usable. A search found no RNA-seq with per-gene
+counts for Crab vs Wave or for known LG6 karyotypes. A NimbleGen foot-muscle array (GEO
+GSE120697) has no probes on the three shortlisted genes (probe-sequence check). The only
+option is Westram et al. 2014 pooled whole-body + embryo RNA-seq (Dryad doi:10.5061/dryad.21pf0,
+~27 GB, 2 pools per ecotype per country), not pursued.
+
 Updated candidate shortlist for the LG6 inversion: the crok-like Ly6 gene and rhoGAP6 as
 mantle/shell-type genes, plus diaphanous as the coiling-direction candidate.
 

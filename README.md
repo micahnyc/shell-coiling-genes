@@ -37,6 +37,7 @@ public data only.
 | `analysis/wild_inversions.py` | Inversion karyotypes vs shell traits in 1,130 wild snails (Koch 2022) |
 | `analysis/dreissena_singlecell.py` | Dispatched lineage vs cilia and shell-field cells in a Dreissena larva (GSE192624) |
 | `analysis/lg6_orthologs.py`, `orthologs/run_rbh.sh` | LG6 candidates vs known shell genes in oyster, mussel and Dreissena (reciprocal best hits) |
+| `analysis/shell_proteome_homologs.py`, `orthologs/run_shellprot.sh` | Periwinkle counterparts of proteins in six published shell proteomes; enrichment in the inversions |
 | `analysis/morphospace.py` | Places the genome species in Raup morphospace (Noshita 2012, 358 gastropods) |
 | `site/build.py` | Rebuilds `docs/index.html` from the results |
 
@@ -52,6 +53,8 @@ Python 3.11 with numpy, pandas, matplotlib, biopython. Gene trees use MAFFT, tri
 | `data/gene_trees/` | Written by `analysis/gene_trees.py fetch` (NCBI) |
 | `data/dev_expression/` | Written by `dev_expression.py` and `dev_timecourse.py` (NCBI RefSeq, GEO GSE240084) |
 | `data/dreissena_sc/` | GEO GSE192624 (Dreissena single cells); `analysis/dreissena/run_diamond.sh` (copy into this folder) searches its proteins with the marker files kept there |
+| `data/shell_proteomes/` | Shell-matrix proteins from Mann 2012, Batzel 2022, Crepidula atrasolea 2024, Mann 2018, Liu 2015, Mann & Jackson 2014 (GenBank and paper supplements) |
+| `data/orthologs/` | NCBI RefSeq proteomes (mussel, oyster) and feature tables used by `orthologs/*.sh` |
 | `data/koch2022/` | Koch et al. 2022, Dryad [doi:10.5061/dryad.m905qfv4b](https://datadryad.org/dataset/doi:10.5061/dryad.m905qfv4b) (`Data_Transects.txt`) |
 | `data/noshita2012/` | Noshita et al. 2012, Dryad [doi:10.5061/dryad.6mk023c0](https://datadryad.org/dataset/doi:10.5061/dryad.6mk023c0) (supplementary table PDFs) |
 

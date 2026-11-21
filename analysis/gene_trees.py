@@ -54,6 +54,11 @@ FAMILIES = {
         searches=["dispatched"],
         name_re=r"dispatched",
         exclude_re=r"$^"),
+    # Ly6/uPAR (three-finger) family, for the LG6 crok-like candidate; short proteins
+    "ly6": dict(
+        searches=["crok", "UPAR/Ly6", "Ly6/PLAUR", "lymphocyte antigen 6", "LY6/PLAUR", "crooked"],
+        name_re=r"crok|UPAR/Ly6|Ly6/PLAUR|LY6/PLAUR|lymphocyte antigen 6|^crooked$",
+        exclude_re=r"$^", min_len=80, max_len=400),
 }
 # extra species added to one family's tree only (for dev_expression.py: Mytilus has a
 # RefSeq developmental time course, PRJNA996031)
@@ -136,7 +141,7 @@ def fetch(only=None):
                     if not re.search(spec["name_re"], name, re.I) or re.search(spec["exclude_re"], name, re.I):
                         continue
                     p = longest_protein(a)
-                    if not p or p.get("length", 0) < MIN_LEN:
+                    if not p or not (spec.get("min_len", MIN_LEN) <= p.get("length", 0) <= spec.get("max_len", 10**6)):
                         continue
                     seen.add(a["gene_id"])
                     chrom = (a.get("chromosomes") or [""])[0]
@@ -188,7 +193,7 @@ def read(*_):
     import matplotlib.pyplot as plt
 
     summary = []
-    for fam in FAMILIES:
+    for fam in ("formin", "dispatched"):  # ly6 has no labelled subfamilies; see FINDINGS
         tree = Phylo.read(os.path.join(OUT, f"{fam}.contree"), "newick")
         leaves = tree.get_terminals()
         if fam == "dispatched":

@@ -98,7 +98,7 @@ a { color: var(--accent2); }
     <li>Checked which genes are active in the mantle, the tissue that builds the shell.</li>
     <li>Built gene trees for two candidate families across 19 other molluscs, human and fly.</li>
     <li>Followed the candidates through larval development in a mussel, an apple snail, an oyster and a clam, and into single cells of a mussel-relative larva.</li>
-    <li>Matched the LG6 candidates to their oyster counterparts and compared them with known shell genes.</li>
+    <li>Matched the LG6 candidates to their oyster counterparts, compared them with known shell genes, and checked them against proteins found in the shells of six molluscs.</li>
     <li>Tested the periwinkle regions again in 1,130 wild snails (Koch et al. 2022).</li>
     <li>Placed the species with genomes among 358 snail shells measured in Raup's terms (Noshita et al. 2012).</li>
   </ol>
@@ -302,7 +302,17 @@ a { color: var(--accent2); }
   <ul class="plain">
     <li>The candidates as a group sit well below the shell-gene controls (Mann-Whitney p = 3×10⁻⁴), so being mantle-specific in periwinkle is not enough.</li>
     <li>The crok-like gene belongs to a family of 4 in periwinkle. The oyster gene matches the family rather than this one copy, but the LG6 copy is the most mantle-specific of the four (88 vs 2 TPM).</li>
+    <li>A gene tree of the Ly6 family shows the LG6 copy arose by a duplication in periwinkle's snail group. Its exact counterpart is in the whelk-like <i>Babylonia</i>. Its sister copy on LG2 is active in most tissues (90 vs 70 TPM), while the LG6 copy is active almost only in the mantle. One copy appears to have taken on a mantle job after the duplication. The wider family also exists in octopus and squid, so it is not limited to shelled species.</li>
     <li>Mussel development and single larval cells were also tested, but the shell-gene controls do not behave consistently there, so those results carry little weight.</li>
+  </ul>
+  <h3>Proteins found in actual shell</h3>
+  <p>Six molluscs have published shell proteomes: lists of proteins extracted from the shell itself (a limpet, two slipper snails, an abalone, a pearl oyster and a land snail). We matched all of them to periwinkle genes.</p>
+  <ul class="plain">
+    <li>None of the shell proteins matches the three shortlisted genes directly.</li>
+    <li>The limpet's shell contains two Ly6-family proteins. Their periwinkle counterparts are in a crok-like cluster on LG2, right next to the sister copy of our LG6 gene. So the LG6 gene is a duplicate from a gene cluster whose limpet version ends up in shell. That makes it more plausible as a shell gene, without proving it.</li>
+    <li>Neither inversion holds more shell-protein genes than expected (LG6: 5 against 7.3 expected, mostly proteins carried over from cells; LG17: 1 against 3.7).</li>
+    <li>Periwinkle versions of shell proteins are three times more common than average among its most mantle-specific genes, which supports using mantle activity as a guide.</li>
+    <li>Formins never appear in shell, as expected for a protein that works inside cells. If diaphanous affects coiling, it does so during development.</li>
   </ul>
 </section>
 
@@ -344,6 +354,7 @@ a { color: var(--accent2); }
     <li>De Jode et al. 2024: chromosome-level genome GCF_037325665.1 (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11050657/" target="_blank" rel="noopener">article</a>); Westram et al. 2018 assembly (<a href="https://zenodo.org/records/5003441" target="_blank" rel="noopener">Zenodo</a>)</li>
     <li>NCBI RefSeq annotation GCF_037325665.1-RS_2024_12: genes and tissue TPMs (PRJNA550990)</li>
     <li>Davison et al. 2016, Current Biology: Lsdia1 and coiling direction in Lymnaea</li>
+    <li>Shell proteomes: Mann et al. 2012 (Lottia), Batzel et al. 2022 (Crepidula fornicata), Crepidula atrasolea 2024 (BMC Ecol Evol), Mann et al. 2018 (Haliotis laevigata), Liu et al. 2015 (Pinctada fucata), Mann &amp; Jackson 2014 (Cepaea)</li>
     <li>Koch et al. 2022, Evolution: wild hybrid-zone snails with inversion karyotypes (<a href="https://datadryad.org/dataset/doi:10.5061/dryad.m905qfv4b" target="_blank" rel="noopener">Dryad</a>)</li>
     <li>Noshita, Asami &amp; Ubukata 2012, Paleobiology: Raup parameters of 358 gastropods (<a href="https://datadryad.org/dataset/doi:10.5061/dryad.6mk023c0" target="_blank" rel="noopener">Dryad</a>); Tajika &amp; Klug 2020, PeerJ: Nautilus</li>
     <li>Development data: Miglioli et al. 2024 (mussel, PRJNA996031); Accorsi et al. 2025 (apple snail, GEO GSE240084); NCBI RefSeq expression tables for oyster and Ruditapes; Salamanca-Díaz et al. 2022 (Dreissena single cells, GEO GSE192624)</li>
