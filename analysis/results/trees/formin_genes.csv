@@ -1,0 +1,294 @@
+family,species,group,shell,gene_id,symbol,name,chrom,protein,length,label
+formin,Littorina saxatilis,snail,"coiled, right-handed",138962010,LOC138962010,protein diaphanous homolog 1-like,LG3,XP_070189802.1,436,Littorina_saxatilis|LOC138962010|XP_070189802.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138968364,LOC138968364,protein diaphanous homolog 2-like,LG6,XP_070197016.1,1131,Littorina_saxatilis|LOC138968364|XP_070197016.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138969809,LOC138969809,formin-J-like,LG1,XP_070198681.1,2181,Littorina_saxatilis|LOC138969809|XP_070198681.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138976573,LOC138976573,formin-like protein 3,LG1,XP_070205556.1,900,Littorina_saxatilis|LOC138976573|XP_070205556.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138969657,LOC138969657,formin-2-like,LG6,XP_070198616.1,626,Littorina_saxatilis|LOC138969657|XP_070198616.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138969600,LOC138969600,inverted formin-2-like,LG6,XP_070198557.1,1224,Littorina_saxatilis|LOC138969600|XP_070198557.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138968458,LOC138968458,inverted formin-2-like,LG6,XP_070197130.1,1481,Littorina_saxatilis|LOC138968458|XP_070197130.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138968460,LOC138968460,inverted formin-2-like,LG6,XP_070197134.1,960,Littorina_saxatilis|LOC138968460|XP_070197134.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138968461,LOC138968461,inverted formin-2-like,LG6,XP_070197137.1,723,Littorina_saxatilis|LOC138968461|XP_070197137.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138974581,LOC138974581,formin-2-like,LG8,XP_070203402.1,324,Littorina_saxatilis|LOC138974581|XP_070203402.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138982053,LOC138982053,formin-like protein,LG12,XP_070211371.1,1018,Littorina_saxatilis|LOC138982053|XP_070211371.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138953027,LOC138953027,formin-like,LG17,XP_070180901.1,1305,Littorina_saxatilis|LOC138953027|XP_070180901.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138952245,LOC138952245,disheveled-associated activator of morphogenesis 1-like,LG17,XP_070179966.1,1071,Littorina_saxatilis|LOC138952245|XP_070179966.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138966930,LOC138966930,FH1/FH2 domain-containing protein 3-like,LG1,XP_070195435.1,2299,Littorina_saxatilis|LOC138966930|XP_070195435.1
+formin,Littorina saxatilis,snail,"coiled, right-handed",138960438,LOC138960438,delphilin-like,LG2,XP_070188451.1,1384,Littorina_saxatilis|LOC138960438|XP_070188451.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112560687,LOC112560687,LOW QUALITY PROTEIN: protein diaphanous homolog 2-like,LG3,XP_025088489.1,1117,Pomacea_canaliculata|LOC112560687|XP_025088489.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112560043,LOC112560043,protein diaphanous homolog 2-like,LG3,XP_025087395.1,1141,Pomacea_canaliculata|LOC112560043|XP_025087395.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112569045,LOC112569045,formin-like protein 1,LG1,XP_025102478.1,296,Pomacea_canaliculata|LOC112569045|XP_025102478.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112560117,LOC112560117,LOW QUALITY PROTEIN: inverted formin-2-like,LG3,XP_025087489.1,796,Pomacea_canaliculata|LOC112560117|XP_025087489.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112560873,LOC112560873,LOW QUALITY PROTEIN: inverted formin-2-like,LG3,XP_025088761.1,1153,Pomacea_canaliculata|LOC112560873|XP_025088761.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112559598,LOC112559598,LOW QUALITY PROTEIN: inverted formin-2-like,LG3,XP_025086716.1,1211,Pomacea_canaliculata|LOC112559598|XP_025086716.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112564936,LOC112564936,formin-like protein CG32138 isoform X1,LG5,XP_025095877.1,1041,Pomacea_canaliculata|LOC112564936|XP_025095877.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112569227,LOC112569227,formin-like protein 14,LG7,XP_025102745.1,404,Pomacea_canaliculata|LOC112569227|XP_025102745.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112570256,LOC112570256,formin-like isoform X1,LG8,XP_025104418.1,1075,Pomacea_canaliculata|LOC112570256|XP_025104418.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112576089,LOC112576089,formin-like protein 5,LG11,XP_025114124.1,436,Pomacea_canaliculata|LOC112576089|XP_025114124.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112569970,LOC112569970,LOW QUALITY PROTEIN: disheveled-associated activator of morphogenesis 2-like,LG8,XP_025103883.1,1079,Pomacea_canaliculata|LOC112569970|XP_025103883.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112577151,LOC112577151,FH1/FH2 domain-containing protein 1-like isoform X1,LG12,XP_025115913.1,1716,Pomacea_canaliculata|LOC112577151|XP_025115913.1
+formin,Pomacea canaliculata,snail,"coiled, right-handed",112570514,LOC112570514,delphilin-like isoform X1,LG1,XP_025104766.1,1291,Pomacea_canaliculata|LOC112570514|XP_025104766.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143284273,LOC143284273,protein diaphanous homolog 2-like,7,XP_076447079.1,1120,Babylonia_areolata|LOC143284273|XP_076447079.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143298860,LOC143298860,protein diaphanous homolog 2-like,24,XP_076467975.1,1177,Babylonia_areolata|LOC143298860|XP_076467975.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143296767,LOC143296767,formin-like protein,2,XP_076464935.1,1044,Babylonia_areolata|LOC143296767|XP_076464935.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143283733,LOC143283733,inverted formin-2-like,7,XP_076446129.1,1056,Babylonia_areolata|LOC143283733|XP_076446129.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143284345,LOC143284345,inverted formin-2-like,7,XP_076447170.1,1605,Babylonia_areolata|LOC143284345|XP_076447170.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143293607,LOC143293607,formin-like protein,19,XP_076460802.1,1019,Babylonia_areolata|LOC143293607|XP_076460802.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143298572,LOC143298572,inverted formin-2-like,24,XP_076467566.1,1681,Babylonia_areolata|LOC143298572|XP_076467566.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143298819,LOC143298819,inverted formin-2-like,24,XP_076467924.1,1218,Babylonia_areolata|LOC143298819|XP_076467924.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143280970,LOC143280970,disheveled-associated activator of morphogenesis 1-like,4,XP_076441927.1,1085,Babylonia_areolata|LOC143280970|XP_076441927.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143285378,LOC143285378,FH1/FH2 domain-containing protein 3-like,9,XP_076448721.1,2372,Babylonia_areolata|LOC143285378|XP_076448721.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143300337,LOC143300337,FH1/FH2 domain-containing protein 3-like,26,XP_076470053.1,2235,Babylonia_areolata|LOC143300337|XP_076470053.1
+formin,Babylonia areolata,snail,"coiled, right-handed",143287360,LOC143287360,delphilin-like,1,XP_076451442.1,1307,Babylonia_areolata|LOC143287360|XP_076451442.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121376002,LOC121376002,protein diaphanous homolog 2-like isoform X1,6,XP_041359686.1,1127,Gigantopelta_aegis|LOC121376002|XP_041359686.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121374345,LOC121374345,inverted formin-2-like isoform X1,6,XP_041357352.1,1472,Gigantopelta_aegis|LOC121374345|XP_041357352.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121374313,LOC121374313,LOW QUALITY PROTEIN: inverted formin-2-like,6,XP_041357306.1,948,Gigantopelta_aegis|LOC121374313|XP_041357306.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121374446,LOC121374446,inverted formin-2-like,6,XP_041357481.1,1134,Gigantopelta_aegis|LOC121374446|XP_041357481.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121374004,LOC121374004,formin-like protein 20,6,XP_041356801.1,310,Gigantopelta_aegis|LOC121374004|XP_041356801.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121374643,LOC121374643,formin-like protein 20,6,XP_041357685.1,287,Gigantopelta_aegis|LOC121374643|XP_041357685.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121378304,LOC121378304,formin-like protein 5,8,XP_041362346.1,678,Gigantopelta_aegis|LOC121378304|XP_041362346.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121381139,LOC121381139,formin-like protein isoform X1,9,XP_041366217.1,1039,Gigantopelta_aegis|LOC121381139|XP_041366217.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121383921,LOC121383921,formin-2-like,10,XP_041369953.1,436,Gigantopelta_aegis|LOC121383921|XP_041369953.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121388525,LOC121388525,formin-J-like isoform X1,14,XP_041375826.1,1800,Gigantopelta_aegis|LOC121388525|XP_041375826.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121389313,LOC121389313,inverted formin-2-like,14,XP_041376843.1,252,Gigantopelta_aegis|LOC121389313|XP_041376843.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121391247,LOC121391247,formin-like protein 7,,XP_041378871.1,328,Gigantopelta_aegis|LOC121391247|XP_041378871.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121370632,LOC121370632,disheveled-associated activator of morphogenesis 2-like,4,XP_041351931.1,1073,Gigantopelta_aegis|LOC121370632|XP_041351931.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121388545,LOC121388545,FH1/FH2 domain-containing protein 3-like isoform X1,14,XP_041375856.1,2264,Gigantopelta_aegis|LOC121388545|XP_041375856.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121379725,LOC121379725,delphilin-like,8,XP_041364309.1,1268,Gigantopelta_aegis|LOC121379725|XP_041364309.1
+formin,Gigantopelta aegis,snail,"coiled, right-handed",121370251,LOC121370251,protein cappuccino-like,4,XP_041351310.1,1468,Gigantopelta_aegis|LOC121370251|XP_041351310.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106063886,LOC106063886,protein diaphanous homolog 2-like,8,XP_055895405.1,1114,Biomphalaria_glabrata|LOC106063886|XP_055895405.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",129924296,LOC129924296,formin-2-like,1,XP_055874525.1,603,Biomphalaria_glabrata|LOC129924296|XP_055874525.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106072001,LOC106072001,formin-like protein,1,XP_013087690.2,1030,Biomphalaria_glabrata|LOC106072001|XP_013087690.2
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",129926284,LOC129926284,formin-2-like,1,XP_055885456.1,508,Biomphalaria_glabrata|LOC129926284|XP_055885456.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106051992,LOC106051992,formin-like,3,XP_055878392.1,1296,Biomphalaria_glabrata|LOC106051992|XP_055878392.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106056676,LOC106056676,inverted formin-2-like,8,XP_055894126.1,1029,Biomphalaria_glabrata|LOC106056676|XP_055894126.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106050830,LOC106050830,inverted formin-2-like,8,XP_055893453.1,1365,Biomphalaria_glabrata|LOC106050830|XP_055893453.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106054548,LOC106054548,formin-J-like,8,XP_055895591.1,2139,Biomphalaria_glabrata|LOC106054548|XP_055895591.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106069394,LOC106069394,inverted formin-2-like,8,XP_055894338.1,1251,Biomphalaria_glabrata|LOC106069394|XP_055894338.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106055442,LOC106055442,disheveled-associated activator of morphogenesis 1-like,3,XP_055878499.1,1080,Biomphalaria_glabrata|LOC106055442|XP_055878499.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106060819,LOC106060819,disheveled-associated activator of morphogenesis 2-like,7,XP_055892890.1,828,Biomphalaria_glabrata|LOC106060819|XP_055892890.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106072235,LOC106072235,FH1/FH2 domain-containing protein 3-like,7,XP_055892644.1,2921,Biomphalaria_glabrata|LOC106072235|XP_055892644.1
+formin,Biomphalaria glabrata,snail,"coiled flat, left-handed",106056609,LOC106056609,delphilin-like,2,XP_055877567.1,1244,Biomphalaria_glabrata|LOC106056609|XP_055877567.1
+formin,Physella acuta,snail,"coiled, left-handed",131937266,LOC131937266,protein diaphanous homolog 2-like,,XP_059150540.1,1122,Physella_acuta|LOC131937266|XP_059150540.1
+formin,Physella acuta,snail,"coiled, left-handed",131940921,LOC131940921,formin-2-like,,XP_059155827.1,316,Physella_acuta|LOC131940921|XP_059155827.1
+formin,Physella acuta,snail,"coiled, left-handed",131936607,LOC131936607,formin-2-like,,XP_059149650.1,424,Physella_acuta|LOC131936607|XP_059149650.1
+formin,Physella acuta,snail,"coiled, left-handed",131942881,LOC131942881,inverted formin-2-like,,XP_059158825.1,1354,Physella_acuta|LOC131942881|XP_059158825.1
+formin,Physella acuta,snail,"coiled, left-handed",131942894,LOC131942894,inverted formin-2-like,,XP_059158848.1,1037,Physella_acuta|LOC131942894|XP_059158848.1
+formin,Physella acuta,snail,"coiled, left-handed",131945252,LOC131945252,formin-like,,XP_059162296.1,1420,Physella_acuta|LOC131945252|XP_059162296.1
+formin,Physella acuta,snail,"coiled, left-handed",131947748,LOC131947748,inverted formin-2-like,,XP_059165021.1,1251,Physella_acuta|LOC131947748|XP_059165021.1
+formin,Physella acuta,snail,"coiled, left-handed",131958324,LOC131958324,formin-J-like,,XP_059179273.1,1910,Physella_acuta|LOC131958324|XP_059179273.1
+formin,Physella acuta,snail,"coiled, left-handed",131929691,LOC131929691,formin-like protein,,XP_059142007.1,1032,Physella_acuta|LOC131929691|XP_059142007.1
+formin,Physella acuta,snail,"coiled, left-handed",131946808,LOC131946808,disheveled-associated activator of morphogenesis 2-like,,XP_059163759.1,1079,Physella_acuta|LOC131946808|XP_059163759.1
+formin,Physella acuta,snail,"coiled, left-handed",131930835,LOC131930835,disheveled-associated activator of morphogenesis 2-like,,XP_059143454.1,859,Physella_acuta|LOC131930835|XP_059143454.1
+formin,Physella acuta,snail,"coiled, left-handed",131935409,LOC131935409,FH1/FH2 domain-containing protein 3-like,,XP_059147783.1,2547,Physella_acuta|LOC131935409|XP_059147783.1
+formin,Physella acuta,snail,"coiled, left-handed",131941313,LOC131941313,delphilin-like,,XP_059156490.1,1302,Physella_acuta|LOC131941313|XP_059156490.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),125378066,LOC125378066,protein diaphanous homolog 1-like,,XP_048248836.1,288,Haliotis_rufescens|LOC125378066|XP_048248836.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124118433,LOC124118433,protein diaphanous homolog 2-like isoform X1,,XP_048243811.1,1128,Haliotis_rufescens|LOC124118433|XP_048243811.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124131704,LOC124131704,formin-like protein 14,,XP_046351114.1,342,Haliotis_rufescens|LOC124131704|XP_046351114.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124135706,LOC124135706,formin-2-like isoform X1,,XP_046357144.2,644,Haliotis_rufescens|LOC124135706|XP_046357144.2
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124146730,LOC124146730,formin-like protein isoform X1,,XP_046373118.1,1068,Haliotis_rufescens|LOC124146730|XP_046373118.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124146724,LOC124146724,formin-2-like,,XP_046373111.2,328,Haliotis_rufescens|LOC124146724|XP_046373111.2
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124137240,LOC124137240,formin-like protein 20,,XP_048248354.1,611,Haliotis_rufescens|LOC124137240|XP_048248354.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),125378720,LOC125378720,formin-like protein 20,,XP_048250621.1,484,Haliotis_rufescens|LOC125378720|XP_048250621.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124113014,LOC124113014,formin-like protein 3 isoform X1,,XP_046329202.2,927,Haliotis_rufescens|LOC124113014|XP_046329202.2
+formin,Haliotis rufescens,snail,ear-shaped (abalone),125372175,LOC125372175,formin-2-like,,XP_048237298.1,614,Haliotis_rufescens|LOC125372175|XP_048237298.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),125372282,LOC125372282,formin-like protein 5,,XP_048237553.1,480,Haliotis_rufescens|LOC125372282|XP_048237553.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),125375915,LOC125375915,formin-2-like,,XP_048242898.1,330,Haliotis_rufescens|LOC125375915|XP_048242898.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),125376197,LOC125376197,formin-like protein 3,,XP_048244105.1,259,Haliotis_rufescens|LOC125376197|XP_048244105.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124144206,LOC124144206,inverted formin-2-like isoform X1,,XP_046369453.2,1135,Haliotis_rufescens|LOC124144206|XP_046369453.2
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124144208,LOC124144208,inverted formin-2-like,,XP_046369459.2,972,Haliotis_rufescens|LOC124144208|XP_046369459.2
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124144211,LOC124144211,inverted formin-2-like isoform X1,,XP_048243289.1,1275,Haliotis_rufescens|LOC124144211|XP_048243289.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124126554,LOC124126554,formin-like protein 14,,XP_046345977.2,298,Haliotis_rufescens|LOC124126554|XP_046345977.2
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124151235,LOC124151235,disheveled-associated activator of morphogenesis 1-A-like isoform X1,,XP_046379569.2,982,Haliotis_rufescens|LOC124151235|XP_046379569.2
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124113012,LOC124113012,disheveled-associated activator of morphogenesis 1-A-like,,XP_046329198.2,750,Haliotis_rufescens|LOC124113012|XP_046329198.2
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124117810,LOC124117810,disheveled-associated activator of morphogenesis 1-like,,XP_048259001.1,1067,Haliotis_rufescens|LOC124117810|XP_048259001.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124140852,LOC124140852,FH1/FH2 domain-containing protein 3-like isoform X3,,XP_048253558.1,2283,Haliotis_rufescens|LOC124140852|XP_048253558.1
+formin,Haliotis rufescens,snail,ear-shaped (abalone),124146351,LOC124146351,delphilin-like isoform X1,,XP_048248162.1,1259,Haliotis_rufescens|LOC124146351|XP_048248162.1
+formin,Patella vulgata,snail,cap (limpet),126829603,LOC126829603,protein diaphanous homolog 2-like,8,XP_055958630.1,1105,Patella_vulgata|LOC126829603|XP_055958630.1
+formin,Patella vulgata,snail,cap (limpet),126830469,LOC126830469,protein diaphanous homolog 2,8,XP_055958631.1,1161,Patella_vulgata|LOC126830469|XP_055958631.1
+formin,Patella vulgata,snail,cap (limpet),130010918,LOC130010918,formin-J-like,2,XP_055955111.1,594,Patella_vulgata|LOC130010918|XP_055955111.1
+formin,Patella vulgata,snail,cap (limpet),126814584,LOC126814584,formin-F,3,XP_050395789.1,833,Patella_vulgata|LOC126814584|XP_050395789.1
+formin,Patella vulgata,snail,cap (limpet),126822426,LOC126822426,formin-2,5,XP_055957484.1,1028,Patella_vulgata|LOC126822426|XP_055957484.1
+formin,Patella vulgata,snail,cap (limpet),130010539,LOC130010539,formin-2-like,7,XP_055958464.1,741,Patella_vulgata|LOC130010539|XP_055958464.1
+formin,Patella vulgata,snail,cap (limpet),126829605,LOC126829605,inverted formin-2,8,XP_050415506.1,1934,Patella_vulgata|LOC126829605|XP_050415506.1
+formin,Patella vulgata,snail,cap (limpet),126830821,LOC126830821,inverted formin-2,8,XP_050417198.1,1373,Patella_vulgata|LOC126830821|XP_050417198.1
+formin,Patella vulgata,snail,cap (limpet),126830822,LOC126830822,inverted formin-2,8,XP_050417205.1,916,Patella_vulgata|LOC126830822|XP_050417205.1
+formin,Patella vulgata,snail,cap (limpet),126832026,LOC126832026,formin-like protein,9,XP_050418666.1,1018,Patella_vulgata|LOC126832026|XP_050418666.1
+formin,Patella vulgata,snail,cap (limpet),126821521,LOC126821521,disheveled-associated activator of morphogenesis 1-A,5,XP_050405925.2,1071,Patella_vulgata|LOC126821521|XP_050405925.2
+formin,Patella vulgata,snail,cap (limpet),126815796,LOC126815796,FH1/FH2 domain-containing protein 3,3,XP_050397692.2,2169,Patella_vulgata|LOC126815796|XP_050397692.2
+formin,Patella vulgata,snail,cap (limpet),126809790,LOC126809790,delphilin,2,XP_050390525.1,517,Patella_vulgata|LOC126809790|XP_050390525.1
+formin,Aplysia californica,snail,"reduced, internal",106013252,LOC106013252,protein diaphanous homolog 2,,XP_012943896.1,839,Aplysia_californica|LOC106013252|XP_012943896.1
+formin,Aplysia californica,snail,"reduced, internal",101850757,LOC101850757,protein diaphanous homolog 2,,XP_012944315.2,1137,Aplysia_californica|LOC101850757|XP_012944315.2
+formin,Aplysia californica,snail,"reduced, internal",101853216,LOC101853216,formin,,XP_005090840.2,718,Aplysia_californica|LOC101853216|XP_005090840.2
+formin,Aplysia californica,snail,"reduced, internal",101847310,LOC101847310,formin-2,,XP_012946773.1,359,Aplysia_californica|LOC101847310|XP_012946773.1
+formin,Aplysia californica,snail,"reduced, internal",101849523,LOC101849523,formin-like protein isoform X1,,XP_005091795.1,1015,Aplysia_californica|LOC101849523|XP_005091795.1
+formin,Aplysia californica,snail,"reduced, internal",101854001,LOC101854001,inverted formin-2,,XP_035824092.1,1347,Aplysia_californica|LOC101854001|XP_035824092.1
+formin,Aplysia californica,snail,"reduced, internal",101863426,LOC101863426,formin-like protein 5,,XP_012936653.1,768,Aplysia_californica|LOC101863426|XP_012936653.1
+formin,Aplysia californica,snail,"reduced, internal",101846739,LOC101846739,formin-like protein 20,,XP_035826162.1,530,Aplysia_californica|LOC101846739|XP_035826162.1
+formin,Aplysia californica,snail,"reduced, internal",101849778,LOC101849778,formin-2,,XP_035826419.1,457,Aplysia_californica|LOC101849778|XP_035826419.1
+formin,Aplysia californica,snail,"reduced, internal",101859029,LOC101859029,formin-2,,XP_035826822.1,430,Aplysia_californica|LOC101859029|XP_035826822.1
+formin,Aplysia californica,snail,"reduced, internal",101855817,LOC101855817,formin-like protein 1,,XP_012942635.1,479,Aplysia_californica|LOC101855817|XP_012942635.1
+formin,Aplysia californica,snail,"reduced, internal",106013191,LOC106013191,formin-like protein 5,,XP_012943697.2,475,Aplysia_californica|LOC106013191|XP_012943697.2
+formin,Aplysia californica,snail,"reduced, internal",101848780,LOC101848780,formin-like protein 5,,XP_005108969.1,857,Aplysia_californica|LOC101848780|XP_005108969.1
+formin,Aplysia californica,snail,"reduced, internal",101862684,LOC101862684,inverted formin-2,,XP_012943897.1,596,Aplysia_californica|LOC101862684|XP_012943897.1
+formin,Aplysia californica,snail,"reduced, internal",101852580,LOC101852580,formin-like protein 1,,XP_012944735.1,275,Aplysia_californica|LOC101852580|XP_012944735.1
+formin,Aplysia californica,snail,"reduced, internal",101859682,LOC101859682,inverted formin-2,,XP_035829279.1,978,Aplysia_californica|LOC101859682|XP_035829279.1
+formin,Aplysia californica,snail,"reduced, internal",101846734,LOC101846734,disheveled-associated activator of morphogenesis 1,,XP_035825837.1,1081,Aplysia_californica|LOC101846734|XP_035825837.1
+formin,Aplysia californica,snail,"reduced, internal",101857891,LOC101857891,FH1/FH2 domain-containing protein 3,,XP_035827158.1,2365,Aplysia_californica|LOC101857891|XP_035827158.1
+formin,Aplysia californica,snail,"reduced, internal",101860957,LOC101860957,delphilin-like,,XP_005092977.3,293,Aplysia_californica|LOC101860957|XP_005092977.3
+formin,Berghia stephanieae,snail,none (sea slug),144970011,LOC144970011,protein diaphanous homolog 2-like,4,XP_078765289.1,1139,Berghia_stephanieae|LOC144970011|XP_078765289.1
+formin,Berghia stephanieae,snail,none (sea slug),144964637,LOC144964637,formin-like protein,2,XP_078755249.1,1030,Berghia_stephanieae|LOC144964637|XP_078755249.1
+formin,Berghia stephanieae,snail,none (sea slug),144969955,LOC144969955,inverted formin-2-like,4,XP_078765176.1,1390,Berghia_stephanieae|LOC144969955|XP_078765176.1
+formin,Berghia stephanieae,snail,none (sea slug),144971208,LOC144971208,inverted formin-2-like,4,XP_078767833.1,1284,Berghia_stephanieae|LOC144971208|XP_078767833.1
+formin,Berghia stephanieae,snail,none (sea slug),144963298,LOC144963298,disheveled-associated activator of morphogenesis 1-like,1,XP_078753326.1,1069,Berghia_stephanieae|LOC144963298|XP_078753326.1
+formin,Berghia stephanieae,snail,none (sea slug),144976313,LOC144976313,FH1/FH2 domain-containing protein 3-like,7,XP_078776635.1,2689,Berghia_stephanieae|LOC144976313|XP_078776635.1
+formin,Berghia stephanieae,snail,none (sea slug),144973719,LOC144973719,delphilin-like,5,XP_078772675.1,1322,Berghia_stephanieae|LOC144973719|XP_078772675.1
+formin,Mercenaria mercenaria,clam,two valves,123557077,LOC123557077,protein diaphanous homolog 2-like,5,XP_053399359.1,1174,Mercenaria_mercenaria|LOC123557077|XP_053399359.1
+formin,Mercenaria mercenaria,clam,two valves,123524107,LOC123524107,formin-like,1,XP_053384577.1,1241,Mercenaria_mercenaria|LOC123524107|XP_053384577.1
+formin,Mercenaria mercenaria,clam,two valves,123557467,LOC123557467,inverted formin-2-like,5,XP_045204866.2,1125,Mercenaria_mercenaria|LOC123557467|XP_045204866.2
+formin,Mercenaria mercenaria,clam,two valves,123557491,LOC123557491,inverted formin-2-like,5,XP_053399777.1,1214,Mercenaria_mercenaria|LOC123557491|XP_053399777.1
+formin,Mercenaria mercenaria,clam,two valves,123558488,LOC123558488,inverted formin-2-like,5,XP_053400636.1,431,Mercenaria_mercenaria|LOC123558488|XP_053400636.1
+formin,Mercenaria mercenaria,clam,two valves,123557499,LOC123557499,inverted formin-2-like,5,XP_045204918.2,684,Mercenaria_mercenaria|LOC123557499|XP_045204918.2
+formin,Mercenaria mercenaria,clam,two valves,123557500,LOC123557500,inverted formin-2-like,5,XP_045204919.2,1137,Mercenaria_mercenaria|LOC123557500|XP_045204919.2
+formin,Mercenaria mercenaria,clam,two valves,123557862,LOC123557862,inverted formin-2-like,5,XP_053400206.1,1406,Mercenaria_mercenaria|LOC123557862|XP_053400206.1
+formin,Mercenaria mercenaria,clam,two valves,123557902,LOC123557902,formin-J-like,5,XP_045205612.2,2303,Mercenaria_mercenaria|LOC123557902|XP_045205612.2
+formin,Mercenaria mercenaria,clam,two valves,128557555,LOC128557555,formin-F-like,6,XP_053400908.1,732,Mercenaria_mercenaria|LOC128557555|XP_053400908.1
+formin,Mercenaria mercenaria,clam,two valves,123531387,LOC123531387,formin-like protein,11,XP_053373200.1,1015,Mercenaria_mercenaria|LOC123531387|XP_053373200.1
+formin,Mercenaria mercenaria,clam,two valves,128546537,LOC128546537,formin-like protein,11,XP_053373208.1,1015,Mercenaria_mercenaria|LOC128546537|XP_053373208.1
+formin,Mercenaria mercenaria,clam,two valves,128547213,LOC128547213,disheveled-associated activator of morphogenesis 1-like,1,XP_053375158.1,971,Mercenaria_mercenaria|LOC128547213|XP_053375158.1
+formin,Mercenaria mercenaria,clam,two valves,123550631,LOC123550631,FH1/FH2 domain-containing protein 3-like,6,XP_053401294.1,2469,Mercenaria_mercenaria|LOC123550631|XP_053401294.1
+formin,Mercenaria mercenaria,clam,two valves,123562041,LOC123562041,delphilin-like,2,XP_045210631.2,1330,Mercenaria_mercenaria|LOC123562041|XP_045210631.2
+formin,Mya arenaria,clam,two valves,128228947,LOC128228947,protein diaphanous homolog 2-like,3,XP_052796468.1,1200,Mya_arenaria|LOC128228947|XP_052796468.1
+formin,Mya arenaria,clam,two valves,128210635,LOC128210635,protein diaphanous homolog 1-like,12,XP_052770947.1,289,Mya_arenaria|LOC128210635|XP_052770947.1
+formin,Mya arenaria,clam,two valves,128210040,LOC128210040,formin-like protein,1,XP_052770306.1,1025,Mya_arenaria|LOC128210040|XP_052770306.1
+formin,Mya arenaria,clam,two valves,128214948,LOC128214948,formin-2-like,2,XP_052777632.1,251,Mya_arenaria|LOC128214948|XP_052777632.1
+formin,Mya arenaria,clam,two valves,128225554,LOC128225554,formin-H-like,3,XP_052791377.1,1396,Mya_arenaria|LOC128225554|XP_052791377.1
+formin,Mya arenaria,clam,two valves,128228554,LOC128228554,inverted formin-2-like,3,XP_052795885.1,815,Mya_arenaria|LOC128228554|XP_052795885.1
+formin,Mya arenaria,clam,two valves,128228119,LOC128228119,inverted formin-2-like,3,XP_052795195.1,1236,Mya_arenaria|LOC128228119|XP_052795195.1
+formin,Mya arenaria,clam,two valves,128227518,LOC128227518,formin-J-like,3,XP_052794108.1,2312,Mya_arenaria|LOC128227518|XP_052794108.1
+formin,Mya arenaria,clam,two valves,128227724,LOC128227724,inverted formin-2-like,3,XP_052794467.1,1158,Mya_arenaria|LOC128227724|XP_052794467.1
+formin,Mya arenaria,clam,two valves,128241084,LOC128241084,formin-E-like,7,XP_052814027.1,378,Mya_arenaria|LOC128241084|XP_052814027.1
+formin,Mya arenaria,clam,two valves,128206762,LOC128206762,formin-J-like,10,XP_052765405.1,1421,Mya_arenaria|LOC128206762|XP_052765405.1
+formin,Mya arenaria,clam,two valves,128208910,LOC128208910,disheveled-associated activator of morphogenesis 1-like,11,XP_052768568.1,1065,Mya_arenaria|LOC128208910|XP_052768568.1
+formin,Mya arenaria,clam,two valves,128243349,LOC128243349,FH1/FH2 domain-containing protein 3-like,8,XP_052817021.1,2500,Mya_arenaria|LOC128243349|XP_052817021.1
+formin,Mya arenaria,clam,two valves,128243357,LOC128243357,delphilin-like,2,XP_052817051.1,1341,Mya_arenaria|LOC128243357|XP_052817051.1
+formin,Mya arenaria,clam,two valves,128243587,LOC128243587,delphilin-like,8,XP_052817399.1,953,Mya_arenaria|LOC128243587|XP_052817399.1
+formin,Mya arenaria,clam,two valves,128243595,LOC128243595,delphilin-like,8,XP_052817417.1,953,Mya_arenaria|LOC128243595|XP_052817417.1
+formin,Ruditapes philippinarum,clam,two valves,132725171,LOC132725171,protein diaphanous homolog 2-like,,XP_060566240.1,996,Ruditapes_philippinarum|LOC132725171|XP_060566240.1
+formin,Ruditapes philippinarum,clam,two valves,132750420,LOC132750420,inverted formin-2-like,,XP_060596385.1,1396,Ruditapes_philippinarum|LOC132750420|XP_060596385.1
+formin,Ruditapes philippinarum,clam,two valves,132741724,LOC132741724,formin-J-like,,XP_060585957.1,2273,Ruditapes_philippinarum|LOC132741724|XP_060585957.1
+formin,Ruditapes philippinarum,clam,two valves,132716355,LOC132716355,inverted formin-2-like,,XP_060555597.1,1219,Ruditapes_philippinarum|LOC132716355|XP_060555597.1
+formin,Ruditapes philippinarum,clam,two valves,132717659,LOC132717659,formin-J-like,,XP_060557165.1,1212,Ruditapes_philippinarum|LOC132717659|XP_060557165.1
+formin,Ruditapes philippinarum,clam,two valves,132718345,LOC132718345,formin-like protein,,XP_060558027.1,926,Ruditapes_philippinarum|LOC132718345|XP_060558027.1
+formin,Ruditapes philippinarum,clam,two valves,132718759,LOC132718759,formin-J-like,,XP_060558467.1,559,Ruditapes_philippinarum|LOC132718759|XP_060558467.1
+formin,Ruditapes philippinarum,clam,two valves,132726003,LOC132726003,formin-J-like,,XP_060567216.1,1644,Ruditapes_philippinarum|LOC132726003|XP_060567216.1
+formin,Ruditapes philippinarum,clam,two valves,132728001,LOC132728001,inverted formin-2-like,,XP_060569585.1,1384,Ruditapes_philippinarum|LOC132728001|XP_060569585.1
+formin,Ruditapes philippinarum,clam,two valves,132728508,LOC132728508,inverted formin-2-like,,XP_060570131.1,1158,Ruditapes_philippinarum|LOC132728508|XP_060570131.1
+formin,Ruditapes philippinarum,clam,two valves,132733573,LOC132733573,inverted formin-2-like,,XP_060576213.1,1147,Ruditapes_philippinarum|LOC132733573|XP_060576213.1
+formin,Ruditapes philippinarum,clam,two valves,132729327,LOC132729327,disheveled-associated activator of morphogenesis 1-like,,XP_060571050.1,1062,Ruditapes_philippinarum|LOC132729327|XP_060571050.1
+formin,Ruditapes philippinarum,clam,two valves,132714576,LOC132714576,FH1/FH2 domain-containing protein 3-like,,XP_060553447.1,2485,Ruditapes_philippinarum|LOC132714576|XP_060553447.1
+formin,Ruditapes philippinarum,clam,two valves,132733574,LOC132733574,FH2 domain-containing protein 1-like,,XP_060576217.1,780,Ruditapes_philippinarum|LOC132733574|XP_060576217.1
+formin,Ruditapes philippinarum,clam,two valves,132713254,LOC132713254,delphilin-like,,XP_060551740.1,1134,Ruditapes_philippinarum|LOC132713254|XP_060551740.1
+formin,Crassostrea virginica,clam,two valves (oyster),111124853,LOC111124853,protein diaphanous homolog 2-like,2,XP_022323781.2,1214,Crassostrea_virginica|LOC111124853|XP_022323781.2
+formin,Crassostrea virginica,clam,two valves (oyster),111125745,LOC111125745,protein diaphanous homolog 2-like,2,XP_078323551.1,1176,Crassostrea_virginica|LOC111125745|XP_078323551.1
+formin,Crassostrea virginica,clam,two valves (oyster),111126416,LOC111126416,inverted formin-2-like,2,XP_022326754.2,1291,Crassostrea_virginica|LOC111126416|XP_022326754.2
+formin,Crassostrea virginica,clam,two valves (oyster),111125557,LOC111125557,inverted formin-2-like,2,XP_022325197.2,972,Crassostrea_virginica|LOC111125557|XP_022325197.2
+formin,Crassostrea virginica,clam,two valves (oyster),111122666,LOC111122666,inverted formin-2-like,2,XP_078327259.1,1171,Crassostrea_virginica|LOC111122666|XP_078327259.1
+formin,Crassostrea virginica,clam,two valves (oyster),111117189,LOC111117189,inverted formin-2-like,3,XP_078330121.1,841,Crassostrea_virginica|LOC111117189|XP_078330121.1
+formin,Crassostrea virginica,clam,two valves (oyster),144624359,LOC144624359,inverted formin-2-like,3,XP_078330126.1,809,Crassostrea_virginica|LOC144624359|XP_078330126.1
+formin,Crassostrea virginica,clam,two valves (oyster),111117188,LOC111117188,inverted formin-2-like,3,XP_078330120.1,844,Crassostrea_virginica|LOC111117188|XP_078330120.1
+formin,Crassostrea virginica,clam,two valves (oyster),111122167,LOC111122167,formin-like protein 3,9,XP_022319479.2,1066,Crassostrea_virginica|LOC111122167|XP_022319479.2
+formin,Crassostrea virginica,clam,two valves (oyster),111115612,LOC111115612,formin-like protein,10,XP_078320986.1,1128,Crassostrea_virginica|LOC111115612|XP_078320986.1
+formin,Crassostrea virginica,clam,two valves (oyster),111129877,LOC111129877,disheveled-associated activator of morphogenesis 2-like,8,XP_022332090.1,1055,Crassostrea_virginica|LOC111129877|XP_022332090.1
+formin,Crassostrea virginica,clam,two valves (oyster),111125559,LOC111125559,FH2 domain-containing protein 1-like,2,XP_078327272.1,524,Crassostrea_virginica|LOC111125559|XP_078327272.1
+formin,Crassostrea virginica,clam,two valves (oyster),111136591,LOC111136591,FH1/FH2 domain-containing protein 3-like,5,XP_078337303.1,2475,Crassostrea_virginica|LOC111136591|XP_078337303.1
+formin,Crassostrea virginica,clam,two valves (oyster),111122138,LOC111122138,delphilin-like,9,XP_022319431.2,1268,Crassostrea_virginica|LOC111122138|XP_022319431.2
+formin,Pecten maximus,clam,two valves (scallop),117329135,LOC117329135,protein diaphanous homolog 2-like isoform X1,6,XP_033742772.1,1170,Pecten_maximus|LOC117329135|XP_033742772.1
+formin,Pecten maximus,clam,two valves (scallop),117334034,LOC117334034,formin-like protein 3,1,XP_033749346.1,1002,Pecten_maximus|LOC117334034|XP_033749346.1
+formin,Pecten maximus,clam,two valves (scallop),117323693,LOC117323693,formin-like protein 5,3,XP_033734959.1,753,Pecten_maximus|LOC117323693|XP_033734959.1
+formin,Pecten maximus,clam,two valves (scallop),117326480,LOC117326480,formin-like protein 20,4,XP_033739120.1,542,Pecten_maximus|LOC117326480|XP_033739120.1
+formin,Pecten maximus,clam,two valves (scallop),117326520,LOC117326520,formin-2-like,4,XP_033739167.1,335,Pecten_maximus|LOC117326520|XP_033739167.1
+formin,Pecten maximus,clam,two valves (scallop),117328963,LOC117328963,LOW QUALITY PROTEIN: inverted formin-2-like,6,XP_033742495.1,1018,Pecten_maximus|LOC117328963|XP_033742495.1
+formin,Pecten maximus,clam,two valves (scallop),117329591,LOC117329591,inverted formin-2-like,6,XP_033743492.1,1164,Pecten_maximus|LOC117329591|XP_033743492.1
+formin,Pecten maximus,clam,two valves (scallop),117329594,LOC117329594,LOW QUALITY PROTEIN: inverted formin-2-like,6,XP_033743499.1,1307,Pecten_maximus|LOC117329594|XP_033743499.1
+formin,Pecten maximus,clam,two valves (scallop),117330862,LOC117330862,formin-1-like isoform X1,7,XP_033745287.1,378,Pecten_maximus|LOC117330862|XP_033745287.1
+formin,Pecten maximus,clam,two valves (scallop),117331236,LOC117331236,formin-2-like,7,XP_033745726.1,670,Pecten_maximus|LOC117331236|XP_033745726.1
+formin,Pecten maximus,clam,two valves (scallop),117333585,LOC117333585,formin-J-like,8,XP_033748830.1,1627,Pecten_maximus|LOC117333585|XP_033748830.1
+formin,Pecten maximus,clam,two valves (scallop),117333869,LOC117333869,formin-like protein 20,9,XP_033749178.1,1032,Pecten_maximus|LOC117333869|XP_033749178.1
+formin,Pecten maximus,clam,two valves (scallop),117338975,LOC117338975,formin-like protein 20,12,XP_033756231.1,1096,Pecten_maximus|LOC117338975|XP_033756231.1
+formin,Pecten maximus,clam,two valves (scallop),117343274,LOC117343274,formin-2-like,15,XP_033761509.1,390,Pecten_maximus|LOC117343274|XP_033761509.1
+formin,Pecten maximus,clam,two valves (scallop),117344299,LOC117344299,formin-like protein isoform X1,15,XP_033762894.1,1028,Pecten_maximus|LOC117344299|XP_033762894.1
+formin,Pecten maximus,clam,two valves (scallop),117344626,LOC117344626,formin-2-like,16,XP_033763342.1,271,Pecten_maximus|LOC117344626|XP_033763342.1
+formin,Pecten maximus,clam,two valves (scallop),117315695,LOC117315695,formin-like protein 4 isoform X1,17,XP_033725909.1,324,Pecten_maximus|LOC117315695|XP_033725909.1
+formin,Pecten maximus,clam,two valves (scallop),117315280,LOC117315280,formin-2-like,17,XP_033725319.1,357,Pecten_maximus|LOC117315280|XP_033725319.1
+formin,Pecten maximus,clam,two valves (scallop),117317648,LOC117317648,formin-like protein 2,19,XP_033728401.1,395,Pecten_maximus|LOC117317648|XP_033728401.1
+formin,Pecten maximus,clam,two valves (scallop),117317471,LOC117317471,formin-2-like,19,XP_033728173.1,304,Pecten_maximus|LOC117317471|XP_033728173.1
+formin,Pecten maximus,clam,two valves (scallop),117318591,LOC117318591,formin-like protein 5,,XP_033729448.1,676,Pecten_maximus|LOC117318591|XP_033729448.1
+formin,Pecten maximus,clam,two valves (scallop),117319884,LOC117319884,formin-A-like,,XP_033730488.1,423,Pecten_maximus|LOC117319884|XP_033730488.1
+formin,Pecten maximus,clam,two valves (scallop),117324187,LOC117324187,disheveled-associated activator of morphogenesis 1-like,3,XP_033735769.1,1064,Pecten_maximus|LOC117324187|XP_033735769.1
+formin,Pecten maximus,clam,two valves (scallop),117333206,LOC117333206,delphilin-like,1,XP_033748273.1,1299,Pecten_maximus|LOC117333206|XP_033748273.1
+formin,Liolophura sinensis,chiton,eight plates,135472607,LOC135472607,protein diaphanous homolog 2-like,8,XP_064608256.1,1125,Liolophura_sinensis|LOC135472607|XP_064608256.1
+formin,Liolophura sinensis,chiton,eight plates,135471896,LOC135471896,formin-like protein 3,1,XP_064607426.1,1111,Liolophura_sinensis|LOC135471896|XP_064607426.1
+formin,Liolophura sinensis,chiton,eight plates,135464164,LOC135464164,formin-2-like,1,XP_064597737.1,354,Liolophura_sinensis|LOC135464164|XP_064597737.1
+formin,Liolophura sinensis,chiton,eight plates,135465983,LOC135465983,formin-2-like,5,XP_064599436.1,683,Liolophura_sinensis|LOC135465983|XP_064599436.1
+formin,Liolophura sinensis,chiton,eight plates,135466482,LOC135466482,formin-like,6,XP_064600050.1,1196,Liolophura_sinensis|LOC135466482|XP_064600050.1
+formin,Liolophura sinensis,chiton,eight plates,135473638,LOC135473638,inverted formin-2-like,8,XP_064609570.1,973,Liolophura_sinensis|LOC135473638|XP_064609570.1
+formin,Liolophura sinensis,chiton,eight plates,135473639,LOC135473639,inverted formin-2-like,8,XP_064609571.1,1391,Liolophura_sinensis|LOC135473639|XP_064609571.1
+formin,Liolophura sinensis,chiton,eight plates,135472280,LOC135472280,inverted formin-2-like,8,XP_064607783.1,1215,Liolophura_sinensis|LOC135472280|XP_064607783.1
+formin,Liolophura sinensis,chiton,eight plates,135478074,LOC135478074,formin-like protein,11,XP_064614414.1,1050,Liolophura_sinensis|LOC135478074|XP_064614414.1
+formin,Liolophura sinensis,chiton,eight plates,135466589,LOC135466589,disheveled-associated activator of morphogenesis 1-like,6,XP_064600215.1,1089,Liolophura_sinensis|LOC135466589|XP_064600215.1
+formin,Liolophura sinensis,chiton,eight plates,135476241,LOC135476241,delphilin-like,1,XP_064612263.1,1368,Liolophura_sinensis|LOC135476241|XP_064612263.1
+formin,Euprymna scolopes,cephalopod,"reduced, internal",145283583,LOC145283583,protein diaphanous homolog 2-like,8,XP_079988630.1,1093,Euprymna_scolopes|LOC145283583|XP_079988630.1
+formin,Euprymna scolopes,cephalopod,"reduced, internal",145260699,LOC145260699,inverted formin-2-like,3,XP_079975226.1,1047,Euprymna_scolopes|LOC145260699|XP_079975226.1
+formin,Euprymna scolopes,cephalopod,"reduced, internal",145247315,LOC145247315,formin-like protein,25,XP_079965077.1,1120,Euprymna_scolopes|LOC145247315|XP_079965077.1
+formin,Euprymna scolopes,cephalopod,"reduced, internal",145256196,LOC145256196,formin-like,32,XP_079970932.1,1107,Euprymna_scolopes|LOC145256196|XP_079970932.1
+formin,Euprymna scolopes,cephalopod,"reduced, internal",145259179,LOC145259179,inverted formin-2-like,34,XP_079973064.1,1055,Euprymna_scolopes|LOC145259179|XP_079973064.1
+formin,Euprymna scolopes,cephalopod,"reduced, internal",145243512,LOC145243512,disheveled-associated activator of morphogenesis 1-like,22,XP_079962603.1,1101,Euprymna_scolopes|LOC145243512|XP_079962603.1
+formin,Euprymna scolopes,cephalopod,"reduced, internal",145297783,LOC145297783,FH1/FH2 domain-containing protein 3-like,18,XP_080000168.1,2410,Euprymna_scolopes|LOC145297783|XP_080000168.1
+formin,Euprymna scolopes,cephalopod,"reduced, internal",145286065,LOC145286065,delphilin-like,10,XP_079990864.1,1434,Euprymna_scolopes|LOC145286065|XP_079990864.1
+formin,Octopus bimaculoides,cephalopod,none,106883550,LOC106883550,protein diaphanous homolog 2,Z,XP_089221130.1,1009,Octopus_bimaculoides|LOC106883550|XP_089221130.1
+formin,Octopus bimaculoides,cephalopod,none,106881506,LOC106881506,formin-like protein 3,1,XP_052826704.1,1232,Octopus_bimaculoides|LOC106881506|XP_052826704.1
+formin,Octopus bimaculoides,cephalopod,none,106876454,LOC106876454,inverted formin-2,7,XP_089211892.1,1081,Octopus_bimaculoides|LOC106876454|XP_089211892.1
+formin,Octopus bimaculoides,cephalopod,none,106868205,LOC106868205,formin-like protein,10,XP_089214613.1,1050,Octopus_bimaculoides|LOC106868205|XP_089214613.1
+formin,Octopus bimaculoides,cephalopod,none,106868073,LOC106868073,inverted formin-2,13,XP_089217498.1,1102,Octopus_bimaculoides|LOC106868073|XP_089217498.1
+formin,Octopus bimaculoides,cephalopod,none,106880744,LOC106880744,disheveled-associated activator of morphogenesis 1,3,XP_089204508.1,799,Octopus_bimaculoides|LOC106880744|XP_089204508.1
+formin,Octopus bimaculoides,cephalopod,none,106868745,LOC106868745,FH1/FH2 domain-containing protein 1,9,XP_089213851.1,2237,Octopus_bimaculoides|LOC106868745|XP_089213851.1
+formin,Octopus sinensis,cephalopod,none,115222594,LOC115222594,protein diaphanous homolog 2 isoform X1,LG20,XP_029648746.1,1091,Octopus_sinensis|LOC115222594|XP_029648746.1
+formin,Octopus sinensis,cephalopod,none,118760933,LOC118760933,protein diaphanous homolog 1-like,,XP_036354452.1,797,Octopus_sinensis|LOC118760933|XP_036354452.1
+formin,Octopus sinensis,cephalopod,none,115214320,LOC115214320,formin-B-like,LG1,XP_029639359.1,540,Octopus_sinensis|LOC115214320|XP_029639359.1
+formin,Octopus sinensis,cephalopod,none,115224366,LOC115224366,formin-like protein 3 isoform X1,LG1,XP_036361227.1,1229,Octopus_sinensis|LOC115224366|XP_036361227.1
+formin,Octopus sinensis,cephalopod,none,115214240,LOC115214240,inverted formin-2-like,LG7,XP_029639224.1,1056,Octopus_sinensis|LOC115214240|XP_029639224.1
+formin,Octopus sinensis,cephalopod,none,115215524,LOC115215524,formin-like protein isoform X1,LG9,XP_036361976.1,1102,Octopus_sinensis|LOC115215524|XP_036361976.1
+formin,Octopus sinensis,cephalopod,none,115215948,LOC115215948,formin-like protein 12 isoform X1,LG9,XP_029641190.1,326,Octopus_sinensis|LOC115215948|XP_029641190.1
+formin,Octopus sinensis,cephalopod,none,115217390,LOC115217390,formin-like protein 18,LG11,XP_029642928.1,440,Octopus_sinensis|LOC115217390|XP_029642928.1
+formin,Octopus sinensis,cephalopod,none,115217296,LOC115217296,formin-2,LG11,XP_029642801.1,1142,Octopus_sinensis|LOC115217296|XP_029642801.1
+formin,Octopus sinensis,cephalopod,none,115218267,LOC115218267,inverted formin-2-like,LG13,XP_036363977.1,1084,Octopus_sinensis|LOC115218267|XP_036363977.1
+formin,Octopus sinensis,cephalopod,none,115218242,LOC115218242,inverted formin-2 isoform X1,LG13,XP_029643831.1,1624,Octopus_sinensis|LOC115218242|XP_029643831.1
+formin,Octopus sinensis,cephalopod,none,115219629,LOC115219629,formin-J,LG15,XP_029645638.1,1330,Octopus_sinensis|LOC115219629|XP_029645638.1
+formin,Octopus sinensis,cephalopod,none,115220299,LOC115220299,formin-like protein 18 isoform X1,LG16,XP_029646265.2,250,Octopus_sinensis|LOC115220299|XP_029646265.2
+formin,Octopus sinensis,cephalopod,none,115222695,LOC115222695,formin-J-like,LG20,XP_036367593.1,2174,Octopus_sinensis|LOC115222695|XP_036367593.1
+formin,Octopus sinensis,cephalopod,none,118768110,LOC118768110,formin-like protein 14,LG27,XP_036369837.1,306,Octopus_sinensis|LOC118768110|XP_036369837.1
+formin,Octopus sinensis,cephalopod,none,118761050,LOC118761050,formin-like protein 5 isoform X1,,XP_036354582.1,337,Octopus_sinensis|LOC118761050|XP_036354582.1
+formin,Octopus sinensis,cephalopod,none,115209251,LOC115209251,disheveled-associated activator of morphogenesis 1 isoform X2,LG3,XP_036357504.1,1105,Octopus_sinensis|LOC115209251|XP_036357504.1
+formin,Octopus sinensis,cephalopod,none,115216655,LOC115216655,FH1/FH2 domain-containing protein 3 isoform X1,LG10,XP_029642009.1,1798,Octopus_sinensis|LOC115216655|XP_029642009.1
+formin,Octopus sinensis,cephalopod,none,115226751,LOC115226751,delphilin-like,LG2,XP_036356310.1,1399,Octopus_sinensis|LOC115226751|XP_036356310.1
+formin,Homo sapiens,human,reference,1729,DIAPH1,diaphanous related formin 1,5,NP_005210.3,1272,Homo_sapiens|DIAPH1|NP_005210.3
+formin,Homo sapiens,human,reference,81624,DIAPH3,diaphanous related formin 3,13,NP_001035982.1,1193,Homo_sapiens|DIAPH3|NP_001035982.1
+formin,Homo sapiens,human,reference,1730,DIAPH2,diaphanous related formin 2,X,NP_006720.1,1101,Homo_sapiens|DIAPH2|NP_006720.1
+formin,Homo sapiens,human,reference,56776,FMN2,formin 2,1,NP_001292353.1,1726,Homo_sapiens|FMN2|NP_001292353.1
+formin,Homo sapiens,human,reference,114793,FMNL2,formin like 2,2,XP_011508832.1,1099,Homo_sapiens|FMNL2|XP_011508832.1
+formin,Homo sapiens,human,reference,124907996,LOC124907996,formin-like protein 16,2,XP_047302788.1,252,Homo_sapiens|LOC124907996|XP_047302788.1
+formin,Homo sapiens,human,reference,91010,FMNL3,formin like 3,12,XP_011537270.1,1047,Homo_sapiens|FMNL3|XP_011537270.1
+formin,Homo sapiens,human,reference,64423,INF2,inverted formin 2,14,NP_001413791.1,1268,Homo_sapiens|INF2|NP_001413791.1
+formin,Homo sapiens,human,reference,342184,FMN1,formin 1,15,NP_001264242.1,1419,Homo_sapiens|FMN1|NP_001264242.1
+formin,Homo sapiens,human,reference,29109,FHOD1,formin homology 2 domain containing 1,16,NP_001305131.1,1190,Homo_sapiens|FHOD1|NP_001305131.1
+formin,Homo sapiens,human,reference,752,FMNL1,formin like 1,17,NP_001398057.1,1104,Homo_sapiens|FMNL1|NP_001398057.1
+formin,Homo sapiens,human,reference,80206,FHOD3,formin homology 2 domain containing 3,18,XP_011524491.1,1642,Homo_sapiens|FHOD3|XP_011524491.1
+formin,Homo sapiens,human,reference,23500,DAAM2,dishevelled associated activator of morphogenesis 2,6,XP_006715102.3,1176,Homo_sapiens|DAAM2|XP_006715102.3
+formin,Homo sapiens,human,reference,23002,DAAM1,dishevelled associated activator of morphogenesis 1,14,NP_055807.1,1078,Homo_sapiens|DAAM1|NP_055807.1
+formin,Homo sapiens,human,reference,85462,FHDC1,FH2 domain containing 1,4,NP_203751.2,1143,Homo_sapiens|FHDC1|NP_203751.2
+formin,Drosophila melanogaster,fly,reference,35340,dia,diaphanous,2L,NP_001246113.1,1098,Drosophila_melanogaster|dia|NP_001246113.1
+formin,Drosophila melanogaster,fly,reference,3346238,form3,formin 3,3L,NP_001097527.1,1717,Drosophila_melanogaster|form3|NP_001097527.1
+formin,Drosophila melanogaster,fly,reference,39004,Fhos,Formin homology 2 domain containing,3L,NP_001163387.2,2528,Drosophila_melanogaster|Fhos|NP_001163387.2
+formin,Drosophila melanogaster,fly,reference,39561,Frl,Formin-like,3L,NP_729954.2,1183,Drosophila_melanogaster|Frl|NP_729954.2
+formin,Drosophila melanogaster,fly,reference,31075,DAAM,Dishevelled Associated Activator of Morphogenesis,X,NP_001188522.1,1463,Drosophila_melanogaster|DAAM|NP_001188522.1
+formin,Drosophila melanogaster,fly,reference,33611,capu,cappuccino,2L,NP_001137784.1,1361,Drosophila_melanogaster|capu|NP_001137784.1

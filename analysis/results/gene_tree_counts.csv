@@ -1,0 +1,39 @@
+species,group,shell,family,DAAM,FHDC,FHOD,FMN,FMNL,INF2,diaphanous,unplaced (long branch),DISP1/2 (Hedgehog-releasing orthologs),DISP3,mollusc-specific dispatched-like lineage
+Aplysia californica,snail,"reduced, internal",formin,1.0,0.0,1.0,1.0,2.0,3.0,1.0,10.0,,,
+Babylonia areolata,snail,"coiled, right-handed",formin,1.0,0.0,2.0,0.0,2.0,3.0,2.0,2.0,,,
+Berghia stephanieae,snail,none (sea slug),formin,1.0,0.0,1.0,0.0,1.0,1.0,1.0,2.0,,,
+Biomphalaria glabrata,snail,"coiled flat, left-handed",formin,1.0,0.0,1.0,1.0,1.0,3.0,1.0,5.0,,,
+Crassostrea virginica,clam,two valves (oyster),formin,1.0,0.0,1.0,0.0,1.0,7.0,2.0,2.0,,,
+Euprymna scolopes,cephalopod,"reduced, internal",formin,1.0,0.0,1.0,1.0,1.0,2.0,1.0,1.0,,,
+Gigantopelta aegis,snail,"coiled, right-handed",formin,1.0,0.0,1.0,1.0,1.0,3.0,2.0,7.0,,,
+Haliotis rufescens,snail,ear-shaped (abalone),formin,1.0,0.0,1.0,0.0,1.0,3.0,1.0,15.0,,,
+Liolophura sinensis,chiton,eight plates,formin,1.0,0.0,0.0,1.0,2.0,3.0,1.0,3.0,,,
+Littorina saxatilis,snail,"coiled, right-handed",formin,1.0,0.0,1.0,1.0,1.0,4.0,1.0,6.0,,,
+Mercenaria mercenaria,clam,two valves,formin,1.0,0.0,1.0,1.0,2.0,7.0,1.0,2.0,,,
+Mya arenaria,clam,two valves,formin,1.0,1.0,1.0,0.0,1.0,4.0,1.0,7.0,,,
+Octopus bimaculoides,cephalopod,none,formin,1.0,0.0,1.0,0.0,2.0,1.0,1.0,1.0,,,
+Octopus sinensis,cephalopod,none,formin,1.0,0.0,1.0,1.0,2.0,3.0,2.0,9.0,,,
+Patella vulgata,snail,cap (limpet),formin,1.0,0.0,1.0,1.0,1.0,3.0,2.0,4.0,,,
+Pecten maximus,clam,two valves (scallop),formin,1.0,0.0,0.0,0.0,1.0,4.0,1.0,17.0,,,
+Physella acuta,snail,"coiled, left-handed",formin,1.0,0.0,1.0,1.0,1.0,3.0,1.0,5.0,,,
+Pomacea canaliculata,snail,"coiled, right-handed",formin,1.0,0.0,2.0,1.0,1.0,2.0,2.0,4.0,,,
+Ruditapes philippinarum,clam,two valves,formin,1.0,0.0,1.0,0.0,1.0,4.0,1.0,7.0,,,
+Aplysia californica,snail,"reduced, internal",dispatched,,,,,,,,,1.0,1.0,0.0
+Babylonia areolata,snail,"coiled, right-handed",dispatched,,,,,,,,,1.0,1.0,6.0
+Berghia stephanieae,snail,none (sea slug),dispatched,,,,,,,,,1.0,1.0,0.0
+Biomphalaria glabrata,snail,"coiled flat, left-handed",dispatched,,,,,,,,,1.0,1.0,1.0
+Crassostrea virginica,clam,two valves (oyster),dispatched,,,,,,,,,1.0,0.0,2.0
+Euprymna scolopes,cephalopod,"reduced, internal",dispatched,,,,,,,,,1.0,0.0,0.0
+Gigantopelta aegis,snail,"coiled, right-handed",dispatched,,,,,,,,,1.0,1.0,0.0
+Haliotis rufescens,snail,ear-shaped (abalone),dispatched,,,,,,,,,1.0,1.0,2.0
+Liolophura sinensis,chiton,eight plates,dispatched,,,,,,,,,1.0,1.0,4.0
+Littorina saxatilis,snail,"coiled, right-handed",dispatched,,,,,,,,,1.0,1.0,6.0
+Mercenaria mercenaria,clam,two valves,dispatched,,,,,,,,,1.0,1.0,1.0
+Mya arenaria,clam,two valves,dispatched,,,,,,,,,1.0,1.0,2.0
+Octopus bimaculoides,cephalopod,none,dispatched,,,,,,,,,1.0,0.0,0.0
+Octopus sinensis,cephalopod,none,dispatched,,,,,,,,,1.0,0.0,0.0
+Patella vulgata,snail,cap (limpet),dispatched,,,,,,,,,1.0,1.0,3.0
+Pecten maximus,clam,two valves (scallop),dispatched,,,,,,,,,1.0,1.0,2.0
+Physella acuta,snail,"coiled, left-handed",dispatched,,,,,,,,,1.0,1.0,0.0
+Pomacea canaliculata,snail,"coiled, right-handed",dispatched,,,,,,,,,1.0,0.0,5.0
+Ruditapes philippinarum,clam,two valves,dispatched,,,,,,,,,1.0,2.0,2.0

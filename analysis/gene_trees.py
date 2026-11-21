@@ -169,7 +169,6 @@ SUBFAMILY = [
     (r"^disp$", "fly disp"), (r"^PTCH1$", "patched (outgroup)"),
 ]
 REF_SPECIES = ("Homo_sapiens", "Drosophila_melanogaster", "Lymnaea_stagnalis")
-CAENO = ("Littorina_saxatilis", "Pomacea_canaliculata", "Babylonia_areolata", "Gigantopelta_aegis")
 
 
 def subfamily(symbol):
@@ -205,6 +204,20 @@ def read():
             print(f"  {sf:12s} refs={len(members)} clade size={len(ca.get_terminals()):3d} "
                   f"bootstrap={ca.confidence} other ref subfamilies inside={sorted(others) or 'none'}")
 
+        # clade-based groups where the tree supports them; nearest reference otherwise
+        groups = []  # (label, set of leaf names), checked in order
+        if fam == "dispatched":
+            a = tree.common_ancestor([n for n, s in refs.items() if s in ("DISP1", "DISP2", "fly disp")])
+            parent = tree.get_path(a)[-2]  # node joining DISP1/2 with its sister lineage
+            in_a = {l.name for l in a.get_terminals()}
+            groups.append(("DISP1/2 (Hedgehog-releasing orthologs)", in_a))
+            groups.append(("mollusc-specific dispatched-like lineage",
+                           {l.name for l in parent.get_terminals()} - in_a))
+            groups.append(("DISP3", {l.name for l in leaves}))
+        else:
+            d_clade = tree.common_ancestor([n for n, s in refs.items() if s == "diaphanous"])
+            groups.append(("diaphanous", {l.name for l in d_clade.get_terminals()}))
+
         rows = []
         ref_leaves = [l for l in leaves if l.name in refs]
         for l in leaves:
@@ -212,9 +225,12 @@ def read():
                 continue
             d = {r.name: tree.distance(l, r) for r in ref_leaves}
             nearest = min(d, key=d.get)
+            group = next((g for g, members in groups if l.name in members), None)
+            if group is None:  # other formins: nearest reference, unless far from all of them
+                group = refs[nearest] if d[nearest] <= 2.0 else "unplaced (long branch)"
             sp, sym, prot = l.name.split("|")
             rows.append(dict(family=fam, species=sp.replace("_", " "), symbol=sym, protein=prot,
-                             nearest_ref=nearest.split("|")[1], subfamily=refs[nearest],
+                             nearest_ref=nearest.split("|")[1], subfamily=group,
                              distance=round(d[nearest], 3)))
         a = pd.DataFrame(rows)
         genes = pd.read_csv(os.path.join(OUT, f"{fam}_genes.csv"))

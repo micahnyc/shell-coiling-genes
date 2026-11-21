@@ -72,6 +72,9 @@ Global protein alignment (BLOSUM62), sequences in `data/formin_proteins/diaphano
 | Littorina dia-2-like, LG6 QTL (XP_070197016.1) | **65.7%** | **69.2%** |
 | Littorina dia-1-like, LG3 (XP_070189802.1) | 34.8% | 33.7% |
 
+The gene tree (below) confirms this: diaphanous is single-copy in most molluscs, and the
+LG6 gene is Littorina's only member of the diaphanous clade. The LG3 "diaphanous-1-like"
+gene is a misnamed 436-aa fragment that falls outside the clade.
 Lsdia1 and Lsdia2 are 87.9% identical to each other (a duplication in the Lymnaea
 lineage), and Littorina has one gene matching the pair, inside the LG6 inversion where
 the opening-shape (S) and size QTLs map. In Lymnaea, losing Lsdia1 function flips the
@@ -140,13 +143,51 @@ genome; Lottia's annotation uses different names and returned 0 for everything (
   3-5 in clams, other snails and the chiton, 1-2 in shell-less or reduced-shell species
   (octopuses 1, Euprymna 1, Aplysia 2, Berghia 2). Expansion with shelled lineages fits
   a role in shell growth, but needs a gene tree to confirm.
-- **Diaphanous formins** are 1-3 copies everywhere. The two naturally left-coiling snails
-  (Biomphalaria, Physella) each have 1, most right-coiling snails 2. Suggestive only:
-  some dextral and non-coiling species also have 1.
+- **Diaphanous formins** are 1-3 copies by name. (The name-based hint that left-coiling
+  snails have fewer copies does not survive the gene tree below.)
 - **Inverted formin (INF2)** is most numerous in clams (Mercenaria 7, oyster 6, Ruditapes 5).
 - **Perlucin-like** genes are hugely expanded in clams (69-153) and abalone (98) but this
   name is given to many C-type lectins, which molluscs also expand for immunity, so this
   count is not a clean shell signal.
+
+### Gene trees (replacing name-based counts)
+Script: `analysis/gene_trees.py` + `analysis/run_trees.sh`. For the 19 molluscs with usable
+annotation plus human and fruit fly, all formin-family genes (295 proteins) and all
+dispatched genes (75, with human patched-1 as outgroup), longest isoform per gene;
+MAFFT alignment, trimAl, IQ-TREE (best models LG+R6 and LG+R5, 1000 ultrafast bootstraps).
+Genes were assigned by membership in clades anchored on human/fly genes.
+Outputs: `gene_tree_formin.png`, `gene_tree_dispatched.png`, `gene_tree_*_assignments.csv`,
+`gene_tree_counts.csv`.
+
+**Diaphanous** (clade with human DIAPH1-3, fly dia and Lymnaea Lsdia1/2, bootstrap 92):
+single-copy in 13 of 19 molluscs, including Littorina (the LG6 gene) and both left-coiling
+snails. Duplicates in Pomacea, Babylonia, Gigantopelta, Patella, oyster and O. sinensis.
+Lsdia1/2 group with Physella and Biomphalaria (bootstrap 100), as expected for pulmonates.
+So copy number does not track coiling direction; the name-based hint was an artefact.
+
+**Dispatched** falls into three groups:
+
+| Group | Human/fly member | Littorina copies | Pattern across molluscs |
+|---|---|---|---|
+| DISP1/2 (Hedgehog-releasing) | DISP1, DISP2, fly disp | 1 (LG17, 70.0 Mb, in W region) | exactly 1 in every species |
+| DISP3 | DISP3 | 1 (LG10) | 0-2 per species |
+| Mollusc-specific dispatched-like lineage, sister to DISP1/2 | none | **6, all LG17** (3 at 64.1-64.3 Mb in the W region) | see below |
+
+The mollusc-specific lineage:
+- **Present in 12 of 14 species with an external shell** (snails, limpets, abalone, clams,
+  chiton; missing in Physella and Gigantopelta).
+- **Absent from all 5 shell-less or internal-shell species** (both octopuses, Euprymna,
+  Aplysia, Berghia). Taken at face value p ~ 0.002 (Fisher), but the absences reflect
+  only 2-3 independent losses (cephalopods; within heterobranch snails), and a missing
+  gene can be an annotation gap.
+- **Expanded in caenogastropods** by duplications shared by Littorina, Pomacea and Babylonia
+  (bootstrap 100 clades), followed by tandem copies within each species: Littorina's 6 sit
+  as two groups of 3 on LG17.
+
+So the caenogastropod "dispatched expansion" is real, and it is this mollusc-specific
+lineage, not the Hedgehog-releasing DISP1. Against a shell role in adults: Littorina's
+copies are barely expressed in the mantle (0-1.4 TPM). The pattern makes the lineage worth
+checking in developing shell gland or juvenile mantle data.
 
 ## Caveats
 - Adding family as a covariate is conservative: it removes between-family genetic

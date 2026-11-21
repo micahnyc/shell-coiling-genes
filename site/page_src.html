@@ -79,7 +79,7 @@ a { color: var(--accent2); }
 
 <section>
   <div class="summary">
-    <div><span class="tag lg17">LG17 · 64–70 Mb</span><h3>Coil expansion (W) and distance from axis (D)</h3><p class="note">W is significant (LOD 4.43). D sits at the threshold. 174 genes, including a cluster of dispatched genes that is barely expressed in the mantle.</p></div>
+    <div><span class="tag lg17">LG17 · 64–70 Mb</span><h3>Coil expansion (W) and distance from axis (D)</h3><p class="note">W is significant (LOD 4.43). D sits at the threshold. 174 genes, including dispatched genes from a mollusc-only lineage that is missing in shell-less species, though barely active in the adult mantle.</p></div>
     <div><span class="tag lg6">LG6 · 0–17.7 Mb inversion</span><h3>Opening shape (S) and shell size</h3><p class="note">Just below the threshold (LOD 3.82). Holds the periwinkle version of the pond-snail coiling gene and 8 strongly mantle-specific genes.</p></div>
     <div><span class="tag" style="color:var(--kelp)">Status</span><h3>Candidates, not causes</h3><p class="note">Each region is millions of bases inherited as a block. Separating genes needs recombinant snails or expression at the shell edge.</p></div>
   </div>
@@ -148,7 +148,7 @@ a { color: var(--accent2); }
       <tr><td>diaphanous-1-like, LG3 <span class="note">XP_070189802.1</span></td><td class="num">34.8%</td><td class="num">33.7%</td></tr>
     </tbody>
   </table></div>
-  <p class="note">Lsdia1 and Lsdia2 are 87.9% identical to each other: a duplication in the Lymnaea lineage. Periwinkle has one gene matching the pair.</p>
+  <p class="note">Lsdia1 and Lsdia2 are 87.9% identical to each other: a duplication in the Lymnaea lineage. The gene tree in section 8 confirms periwinkle has a single diaphanous gene, the LG6 one. The LG3 "diaphanous-1-like" gene is a misnamed fragment that falls outside the clade.</p>
 </section>
 
 <section>
@@ -178,17 +178,39 @@ a { color: var(--accent2); }
 <section>
   <div class="eyebrow">7 · Across molluscs</div>
   <h2>The same gene families in 19 other molluscs</h2>
-  <p>Gene counts by NCBI annotation name. Names are similarity labels, so a gene tree check is under way.</p>
+  <p>Gene counts by NCBI annotation name. Names are similarity labels; section 8 checks them with gene trees.</p>
   <div class="tbl"><table class="hm">
     <thead><tr><th>Species</th><th>Shell</th><th class="num">Diaphanous</th><th class="num">Inverted formin</th><th class="num">Formin-2</th><th class="num">Dispatched</th><th class="num">Perlucin</th></tr></thead>
     <tbody id="fam-rows"></tbody>
   </table></div>
   <ul class="plain">
     <li><b>Dispatched</b> is highest in periwinkle's group (caenogastropods, 6–8) and lowest in octopus and squid (1).</li>
-    <li><b>Diaphanous:</b> both left-coiling snails have 1 copy and most right-coiling snails have 2. Suggestive only, since some others also have 1.</li>
+    <li><b>Diaphanous:</b> by name, left-coiling snails seemed to have fewer copies. The gene tree shows this was a naming artefact.</li>
     <li><b>Perlucin</b> counts are inflated by look-alike immune lectins, so they are not a clean shell signal.</li>
   </ul>
   <p class="note">Not shown: Lottia (its annotation uses different names) and nautilus (no NCBI-annotated genome).</p>
+</section>
+
+<section>
+  <div class="eyebrow">8 · Gene trees</div>
+  <h2>Dispatched: a mollusc-only lineage, missing where the shell is lost</h2>
+  <p>Maximum-likelihood trees (MAFFT, trimAl, IQ-TREE, 1,000 bootstraps) of all 295 formins and 75 dispatched proteins from these molluscs plus human and fruit fly. Genes are grouped by clades anchored on human and fly genes.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Dispatched group</th><th>Human / fly member</th><th class="num">Periwinkle copies</th><th>Across molluscs</th></tr></thead>
+    <tbody>
+      <tr><td>DISP1/2 (releases Hedgehog)</td><td>DISP1, DISP2, fly disp</td><td class="num">1</td><td>exactly 1 in every species. Periwinkle's sits at <span class="lg17">LG17 70.0 Mb</span>, in the W region</td></tr>
+      <tr><td>DISP3</td><td>DISP3</td><td class="num">1</td><td>0–2 per species</td></tr>
+      <tr><td><b>Mollusc-specific lineage</b>, sister to DISP1/2</td><td>none</td><td class="num"><b>6</b></td><td>all on <span class="lg17">LG17</span>, 3 of them in the W region; expanded in periwinkle's group</td></tr>
+    </tbody>
+  </table></div>
+  <div class="figure"><svg id="displin" viewBox="0 0 820 300" role="img" aria-label="Copies of the mollusc-specific dispatched lineage per species, grouped by shell"></svg></div>
+  <ul class="plain">
+    <li>The mollusc-specific lineage is in <b>12 of 14 species with an external shell</b> and <b>none of the 5 without one</b> (octopuses, squid, Aplysia, sea slug).</li>
+    <li>Those 5 absences come from only 2–3 independent losses, and a missing gene can be an annotation gap, so this is a lead, not a result.</li>
+    <li>Periwinkle's copies are barely active in the adult mantle. A test would need the developing shell gland or juvenile mantle.</li>
+    <li><b>Diaphanous</b> is single-copy in 13 of 19 molluscs, including periwinkle and both left-coiling snails. Copy number does not track coiling direction.</li>
+  </ul>
+  <p class="note">Full trees: <code>analysis/results/gene_tree_dispatched.png</code> and <code>gene_tree_formin.png</code> in the repository.</p>
 </section>
 
 <section>
@@ -399,5 +421,29 @@ const MANTLE = [
   rows.forEach(r => tb.insertAdjacentHTML("beforeend",
     `<tr><td${r[7] ? ' style="font-weight:600"' : ""}><i>${r[0]}</i></td><td class="note">${r[1]}</td>` +
     r.slice(2, 7).map((v, j) => `<td class="c" style="background:${shade(v, maxes[j])}">${v}</td>`).join("") + "</tr>"));
+})();
+
+/* 8. Mollusc-specific dispatched lineage by shell */
+(function () {
+  const s = document.getElementById("displin");
+  const groups = [
+    ["External shell", [["Littorina", 6, 1], ["Babylonia", 6], ["Pomacea", 5], ["Liolophura (chiton)", 4], ["Patella", 3],
+      ["Haliotis", 2], ["Mya", 2], ["Pecten", 2], ["Ruditapes", 2], ["Crassostrea", 2], ["Mercenaria", 1], ["Biomphalaria", 1],
+      ["Physella", 0], ["Gigantopelta", 0]]],
+    ["No shell or internal", [["Aplysia", 0], ["Berghia", 0], ["Euprymna", 0], ["O. bimaculoides", 0], ["O. sinensis", 0]]],
+  ];
+  const L = 150, R = 800, max = 6, X = v => L + v / max * (R - L - 30);
+  let y = 14;
+  groups.forEach(([title, rows], gi) => {
+    el(s, "text", { x: 8, y: y + 2, "font-size": 11, "font-weight": 700, fill: gi ? C.muted : C.a }, title);
+    y += 10;
+    rows.forEach(([name, v, hi]) => {
+      el(s, "text", { x: L - 8, y: y + 8, "font-size": 10, "text-anchor": "end", fill: C.fg, "font-style": "italic", "font-weight": hi ? 700 : 400 }, name);
+      if (v > 0) el(s, "rect", { x: L, y: y, width: X(v) - L, height: 10, rx: 2, fill: gi ? C.muted : C.a, opacity: hi ? 1 : 0.75 });
+      el(s, "text", { x: v > 0 ? X(v) + 5 : L + 2, y: y + 8.5, "font-size": 9.5, "font-family": "JetBrains Mono, monospace", fill: v ? C.fg : C.muted }, v ? v : "absent");
+      y += 12.5;
+    });
+    y += 8;
+  });
 })();
 </script>

@@ -16,6 +16,7 @@ public data only.
 - Opening shape **S** and shell size map to a 17 Mb inversion on LG6 (just below threshold).
 - The LG6 inversion holds the periwinkle version of *Lsdia1*, the formin gene that sets coiling direction in the pond snail *Lymnaea* (66-69% protein identity).
 - Several LG6 genes are strongly mantle-specific (the shell-building tissue). A dispatched-gene cluster in the W region is not.
+- Gene trees: periwinkle has a single diaphanous gene (the LG6 one). Six of its LG17 dispatched genes belong to a mollusc-only lineage that is present in 12 of 14 shelled species and absent from all 5 shell-less or internal-shell species examined.
 - These are candidate regions and genes, not demonstrated causes.
 
 ## Scripts

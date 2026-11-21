@@ -1,0 +1,71 @@
+family,species,symbol,protein,nearest_ref,subfamily,distance,name,chrom,group,shell
+dispatched,Littorina saxatilis,LOC138978764,XP_070207653.1,DISP3,DISP3,1.064,protein dispatched homolog 3-like,LG10,snail,"coiled, right-handed"
+dispatched,Littorina saxatilis,LOC138953443,XP_070181352.1,DISP1,mollusc-specific dispatched-like lineage,2.587,protein dispatched homolog 1-like,LG17,snail,"coiled, right-handed"
+dispatched,Littorina saxatilis,LOC138953300,XP_070181201.1,DISP1,mollusc-specific dispatched-like lineage,2.598,protein dispatched homolog 1-like,LG17,snail,"coiled, right-handed"
+dispatched,Littorina saxatilis,LOC138953499,XP_070181439.1,DISP1,mollusc-specific dispatched-like lineage,2.594,protein dispatched homolog 1-like,LG17,snail,"coiled, right-handed"
+dispatched,Pomacea canaliculata,LOC112561637,XP_025090010.1,DISP1,mollusc-specific dispatched-like lineage,2.658,protein dispatched homolog 3-like,LG4,snail,"coiled, right-handed"
+dispatched,Pomacea canaliculata,LOC112571291,XP_025105971.1,DISP1,mollusc-specific dispatched-like lineage,2.661,protein dispatched homolog 1-like,LG8,snail,"coiled, right-handed"
+dispatched,Haliotis rufescens,LOC124151516,XP_046379986.2,DISP1,mollusc-specific dispatched-like lineage,2.498,protein dispatched homolog 3-like,,snail,ear-shaped (abalone)
+dispatched,Patella vulgata,LOC126820925,XP_050405065.1,DISP1,mollusc-specific dispatched-like lineage,2.51,protein dispatched homolog 3-like,5,snail,cap (limpet)
+dispatched,Liolophura sinensis,LOC135469354,XP_064604053.1,DISP1,mollusc-specific dispatched-like lineage,2.526,protein dispatched homolog 3-like,6,chiton,eight plates
+dispatched,Pecten maximus,LOC117324028,XP_033735522.1,DISP1,mollusc-specific dispatched-like lineage,2.492,protein dispatched homolog 1-like,3,clam,two valves (scallop)
+dispatched,Biomphalaria glabrata,LOC106070916,XP_055880253.1,DISP1,mollusc-specific dispatched-like lineage,2.564,protein dispatched homolog 3-like,3,snail,"coiled flat, left-handed"
+dispatched,Littorina saxatilis,LOC138953591,XP_070181545.1,DISP1,mollusc-specific dispatched-like lineage,2.756,protein dispatched-like,LG17,snail,"coiled, right-handed"
+dispatched,Littorina saxatilis,LOC138953362,XP_070181261.1,DISP1,mollusc-specific dispatched-like lineage,2.757,protein dispatched homolog 1-like,LG17,snail,"coiled, right-handed"
+dispatched,Littorina saxatilis,LOC138953364,XP_070181263.1,DISP1,mollusc-specific dispatched-like lineage,2.749,protein dispatched homolog 1-like,LG17,snail,"coiled, right-handed"
+dispatched,Babylonia areolata,LOC143281289,XP_076442540.1,DISP1,mollusc-specific dispatched-like lineage,2.795,protein dispatched homolog 1-like,4,snail,"coiled, right-handed"
+dispatched,Babylonia areolata,LOC143281483,XP_076442808.1,DISP1,mollusc-specific dispatched-like lineage,2.824,protein dispatched homolog 1-like,4,snail,"coiled, right-handed"
+dispatched,Pomacea canaliculata,LOC112571125,XP_025105722.1,DISP1,mollusc-specific dispatched-like lineage,2.871,LOW QUALITY PROTEIN: protein dispatched homolog 1-like,LG8,snail,"coiled, right-handed"
+dispatched,Pomacea canaliculata,LOC112570592,XP_025104896.1,DISP1,mollusc-specific dispatched-like lineage,2.963,protein dispatched homolog 3-like,LG8,snail,"coiled, right-handed"
+dispatched,Pomacea canaliculata,LOC112570593,XP_025104897.1,DISP1,mollusc-specific dispatched-like lineage,2.96,protein dispatched homolog 1-like,LG8,snail,"coiled, right-handed"
+dispatched,Babylonia areolata,LOC143296620,XP_076464765.1,DISP1,mollusc-specific dispatched-like lineage,2.68,protein dispatched homolog 1-like,21,snail,"coiled, right-handed"
+dispatched,Babylonia areolata,LOC143296621,XP_076464766.1,DISP1,mollusc-specific dispatched-like lineage,2.662,protein dispatched homolog 1-like,21,snail,"coiled, right-handed"
+dispatched,Babylonia areolata,LOC143296484,XP_076464560.1,DISP1,mollusc-specific dispatched-like lineage,2.671,protein dispatched homolog 1-like,21,snail,"coiled, right-handed"
+dispatched,Babylonia areolata,LOC143296097,XP_076463983.1,DISP1,mollusc-specific dispatched-like lineage,2.666,protein dispatched homolog 1-like,21,snail,"coiled, right-handed"
+dispatched,Patella vulgata,LOC126821430,XP_055956984.1,DISP1,mollusc-specific dispatched-like lineage,2.787,protein dispatched homolog 1-like,5,snail,cap (limpet)
+dispatched,Patella vulgata,LOC126821429,XP_050405808.2,DISP1,mollusc-specific dispatched-like lineage,2.794,protein dispatched homolog 3,5,snail,cap (limpet)
+dispatched,Haliotis rufescens,LOC124151514,XP_046379983.2,DISP1,mollusc-specific dispatched-like lineage,2.554,protein dispatched homolog 3-like isoform X1,,snail,ear-shaped (abalone)
+dispatched,Mercenaria mercenaria,LOC123534691,XP_045172972.2,DISP1,mollusc-specific dispatched-like lineage,2.928,protein dispatched homolog 1-like,12,clam,two valves
+dispatched,Ruditapes philippinarum,LOC132755103,XP_060601881.1,DISP1,mollusc-specific dispatched-like lineage,2.959,protein dispatched homolog 3-like,,clam,two valves
+dispatched,Ruditapes philippinarum,LOC132728813,XP_060570468.1,DISP1,mollusc-specific dispatched-like lineage,2.936,protein dispatched homolog 3-like,,clam,two valves
+dispatched,Mya arenaria,LOC128209404,XP_052769386.1,DISP1,mollusc-specific dispatched-like lineage,2.742,protein dispatched homolog 3-like,11,clam,two valves
+dispatched,Mya arenaria,LOC128207131,XP_052765857.1,DISP1,mollusc-specific dispatched-like lineage,2.677,protein dispatched homolog 1-like,11,clam,two valves
+dispatched,Crassostrea virginica,LOC111130293,XP_022332853.2,DISP1,mollusc-specific dispatched-like lineage,2.643,protein dispatched homolog 1-like,8,clam,two valves (oyster)
+dispatched,Crassostrea virginica,LOC111131095,XP_022334151.2,DISP1,mollusc-specific dispatched-like lineage,2.743,protein dispatched homolog 1-like,8,clam,two valves (oyster)
+dispatched,Pecten maximus,LOC117323597,XP_033734798.1,DISP1,mollusc-specific dispatched-like lineage,2.691,protein dispatched homolog 1-like isoform X1,3,clam,two valves (scallop)
+dispatched,Liolophura sinensis,LOC135466831,XP_064600617.1,DISP1,mollusc-specific dispatched-like lineage,2.667,protein dispatched homolog 3-like,6,chiton,eight plates
+dispatched,Liolophura sinensis,LOC135464864,XP_064598506.1,DISP1,mollusc-specific dispatched-like lineage,2.419,protein dispatched homolog 3-like,1,chiton,eight plates
+dispatched,Liolophura sinensis,LOC135464875,XP_064598517.1,DISP1,mollusc-specific dispatched-like lineage,2.276,protein dispatched-like,1,chiton,eight plates
+dispatched,Littorina saxatilis,LOC138952378,XP_070180141.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.206,protein dispatched homolog 1-like,LG17,snail,"coiled, right-handed"
+dispatched,Babylonia areolata,LOC143281577,XP_076442927.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.217,protein dispatched homolog 1-like,4,snail,"coiled, right-handed"
+dispatched,Pomacea canaliculata,LOC112570350,XP_025104534.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.199,LOW QUALITY PROTEIN: protein dispatched homolog 1-like,LG8,snail,"coiled, right-handed"
+dispatched,Biomphalaria glabrata,LOC106063937,XP_055880866.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.434,protein dispatched homolog 1-like,3,snail,"coiled flat, left-handed"
+dispatched,Physella acuta,LOC131944456,XP_059161061.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.358,protein dispatched homolog 1-like,,snail,"coiled, left-handed"
+dispatched,Aplysia californica,LOC118477129,XP_005097030.2,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.313,protein dispatched homolog 1-like,,snail,"reduced, internal"
+dispatched,Berghia stephanieae,LOC144962949,XP_078752515.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.37,protein dispatched homolog 1-like,1,snail,none (sea slug)
+dispatched,Gigantopelta aegis,LOC121372668,XP_041355048.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.084,protein dispatched homolog 1-like,4,snail,"coiled, right-handed"
+dispatched,Haliotis rufescens,LOC124146661,XP_046373022.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.026,protein dispatched homolog 1-like isoform X1,,snail,ear-shaped (abalone)
+dispatched,Patella vulgata,LOC126820645,XP_050404673.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.025,protein dispatched homolog 1,5,snail,cap (limpet)
+dispatched,Mercenaria mercenaria,LOC123529181,XP_045165343.2,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.419,protein dispatched homolog 1-like,1,clam,two valves
+dispatched,Ruditapes philippinarum,LOC132719435,XP_060559183.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.394,protein dispatched homolog 1-like,,clam,two valves
+dispatched,Mya arenaria,LOC128209131,XP_052768967.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.398,protein dispatched homolog 1-like,11,clam,two valves
+dispatched,Crassostrea virginica,LOC111129952,XP_078313816.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.325,protein dispatched homolog 1-like,8,clam,two valves (oyster)
+dispatched,Pecten maximus,LOC117323388,XP_033734465.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.213,protein dispatched homolog 1-like,3,clam,two valves (scallop)
+dispatched,Liolophura sinensis,LOC135468472,XP_064602822.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.031,protein dispatched homolog 1-like,6,chiton,eight plates
+dispatched,Euprymna scolopes,LOC145260537,XP_079974874.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),0.96,protein dispatched homolog 1-like,36,cephalopod,"reduced, internal"
+dispatched,Octopus bimaculoides,LOC106873114,XP_052827489.1,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.141,protein dispatched homolog 1,11,cephalopod,none
+dispatched,Octopus sinensis,LOC115217466,XP_029643031.2,DISP1,DISP1/2 (Hedgehog-releasing orthologs),1.144,protein dispatched homolog 1-like,LG11,cephalopod,none
+dispatched,Patella vulgata,LOC126828125,XP_055958467.1,DISP3,DISP3,0.91,protein dispatched homolog 3,7,snail,cap (limpet)
+dispatched,Gigantopelta aegis,LOC121390397,XP_041378130.1,DISP3,DISP3,0.923,protein dispatched homolog 3-like,15,snail,"coiled, right-handed"
+dispatched,Haliotis rufescens,LOC124149599,XP_046377242.2,DISP3,DISP3,0.921,protein dispatched homolog 3-like isoform X1,,snail,ear-shaped (abalone)
+dispatched,Mercenaria mercenaria,LOC123527597,XP_053378602.1,DISP3,DISP3,0.954,protein dispatched homolog 3-like,14,clam,two valves
+dispatched,Ruditapes philippinarum,LOC132748580,XP_060594182.1,DISP3,DISP3,0.95,protein dispatched homolog 3-like,,clam,two valves
+dispatched,Ruditapes philippinarum,LOC132757710,XP_060605048.1,DISP3,DISP3,0.955,protein dispatched homolog 3-like,,clam,two valves
+dispatched,Mya arenaria,LOC128202801,XP_052759901.1,DISP3,DISP3,0.995,protein dispatched homolog 3-like,9,clam,two valves
+dispatched,Pecten maximus,LOC117344532,XP_033763193.1,DISP3,DISP3,0.937,protein dispatched homolog 3-like,16,clam,two valves (scallop)
+dispatched,Liolophura sinensis,LOC135475725,XP_064611729.1,DISP3,DISP3,0.782,protein dispatched homolog 3-like,9,chiton,eight plates
+dispatched,Biomphalaria glabrata,LOC106067624,XP_055863548.1,DISP3,DISP3,1.04,protein dispatched homolog 3-like,13,snail,"coiled flat, left-handed"
+dispatched,Physella acuta,LOC131946179,XP_059162814.1,DISP3,DISP3,0.977,protein dispatched homolog 3-like,,snail,"coiled, left-handed"
+dispatched,Aplysia californica,LOC101863752,XP_012939999.1,DISP3,DISP3,0.985,protein dispatched homolog 3,,snail,"reduced, internal"
+dispatched,Berghia stephanieae,LOC144971544,XP_078768684.1,DISP3,DISP3,0.935,protein dispatched homolog 3-like,4,snail,none (sea slug)
+dispatched,Babylonia areolata,LOC143287270,XP_076451332.1,DISP3,DISP3,1.012,protein dispatched homolog 3-like,11,snail,"coiled, right-handed"

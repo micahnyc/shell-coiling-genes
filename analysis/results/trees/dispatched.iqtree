@@ -1,0 +1,463 @@
+IQ-TREE 3.1.4 built Sep 29 2026
+
+Input file name: dispatched.trim.faa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 252977
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ModelFinder please also cite: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 75 sequences with 507 amino-acid sites
+Number of constant sites: 4 (= 0.788955% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4 (= 0.788955% of all sites)
+Number of parsimony informative sites: 491
+Number of distinct site patterns: 507
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+R5
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+R5            -37909.648   76129.296 +    0.324   76267.074 +    0.839   76784.716 +    0.948
+LG+I+R5          -37909.635   76131.270 +    0.121   76271.224 +    0.105   76790.917 -   0.0427
+LG+R6            -37908.299   76130.598 +    0.169   76272.752 -   0.0491   76794.474 -  0.00721
+LG+G4            -37938.101   76172.203 - 1.56e-10   76295.398 - 5.94e-07   76798.023 -  0.00122
+LG+R4            -37923.450   76152.900 - 2.43e-06   76286.396 - 5.35e-05   76799.862 - 0.000487
+LG+I+R6          -37908.291   76132.582 +   0.0626   76276.961 -  0.00598   76800.687 - 0.000323
+LG+I+G4          -37938.096   76174.193 - 5.77e-11   76299.403 - 8.02e-08   76804.241 - 5.46e-05
+LG+I+R4          -37923.412   76154.823 - 9.27e-07   76290.448 - 7.05e-06   76806.014 - 2.25e-05
+LG+F+R5          -37891.021   76130.043 +    0.223   76313.477 - 7.04e-11   76865.804 - 2.34e-18
+LG+F+I+R5        -37891.217   76132.434 +   0.0675   76318.536 - 5.61e-12   76872.423 - 8.54e-20
+LG+F+R6          -37890.923   76133.845 -   0.0333   76322.645 - 7.19e-13   76878.063 - 5.09e-21
+LG+R3            -37976.854   76255.708 - 1.15e-28   76385.015 - 2.06e-26   76894.213 - 1.58e-24
+LG+I+R3          -37976.638   76257.275 - 5.25e-29   76388.665 - 3.32e-27   76900.009 - 8.73e-26
+WAG+F+R5         -38044.285   76436.570 - 6.12e-68   76620.003 - 1.93e-77   77172.331 - 6.42e-85
+WAG+F+I+R5       -38044.217   76438.435 - 2.41e-68   76624.538 -    2e-78   77178.424 - 3.05e-86
+WAG+F+R6         -38043.019   76438.038 - 2.94e-68   76626.838 - 6.34e-79   77182.256 - 4.49e-87
+LG+R2            -38166.318   76630.635 - 4.43e-110   76755.845 - 6.15e-107   77260.683 - 4.19e-104
+LG+I+R2          -38166.335   76632.670 - 1.6e-110   76759.917 - 8.02e-108   77266.947 - 1.83e-105
+JTT+F+R5         -38249.815   76847.631 - 3.36e-157   77031.065 - 1.06e-166   77583.392 - 3.52e-174
+WAG+R5           -38309.977   76929.954 - 4.47e-175   77067.731 - 1.16e-174   77585.373 - 1.31e-174
+JTT+F+I+R5       -38249.847   76849.693 - 1.2e-157   77035.796 - 9.96e-168   77589.683 - 1.51e-175
+JTT+F+R6         -38247.360   76846.720 - 5.29e-157   77035.520 - 1.14e-167   77590.938 - 8.09e-176
+WAG+I+R5         -38309.842   76931.684 - 1.88e-175   77071.638 - 1.64e-175   77591.332 - 6.64e-176
+WAG+R6           -38309.885   76933.769 - 6.63e-176   77075.924 - 1.93e-176   77597.646 - 2.83e-177
+JTT+R5           -38451.597   77213.194 - 1.4e-236   77350.972 - 3.62e-236   77868.614 - 4.09e-236
+JTT+R6           -38447.252   77208.503 - 1.46e-235   77350.658 - 4.23e-236   77872.379 - 6.22e-237
+JTT+I+R5         -38451.520   77215.039 - 5.55e-237   77354.994 - 4.84e-237   77874.687 - 1.96e-237
+LG+I             -39408.555   79113.110 -        0   79236.305 -        0   79738.929 -        0
+LG               -39418.087   79130.174 -        0   79251.377 -        0   79751.765 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+R5
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.1550,0.1596) (0.3251,0.4734) (0.3074,1.0854) (0.1919,2.1150) (0.0205,3.9838)
+
+ Category  Relative_rate  Proportion
+  1         0.1596         0.1550
+  2         0.4734         0.3251
+  3         1.0854         0.3074
+  4         2.1150         0.1919
+  5         3.9838         0.0205
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -37887.5332 (s.e. 842.7785)
+Unconstrained log-likelihood (without tree): -3157.8551
+Number of free parameters (#branches + #model parameters): 155
+Akaike information criterion (AIC) score: 76085.0664
+Corrected Akaike information criterion (AICc) score: 76222.8442
+Bayesian information criterion (BIC) score: 76740.4857
+
+Total tree length (sum of branch lengths): 25.8131
+Sum of internal branch lengths: 10.6229 (41.1530% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Littorina_saxatilis|LOC138978764|XP_070207653.1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Littorina_saxatilis|LOC138978764|XP_070207653.1
+|
+|                                                    +--Littorina_saxatilis|LOC138953443|XP_070181352.1
+|                                                 +--| (100)
+|                                                 |  |  +--Littorina_saxatilis|LOC138953300|XP_070181201.1
+|                                                 |  +--| (99)
+|                                                 |     +--Littorina_saxatilis|LOC138953499|XP_070181439.1
+|                                              +--| (100)
+|                                              |  |  +**Pomacea_canaliculata|LOC112561637|XP_025090010.1
+|                                              |  +--| (100)
+|                                              |     +--Pomacea_canaliculata|LOC112571291|XP_025105971.1
+|                                           +--| (51)
+|                                           |  |     +--Haliotis_rufescens|LOC124151516|XP_046379986.2
+|                                           |  |  +--| (56)
+|                                           |  |  |  +--Patella_vulgata|LOC126820925|XP_050405065.1
+|                                           |  +--| (51)
+|                                           |     +---Liolophura_sinensis|LOC135469354|XP_064604053.1
+|                                        +--| (73)
+|                                        |  +---Pecten_maximus|LOC117324028|XP_033735522.1
+|                                     +--| (99)
+|                                     |  +----Biomphalaria_glabrata|LOC106070916|XP_055880253.1
+|                                  +--| (99)
+|                                  |  |                          +**Littorina_saxatilis|LOC138953591|XP_070181545.1
+|                                  |  |                       +--| (100)
+|                                  |  |                       |  +**Littorina_saxatilis|LOC138953362|XP_070181261.1
+|                                  |  |                    +--| (100)
+|                                  |  |                    |  +--Littorina_saxatilis|LOC138953364|XP_070181263.1
+|                                  |  |                 +--| (100)
+|                                  |  |                 |  |  +--Babylonia_areolata|LOC143281289|XP_076442540.1
+|                                  |  |                 |  +--| (100)
+|                                  |  |                 |     +--Babylonia_areolata|LOC143281483|XP_076442808.1
+|                                  |  |              +--| (74)
+|                                  |  |              |  |  +--Pomacea_canaliculata|LOC112571125|XP_025105722.1
+|                                  |  |              |  +--| (100)
+|                                  |  |              |     |  +--Pomacea_canaliculata|LOC112570592|XP_025104896.1
+|                                  |  |              |     +--| (100)
+|                                  |  |              |        +--Pomacea_canaliculata|LOC112570593|XP_025104897.1
+|                                  |  |           +--| (100)
+|                                  |  |           |  |        +--Babylonia_areolata|LOC143296620|XP_076464765.1
+|                                  |  |           |  |     +--| (92)
+|                                  |  |           |  |     |  +--Babylonia_areolata|LOC143296621|XP_076464766.1
+|                                  |  |           |  |  +--| (100)
+|                                  |  |           |  |  |  +--Babylonia_areolata|LOC143296484|XP_076464560.1
+|                                  |  |           |  +--| (100)
+|                                  |  |           |     +--Babylonia_areolata|LOC143296097|XP_076463983.1
+|                                  |  |        +--| (91)
+|                                  |  |        |  |    +--Patella_vulgata|LOC126821430|XP_055956984.1
+|                                  |  |        |  +----| (100)
+|                                  |  |        |       +--Patella_vulgata|LOC126821429|XP_050405808.2
+|                                  |  |     +--| (94)
+|                                  |  |     |  +--Haliotis_rufescens|LOC124151514|XP_046379983.2
+|                                  |  |  +--| (100)
+|                                  |  |  |  |            +--Mercenaria_mercenaria|LOC123534691|XP_045172972.2
+|                                  |  |  |  |        +---| (100)
+|                                  |  |  |  |        |   |  +--Ruditapes_philippinarum|LOC132755103|XP_060601881.1
+|                                  |  |  |  |        |   +--| (100)
+|                                  |  |  |  |        |      +--Ruditapes_philippinarum|LOC132728813|XP_060570468.1
+|                                  |  |  |  |     +--| (100)
+|                                  |  |  |  |     |  +--Mya_arenaria|LOC128209404|XP_052769386.1
+|                                  |  |  |  |  +--| (95)
+|                                  |  |  |  |  |  +---Mya_arenaria|LOC128207131|XP_052765857.1
+|                                  |  |  |  +--| (92)
+|                                  |  |  |     +---Crassostrea_virginica|LOC111130293|XP_022332853.2
+|                                  |  +--| (92)
+|                                  |     |     +---Crassostrea_virginica|LOC111131095|XP_022334151.2
+|                                  |     |  +--| (100)
+|                                  |     |  |  +--Pecten_maximus|LOC117323597|XP_033734798.1
+|                                  |     +--| (100)
+|                                  |        +----Liolophura_sinensis|LOC135466831|XP_064600617.1
+|                             +----| (98)
+|                             |    |  +---Liolophura_sinensis|LOC135464864|XP_064598506.1
+|                             |    +--| (100)
+|                             |       +--Liolophura_sinensis|LOC135464875|XP_064598517.1
+|                          +--| (90)
+|                          |  |                                        +--Littorina_saxatilis|LOC138952378|XP_070180141.1
+|                          |  |                                     +--| (100)
+|                          |  |                                     |  +--Babylonia_areolata|LOC143281577|XP_076442927.1
+|                          |  |                                  +--| (100)
+|                          |  |                                  |  +--Pomacea_canaliculata|LOC112570350|XP_025104534.1
+|                          |  |                               +--| (100)
+|                          |  |                               |  |        +--Biomphalaria_glabrata|LOC106063937|XP_055880866.1
+|                          |  |                               |  |     +--| (100)
+|                          |  |                               |  |     |  +--Physella_acuta|LOC131944456|XP_059161061.1
+|                          |  |                               |  |  +--| (100)
+|                          |  |                               |  |  |  +--Aplysia_californica|LOC118477129|XP_005097030.2
+|                          |  |                               |  +--| (100)
+|                          |  |                               |     +--Berghia_stephanieae|LOC144962949|XP_078752515.1
+|                          |  |                            +--| (91)
+|                          |  |                            |  |  +--Gigantopelta_aegis|LOC121372668|XP_041355048.1
+|                          |  |                            |  +--| (99)
+|                          |  |                            |     +--Haliotis_rufescens|LOC124146661|XP_046373022.1
+|                          |  |                         +--| (100)
+|                          |  |                         |  +--Patella_vulgata|LOC126820645|XP_050404673.1
+|                          |  |                      +--| (86)
+|                          |  |                      |  |          +--Mercenaria_mercenaria|LOC123529181|XP_045165343.2
+|                          |  |                      |  |       +--| (100)
+|                          |  |                      |  |       |  +--Ruditapes_philippinarum|LOC132719435|XP_060559183.1
+|                          |  |                      |  |  +----| (100)
+|                          |  |                      |  |  |    +--Mya_arenaria|LOC128209131|XP_052768967.1
+|                          |  |                      |  +--| (100)
+|                          |  |                      |     |  +---Crassostrea_virginica|LOC111129952|XP_078313816.1
+|                          |  |                      |     +--| (96)
+|                          |  |                      |        +--Pecten_maximus|LOC117323388|XP_033734465.1
+|                          |  |                   +--| (94)
+|                          |  |                   |  +--Liolophura_sinensis|LOC135468472|XP_064602822.1
+|                          |  |                +--| (100)
+|                          |  |                |  |  +--Euprymna_scolopes|LOC145260537|XP_079974874.1
+|                          |  |                |  +--| (100)
+|                          |  |                |     |  +--Octopus_bimaculoides|LOC106873114|XP_052827489.1
+|                          |  |                |     +--| (100)
+|                          |  |                |        +--Octopus_sinensis|LOC115217466|XP_029643031.2
+|                          |  |             +--| (99)
+|                          |  |             |  +---------Drosophila_melanogaster|disp|NP_524734.2
+|                          |  +-------------| (100)
+|                          |                |  +--Homo_sapiens|DISP1|NP_116279.2
+|                          |                +--| (97)
+|                          |                   +-----------Homo_sapiens|DISP2|NP_277045.1
+|           +--------------| (100)
+|           |              +--------------------------------------Homo_sapiens|PTCH1|NP_000255.2
+|        +--| (50)
+|        |  +--Patella_vulgata|LOC126828125|XP_055958467.1
+|     +--| (25)
+|     |  |        +--Biomphalaria_glabrata|LOC106067624|XP_055863548.1
+|     |  |     +--| (94)
+|     |  |     |  +--Physella_acuta|LOC131946179|XP_059162814.1
+|     |  |  +--| (50)
+|     |  |  |  +--Aplysia_californica|LOC101863752|XP_012939999.1
+|     |  +--| (100)
+|     |     +--Berghia_stephanieae|LOC144971544|XP_078768684.1
+|  +--| (33)
+|  |  |  +--Gigantopelta_aegis|LOC121390397|XP_041378130.1
+|  |  +--| (84)
+|  |     +--Haliotis_rufescens|LOC124149599|XP_046377242.2
++--| (100)
+|  |           +--Mercenaria_mercenaria|LOC123527597|XP_053378602.1
+|  |        +--| (100)
+|  |        |  |  +--Ruditapes_philippinarum|LOC132748580|XP_060594182.1
+|  |        |  +--| (100)
+|  |        |     +--Ruditapes_philippinarum|LOC132757710|XP_060605048.1
+|  |     +--| (100)
+|  |     |  +--Mya_arenaria|LOC128202801|XP_052759901.1
+|  |  +--| (71)
+|  |  |  +--Pecten_maximus|LOC117344532|XP_033763193.1
+|  +--| (48)
+|     |  +--Liolophura_sinensis|LOC135475725|XP_064611729.1
+|     +--| (49)
+|        +-----Homo_sapiens|DISP3|NP_065831.1
+|
++--Babylonia_areolata|LOC143287270|XP_076451332.1
+
+Tree in newick format:
+
+(Littorina_saxatilis|LOC138978764|XP_070207653.1:0.1569940396,(((((((((((((Littorina_saxatilis|LOC138953443|XP_070181352.1:0.0035831836,(Littorina_saxatilis|LOC138953300|XP_070181201.1:0.0120562954,Littorina_saxatilis|LOC138953499|XP_070181439.1:0.0079703332)99:0.0024281133)100:0.1603294945,(Pomacea_canaliculata|LOC112561637|XP_025090010.1:0.0000010007,Pomacea_canaliculata|LOC112571291|XP_025105971.1:0.0031704918)100:0.2349986621)100:0.2421773886,((Haliotis_rufescens|LOC124151516|XP_046379986.2:0.2145327450,Patella_vulgata|LOC126820925|XP_050405065.1:0.2266154395)56:0.0618808126,Liolophura_sinensis|LOC135469354|XP_064604053.1:0.3045751449)51:0.0411485720)51:0.0212614151,Pecten_maximus|LOC117324028|XP_033735522.1:0.3326042727)73:0.0342213330,Biomphalaria_glabrata|LOC106070916|XP_055880253.1:0.4394137234)99:0.0851832456,(((((((((Littorina_saxatilis|LOC138953591|XP_070181545.1:0.0000010007,Littorina_saxatilis|LOC138953362|XP_070181261.1:0.0019417648)100:0.0120716018,Littorina_saxatilis|LOC138953364|XP_070181263.1:0.0056552352)100:0.1591081954,(Babylonia_areolata|LOC143281289|XP_076442540.1:0.0166816420,Babylonia_areolata|LOC143281483|XP_076442808.1:0.0453894511)100:0.1938490302)100:0.1165960767,(Pomacea_canaliculata|LOC112571125|XP_025105722.1:0.2917377347,(Pomacea_canaliculata|LOC112570592|XP_025104896.1:0.1749311069,Pomacea_canaliculata|LOC112570593|XP_025104897.1:0.1726512155)100:0.2083619861)100:0.1115642292)74:0.0249847207,(((Babylonia_areolata|LOC143296620|XP_076464765.1:0.0242208704,Babylonia_areolata|LOC143296621|XP_076464766.1:0.0062717575)92:0.0112726279,Babylonia_areolata|LOC143296484|XP_076464560.1:0.0268713386)100:0.0726340088,Babylonia_areolata|LOC143296097|XP_076463983.1:0.0945234738)100:0.1291701370)100:0.0997693146,(Patella_vulgata|LOC126821430|XP_055956984.1:0.0117433778,Patella_vulgata|LOC126821429|XP_050405808.2:0.0193620944)100:0.4325295265)91:0.0464902387,Haliotis_rufescens|LOC124151514|XP_046379983.2:0.2583918467)94:0.0528766975,((((Mercenaria_mercenaria|LOC123534691|XP_045172972.2:0.0756755635,(Ruditapes_philippinarum|LOC132755103|XP_060601881.1:0.0293173099,Ruditapes_philippinarum|LOC132728813|XP_060570468.1:0.0061986604)100:0.0772062785)100:0.3360869767,Mya_arenaria|LOC128209404|XP_052769386.1:0.2267834969)100:0.1474662374,Mya_arenaria|LOC128207131|XP_052765857.1:0.3101521844)95:0.0436633058,Crassostrea_virginica|LOC111130293|XP_022332853.2:0.3194454505)92:0.0806435975)100:0.1302290948,((Crassostrea_virginica|LOC111131095|XP_022334151.2:0.3149911581,Pecten_maximus|LOC117323597|XP_033734798.1:0.2634761039)100:0.1631831706,Liolophura_sinensis|LOC135466831|XP_064600617.1:0.4027793302)100:0.1520144390)92:0.0730362907)99:0.2012248154,(Liolophura_sinensis|LOC135464864|XP_064598506.1:0.3434689423,Liolophura_sinensis|LOC135464875|XP_064598517.1:0.2009615837)100:0.2411186754)98:0.3873620412,((((((((((Littorina_saxatilis|LOC138952378|XP_070180141.1:0.0613737752,Babylonia_areolata|LOC143281577|XP_076442927.1:0.0724151521)100:0.0672030484,Pomacea_canaliculata|LOC112570350|XP_025104534.1:0.1212184837)100:0.1179878077,(((Biomphalaria_glabrata|LOC106063937|XP_055880866.1:0.2002455598,Physella_acuta|LOC131944456|XP_059161061.1:0.1252923255)100:0.0563007218,Aplysia_californica|LOC118477129|XP_005097030.2:0.1359007465)100:0.0522519530,Berghia_stephanieae|LOC144962949|XP_078752515.1:0.2453833197)100:0.1644971322)100:0.0787863234,(Gigantopelta_aegis|LOC121372668|XP_041355048.1:0.1687866181,Haliotis_rufescens|LOC124146661|XP_046373022.1:0.1105883087)99:0.0348367198)91:0.0244065757,Patella_vulgata|LOC126820645|XP_050404673.1:0.1687202921)100:0.0680102956,(((Mercenaria_mercenaria|LOC123529181|XP_045165343.2:0.0501937767,Ruditapes_philippinarum|LOC132719435|XP_060559183.1:0.0253206577)100:0.1112839083,Mya_arenaria|LOC128209131|XP_052768967.1:0.1410099030)100:0.3767873251,(Crassostrea_virginica|LOC111129952|XP_078313816.1:0.3656998191,Pecten_maximus|LOC117323388|XP_033734465.1:0.2543292545)96:0.0786335429)100:0.0916575797)86:0.0456717695,Liolophura_sinensis|LOC135468472|XP_064602822.1:0.2888598185)94:0.0691548194,(Euprymna_scolopes|LOC145260537|XP_079974874.1:0.0981954698,(Octopus_bimaculoides|LOC106873114|XP_052827489.1:0.0104748769,Octopus_sinensis|LOC115217466|XP_029643031.2:0.0132469632)100:0.2680372303)100:0.1876630402)100:0.1876614809,Drosophila_melanogaster|disp|NP_524734.2:0.7667110148)99:0.1454314741,(Homo_sapiens|DISP1|NP_116279.2:0.1781972146,Homo_sapiens|DISP2|NP_277045.1:0.8972737299)97:0.1598325550)100:1.0978950530)90:0.2475052785,Homo_sapiens|PTCH1|NP_000255.2:2.9519104727)100:1.1348739520,Patella_vulgata|LOC126828125|XP_055958467.1:0.1456745451)50:0.0814680599,(((Biomphalaria_glabrata|LOC106067624|XP_055863548.1:0.1430339526,Physella_acuta|LOC131946179|XP_059162814.1:0.0803716626)94:0.0438868025,Aplysia_californica|LOC101863752|XP_012939999.1:0.1297875012)50:0.0371196832,Berghia_stephanieae|LOC144971544|XP_078768684.1:0.1095283906)100:0.1482048959)25:0.0343982163,(Gigantopelta_aegis|LOC121390397|XP_041378130.1:0.1821408096,Haliotis_rufescens|LOC124149599|XP_046377242.2:0.1803475046)84:0.0674067518)33:0.0537456537,((((Mercenaria_mercenaria|LOC123527597|XP_053378602.1:0.0466876743,(Ruditapes_philippinarum|LOC132748580|XP_060594182.1:0.0096814976,Ruditapes_philippinarum|LOC132757710|XP_060605048.1:0.0143107329)100:0.0341432593)100:0.0762900959,Mya_arenaria|LOC128202801|XP_052759901.1:0.1610240151)100:0.1765224027,Pecten_maximus|LOC117344532|XP_033763193.1:0.2844248867)71:0.0688207473,(Liolophura_sinensis|LOC135475725|XP_064611729.1:0.2942216640,Homo_sapiens|DISP3|NP_065831.1:0.4896361577)49:0.0841807360)48:0.0517829422)100:0.2224724816,Babylonia_areolata|LOC143287270|XP_076451332.1:0.1108003175);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -37889.922983
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Littorina_saxatilis|LOC138978764|XP_070207653.1
+|
+|                                                    +--Littorina_saxatilis|LOC138953443|XP_070181352.1
+|                                                 +--| (100)
+|                                                 |  |  +--Littorina_saxatilis|LOC138953300|XP_070181201.1
+|                                                 |  +--| (99)
+|                                                 |     +--Littorina_saxatilis|LOC138953499|XP_070181439.1
+|                                              +--| (100)
+|                                              |  |  +--Pomacea_canaliculata|LOC112561637|XP_025090010.1
+|                                              |  +--| (100)
+|                                              |     +--Pomacea_canaliculata|LOC112571291|XP_025105971.1
+|                                           +--| (51)
+|                                           |  |     +--Haliotis_rufescens|LOC124151516|XP_046379986.2
+|                                           |  |  +--| (56)
+|                                           |  |  |  +--Patella_vulgata|LOC126820925|XP_050405065.1
+|                                           |  +--| (51)
+|                                           |     +---Liolophura_sinensis|LOC135469354|XP_064604053.1
+|                                        +--| (73)
+|                                        |  +---Pecten_maximus|LOC117324028|XP_033735522.1
+|                                     +--| (99)
+|                                     |  +----Biomphalaria_glabrata|LOC106070916|XP_055880253.1
+|                                  +--| (99)
+|                                  |  |                          +--Littorina_saxatilis|LOC138953591|XP_070181545.1
+|                                  |  |                       +--| (100)
+|                                  |  |                       |  +--Littorina_saxatilis|LOC138953362|XP_070181261.1
+|                                  |  |                    +--| (100)
+|                                  |  |                    |  +--Littorina_saxatilis|LOC138953364|XP_070181263.1
+|                                  |  |                 +--| (100)
+|                                  |  |                 |  |  +--Babylonia_areolata|LOC143281289|XP_076442540.1
+|                                  |  |                 |  +--| (100)
+|                                  |  |                 |     +--Babylonia_areolata|LOC143281483|XP_076442808.1
+|                                  |  |              +--| (74)
+|                                  |  |              |  |  +--Pomacea_canaliculata|LOC112571125|XP_025105722.1
+|                                  |  |              |  +--| (100)
+|                                  |  |              |     |  +--Pomacea_canaliculata|LOC112570592|XP_025104896.1
+|                                  |  |              |     +--| (100)
+|                                  |  |              |        +--Pomacea_canaliculata|LOC112570593|XP_025104897.1
+|                                  |  |           +--| (100)
+|                                  |  |           |  |        +--Babylonia_areolata|LOC143296620|XP_076464765.1
+|                                  |  |           |  |     +--| (92)
+|                                  |  |           |  |     |  +--Babylonia_areolata|LOC143296621|XP_076464766.1
+|                                  |  |           |  |  +--| (100)
+|                                  |  |           |  |  |  +--Babylonia_areolata|LOC143296484|XP_076464560.1
+|                                  |  |           |  +--| (100)
+|                                  |  |           |     +--Babylonia_areolata|LOC143296097|XP_076463983.1
+|                                  |  |        +--| (91)
+|                                  |  |        |  |    +--Patella_vulgata|LOC126821430|XP_055956984.1
+|                                  |  |        |  +----| (100)
+|                                  |  |        |       +--Patella_vulgata|LOC126821429|XP_050405808.2
+|                                  |  |     +--| (94)
+|                                  |  |     |  +--Haliotis_rufescens|LOC124151514|XP_046379983.2
+|                                  |  |  +--| (100)
+|                                  |  |  |  |            +--Mercenaria_mercenaria|LOC123534691|XP_045172972.2
+|                                  |  |  |  |        +---| (100)
+|                                  |  |  |  |        |   |  +--Ruditapes_philippinarum|LOC132755103|XP_060601881.1
+|                                  |  |  |  |        |   +--| (100)
+|                                  |  |  |  |        |      +--Ruditapes_philippinarum|LOC132728813|XP_060570468.1
+|                                  |  |  |  |     +--| (100)
+|                                  |  |  |  |     |  +--Mya_arenaria|LOC128209404|XP_052769386.1
+|                                  |  |  |  |  +--| (95)
+|                                  |  |  |  |  |  +---Mya_arenaria|LOC128207131|XP_052765857.1
+|                                  |  |  |  +--| (92)
+|                                  |  |  |     +---Crassostrea_virginica|LOC111130293|XP_022332853.2
+|                                  |  +--| (92)
+|                                  |     |     +---Crassostrea_virginica|LOC111131095|XP_022334151.2
+|                                  |     |  +--| (100)
+|                                  |     |  |  +--Pecten_maximus|LOC117323597|XP_033734798.1
+|                                  |     +--| (100)
+|                                  |        +----Liolophura_sinensis|LOC135466831|XP_064600617.1
+|                             +----| (98)
+|                             |    |  +---Liolophura_sinensis|LOC135464864|XP_064598506.1
+|                             |    +--| (100)
+|                             |       +--Liolophura_sinensis|LOC135464875|XP_064598517.1
+|                          +--| (90)
+|                          |  |                                        +--Littorina_saxatilis|LOC138952378|XP_070180141.1
+|                          |  |                                     +--| (100)
+|                          |  |                                     |  +--Babylonia_areolata|LOC143281577|XP_076442927.1
+|                          |  |                                  +--| (100)
+|                          |  |                                  |  +--Pomacea_canaliculata|LOC112570350|XP_025104534.1
+|                          |  |                               +--| (100)
+|                          |  |                               |  |        +--Biomphalaria_glabrata|LOC106063937|XP_055880866.1
+|                          |  |                               |  |     +--| (100)
+|                          |  |                               |  |     |  +--Physella_acuta|LOC131944456|XP_059161061.1
+|                          |  |                               |  |  +--| (100)
+|                          |  |                               |  |  |  +--Aplysia_californica|LOC118477129|XP_005097030.2
+|                          |  |                               |  +--| (100)
+|                          |  |                               |     +--Berghia_stephanieae|LOC144962949|XP_078752515.1
+|                          |  |                            +--| (91)
+|                          |  |                            |  |  +--Gigantopelta_aegis|LOC121372668|XP_041355048.1
+|                          |  |                            |  +--| (99)
+|                          |  |                            |     +--Haliotis_rufescens|LOC124146661|XP_046373022.1
+|                          |  |                         +--| (100)
+|                          |  |                         |  +--Patella_vulgata|LOC126820645|XP_050404673.1
+|                          |  |                      +--| (86)
+|                          |  |                      |  |          +--Mercenaria_mercenaria|LOC123529181|XP_045165343.2
+|                          |  |                      |  |       +--| (100)
+|                          |  |                      |  |       |  +--Ruditapes_philippinarum|LOC132719435|XP_060559183.1
+|                          |  |                      |  |  +----| (100)
+|                          |  |                      |  |  |    +--Mya_arenaria|LOC128209131|XP_052768967.1
+|                          |  |                      |  +--| (100)
+|                          |  |                      |     |  +---Crassostrea_virginica|LOC111129952|XP_078313816.1
+|                          |  |                      |     +--| (96)
+|                          |  |                      |        +--Pecten_maximus|LOC117323388|XP_033734465.1
+|                          |  |                   +--| (94)
+|                          |  |                   |  +--Liolophura_sinensis|LOC135468472|XP_064602822.1
+|                          |  |                +--| (100)
+|                          |  |                |  |  +--Euprymna_scolopes|LOC145260537|XP_079974874.1
+|                          |  |                |  +--| (100)
+|                          |  |                |     |  +--Octopus_bimaculoides|LOC106873114|XP_052827489.1
+|                          |  |                |     +--| (100)
+|                          |  |                |        +--Octopus_sinensis|LOC115217466|XP_029643031.2
+|                          |  |             +--| (99)
+|                          |  |             |  +---------Drosophila_melanogaster|disp|NP_524734.2
+|                          |  +-------------| (100)
+|                          |                |  +--Homo_sapiens|DISP1|NP_116279.2
+|                          |                +--| (97)
+|                          |                   +-----------Homo_sapiens|DISP2|NP_277045.1
+|           +--------------| (100)
+|           |              +--------------------------------------Homo_sapiens|PTCH1|NP_000255.2
+|        +--| (50)
+|        |  +--Patella_vulgata|LOC126828125|XP_055958467.1
+|     +--| (23)
+|     |  |  +--Gigantopelta_aegis|LOC121390397|XP_041378130.1
+|     |  +--| (84)
+|     |     +--Haliotis_rufescens|LOC124149599|XP_046377242.2
+|  +--| (45)
+|  |  |           +--Mercenaria_mercenaria|LOC123527597|XP_053378602.1
+|  |  |        +--| (100)
+|  |  |        |  |  +--Ruditapes_philippinarum|LOC132748580|XP_060594182.1
+|  |  |        |  +--| (100)
+|  |  |        |     +--Ruditapes_philippinarum|LOC132757710|XP_060605048.1
+|  |  |     +--| (100)
+|  |  |     |  +--Mya_arenaria|LOC128202801|XP_052759901.1
+|  |  |  +--| (71)
+|  |  |  |  +--Pecten_maximus|LOC117344532|XP_033763193.1
+|  |  +--| (48)
+|  |     |  +--Liolophura_sinensis|LOC135475725|XP_064611729.1
+|  |     +--| (49)
+|  |        +-----Homo_sapiens|DISP3|NP_065831.1
++--| (100)
+|  |        +--Biomphalaria_glabrata|LOC106067624|XP_055863548.1
+|  |     +--| (94)
+|  |     |  +--Physella_acuta|LOC131946179|XP_059162814.1
+|  |  +--| (50)
+|  |  |  +--Aplysia_californica|LOC101863752|XP_012939999.1
+|  +--| (100)
+|     +--Berghia_stephanieae|LOC144971544|XP_078768684.1
+|
++--Babylonia_areolata|LOC143287270|XP_076451332.1
+
+
+Consensus tree in newick format: 
+
+(Littorina_saxatilis|LOC138978764|XP_070207653.1:0.1593163187,(((((((((((((Littorina_saxatilis|LOC138953443|XP_070181352.1:0.0035899838,(Littorina_saxatilis|LOC138953300|XP_070181201.1:0.0120804100,Littorina_saxatilis|LOC138953499|XP_070181439.1:0.0079869198)99:0.0024328833)100:0.1608532055,(Pomacea_canaliculata|LOC112561637|XP_025090010.1:0.0000021719,Pomacea_canaliculata|LOC112571291|XP_025105971.1:0.0031819073)100:0.2355965609)100:0.2428942955,((Haliotis_rufescens|LOC124151516|XP_046379986.2:0.2150783968,Patella_vulgata|LOC126820925|XP_050405065.1:0.2271992286)56:0.0621618586,Liolophura_sinensis|LOC135469354|XP_064604053.1:0.3054984786)51:0.0408589513)51:0.0214207559,Pecten_maximus|LOC117324028|XP_033735522.1:0.3339388253)73:0.0342534253,Biomphalaria_glabrata|LOC106070916|XP_055880253.1:0.4404123892)99:0.0857819625,(((((((((Littorina_saxatilis|LOC138953591|XP_070181545.1:0.0000029292,Littorina_saxatilis|LOC138953362|XP_070181261.1:0.0019453141)100:0.0120954037,Littorina_saxatilis|LOC138953364|XP_070181263.1:0.0056650814)100:0.1594770893,(Babylonia_areolata|LOC143281289|XP_076442540.1:0.0167251149,Babylonia_areolata|LOC143281483|XP_076442808.1:0.0454457102)100:0.1941794693)100:0.1169337843,(Pomacea_canaliculata|LOC112571125|XP_025105722.1:0.2923081343,(Pomacea_canaliculata|LOC112570592|XP_025104896.1:0.1753000276,Pomacea_canaliculata|LOC112570593|XP_025104897.1:0.1729774227)100:0.2087992336)100:0.1116834124)74:0.0250910512,(((Babylonia_areolata|LOC143296620|XP_076464765.1:0.0242800405,Babylonia_areolata|LOC143296621|XP_076464766.1:0.0062892529)92:0.0112970701,Babylonia_areolata|LOC143296484|XP_076464560.1:0.0269397143)100:0.0728772282,Babylonia_areolata|LOC143296097|XP_076463983.1:0.0947204399)100:0.1293264247)100:0.1003643899,(Patella_vulgata|LOC126821430|XP_055956984.1:0.0117469669,Patella_vulgata|LOC126821429|XP_050405808.2:0.0194049550)100:0.4332126869)91:0.0466015114,Haliotis_rufescens|LOC124151514|XP_046379983.2:0.2591339501)94:0.0526932254,((((Mercenaria_mercenaria|LOC123534691|XP_045172972.2:0.0759083879,(Ruditapes_philippinarum|LOC132755103|XP_060601881.1:0.0293747945,Ruditapes_philippinarum|LOC132728813|XP_060570468.1:0.0062118788)100:0.0772799755)100:0.3369578703,Mya_arenaria|LOC128209404|XP_052769386.1:0.2272290992)100:0.1481361332,Mya_arenaria|LOC128207131|XP_052765857.1:0.3101446385)95:0.0439687582,Crassostrea_virginica|LOC111130293|XP_022332853.2:0.3199622199)92:0.0807938103)100:0.1308055553,((Crassostrea_virginica|LOC111131095|XP_022334151.2:0.3158021975,Pecten_maximus|LOC117323597|XP_033734798.1:0.2637961592)100:0.1642220874,Liolophura_sinensis|LOC135466831|XP_064600617.1:0.4034503660)100:0.1518805288)92:0.0734602609)99:0.2031356025,(Liolophura_sinensis|LOC135464864|XP_064598506.1:0.3441447898,Liolophura_sinensis|LOC135464875|XP_064598517.1:0.2014906360)100:0.2395714229)98:0.3950098801,((((((((((Littorina_saxatilis|LOC138952378|XP_070180141.1:0.0615310844,Babylonia_areolata|LOC143281577|XP_076442927.1:0.0725666233)100:0.0673335901,Pomacea_canaliculata|LOC112570350|XP_025104534.1:0.1215285926)100:0.1182413640,(((Biomphalaria_glabrata|LOC106063937|XP_055880866.1:0.2006629212,Physella_acuta|LOC131944456|XP_059161061.1:0.1255243667)100:0.0564068962,Aplysia_californica|LOC118477129|XP_005097030.2:0.1362387174)100:0.0524248764,Berghia_stephanieae|LOC144962949|XP_078752515.1:0.2459327310)100:0.1648080495)100:0.0789444964,(Gigantopelta_aegis|LOC121372668|XP_041355048.1:0.1691868715,Haliotis_rufescens|LOC124146661|XP_046373022.1:0.1108190705)99:0.0348893222)91:0.0244133920,Patella_vulgata|LOC126820645|XP_050404673.1:0.1690851436)100:0.0683815149,(((Mercenaria_mercenaria|LOC123529181|XP_045165343.2:0.0503298256,Ruditapes_philippinarum|LOC132719435|XP_060559183.1:0.0253835644)100:0.1116890923,Mya_arenaria|LOC128209131|XP_052768967.1:0.1412766169)100:0.3777623384,(Crassostrea_virginica|LOC111129952|XP_078313816.1:0.3665274182,Pecten_maximus|LOC117323388|XP_033734465.1:0.2550569354)96:0.0786594305)100:0.0918803291)86:0.0456859771,Liolophura_sinensis|LOC135468472|XP_064602822.1:0.2894172814)94:0.0688200224,(Euprymna_scolopes|LOC145260537|XP_079974874.1:0.0982452317,(Octopus_bimaculoides|LOC106873114|XP_052827489.1:0.0104216672,Octopus_sinensis|LOC115217466|XP_029643031.2:0.0133607077)100:0.2690968639)100:0.1886052347)100:0.1881809970,Drosophila_melanogaster|disp|NP_524734.2:0.7693598099)99:0.1440187490,(Homo_sapiens|DISP1|NP_116279.2:0.1781368421,Homo_sapiens|DISP2|NP_277045.1:0.9001984955)97:0.1626724876)100:1.0990291724)90:0.2575526887,Homo_sapiens|PTCH1|NP_000255.2:2.9332232334)100:1.1357545351,Patella_vulgata|LOC126828125|XP_055958467.1:0.1408656241)50:0.0899979603,(Gigantopelta_aegis|LOC121390397|XP_041378130.1:0.1825818566,Haliotis_rufescens|LOC124149599|XP_046377242.2:0.1806942273)84:0.0612769498)23:0.0440746279,((((Mercenaria_mercenaria|LOC123527597|XP_053378602.1:0.0473036299,(Ruditapes_philippinarum|LOC132748580|XP_060594182.1:0.0097020317,Ruditapes_philippinarum|LOC132757710|XP_060605048.1:0.0143725571)100:0.0339762324)100:0.0750490072,Mya_arenaria|LOC128202801|XP_052759901.1:0.1632196842)100:0.1787989250,Pecten_maximus|LOC117344532|XP_033763193.1:0.2838558138)71:0.0770166354,(Liolophura_sinensis|LOC135475725|XP_064611729.1:0.2937612811,Homo_sapiens|DISP3|NP_065831.1:0.4887337437)49:0.0869177959)48:0.0595477263)45:0.0506633025,(((Biomphalaria_glabrata|LOC106067624|XP_055863548.1:0.1437767338,Physella_acuta|LOC131946179|XP_059162814.1:0.0806551450)94:0.0431016893,Aplysia_californica|LOC101863752|XP_012939999.1:0.1320637053)50:0.0308914639,Berghia_stephanieae|LOC144971544|XP_078768684.1:0.1123261902)100:0.1365044123)100:0.2185569764,Babylonia_areolata|LOC143287270|XP_076451332.1:0.1078607218);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t dispatched.treefile -m "LG+R5{0.155016,0.159644,0.325127,0.47345,0.307422,1.08545,0.191921,2.11498,0.0205135,3.98379}" --length 507
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s dispatched.trim.faa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s dispatched.trim.faa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Nov 21 13:47:39 2026
+Total CPU time used: 1290.387181 seconds (0h:21m:30s)
+Total wall-clock time used: 225.9817259 seconds (0h:3m:45s)
+
