@@ -1,0 +1,7 @@
+genome_species,noshita_species,match,W,T,D,mollusc_specific_dispatched,diaphanous,shell
+Pomacea canaliculata,Pomacea canaliculata,same species,2.183,0.563,0.065,5.000,2.000,"coiled, right-handed"
+Physella acuta,Physa acuta,same species (Physa = Physella),1.933,2.291,-0.305,0.000,1.000,"coiled, left-handed"
+Littorina saxatilis,Littorina littorea; Littorina undulata; Littorina zebra,congeners,2.071,1.858,-0.048,6.000,1.000,"coiled, right-handed"
+Haliotis rufescens,Haliotis gigantea; Haliotis diversicolor aquatilis,congeners,14.361,0.573,-0.212,2.000,1.000,ear-shaped (abalone)
+Biomphalaria glabrata,Planorbarius corneus,same family (Planorbidae),1.236,0.388,0.322,1.000,1.000,"coiled flat, left-handed"
+Nautilus pompilius,Tajika & Klug 2020,literature,2.900,0.000,0.000,,,"planispiral, chambered (no annotated genome)"

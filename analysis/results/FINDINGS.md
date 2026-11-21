@@ -244,6 +244,64 @@ Reading this:
 - Telling these apart needs spatial data: a single-cell atlas of a trochophore with a
   shell-field cluster (for example Dreissena, GSE192624) or in situ hybridisation.
 
+## Wild snails: inversion karyotypes vs shell shape
+Script: `analysis/wild_inversions.py`. Data: Koch et al. 2022 (Evolution 76:2332, Dryad
+doi:10.5061/dryad.m905qfv4b): 1,130 snails from three Swedish Crab-Wave transects, with the
+same Larsson shape parameters as the F2 cross and karyotypes (0/1/2) for 16 inversions.
+Model: trait ~ island + sex + habitat axis (habitatPC1, and its interaction with island)
++ shell length (for shape traits) + karyotype. Without the habitat term, any inversion that
+tracks the Crab/Wave habitat would look like a shape locus; the habitat-free effects are
+reported alongside and are 1.5-3x larger. Bonferroni threshold over 96 tests: p < 5.2e-4.
+A joint model fits all 16 inversions at once (1,053 snails with complete karyotypes).
+Outputs: `wild_inversions.csv`, `wild_inversions_joint.csv`, `wild_inversions.png`.
+
+| Inversion | F2 cross (Koch 2021) | Wild snails, one inversion at a time | Wild, joint model |
+|---|---|---|---|
+| **LGC6.1** (LG6) | S and size (S just below threshold) | size -0.54 SD/copy (p 1e-69); W +0.23 (p 3e-11); height expansion +0.25; opening size +0.16; S -0.15 (p 7e-4) | size -0.25 (p 4e-17), height expansion +0.18 (p 1e-7), W +0.16 (p 5e-6) |
+| **LGC17.1** (LG17) | W and D | S +0.22 (p 1e-5); size +0.42; W -0.10 (p 0.015); D +0.11 (p 0.02) | size +0.12 (p 3e-4) only |
+| LGC12.2 (LG12) | opening size (suggestive) | height expansion -0.30 (p 4e-23), W -0.22, opening size -0.19 | height expansion, W, opening size all significant |
+| LGC14.1 (LG14) | - | size -0.58, W +0.28, S -0.24 | size, W |
+
+What this adds:
+- **LG6 is confirmed in the wild as a shell-size inversion, and it also goes with coil
+  expansion (W).** In the F2 cross W mapped to LG17; in the wild the LG6 effect on W survives
+  adjusting for habitat and for all other inversions.
+- **LG17's F2 effect on W and D does not replicate clearly** in the wild (W p = 0.015, not
+  significant after correction). LG17 instead goes with opening shape (S) and size, and
+  those mostly vanish once the other inversions are in the model. The F2 LG17 QTL may sit
+  outside the LGC17.1 inversion (not checked: the F2 markers were not mapped to inversion
+  breakpoints), or it may be specific to the crossed families.
+- **LG12 replicates**: the F2 cross had a suggestive opening-size QTL there; in the wild
+  LGC12.2 is one of the strongest shape inversions.
+- Size, W and S are correlated, and inversions are correlated with each other and with the
+  habitat cline, so effects on single traits are not independent. Residual habitat
+  confounding is possible: habitatPC1 is a coarse summary of a continuous cline.
+- Karyotypes test whole inversions, not genes. Recombination is suppressed inside an
+  inversion, so wild data cannot narrow LG6 below the inversion itself.
+
+## Step 3: genome species in Raup's morphospace
+Script: `analysis/morphospace.py`. Raup W, T and D for 389 museum specimens of 358 living
+gastropod species from Noshita, Asami & Ubukata 2012 (Paleobiology 38:322; Dryad
+doi:10.5061/dryad.6mk023c0, Supplementary Table 1, parsed from PDF to
+`noshita2012_raup_parameters.csv`). Nautilus from Tajika & Klug 2020.
+Outputs: `morphospace_genome_species.csv`, `morphospace.png`.
+
+| Genome species | Shape source | W | T | D (Noshita, signed) | Mollusc-specific dispatched | Diaphanous |
+|---|---|---|---|---|---|---|
+| Pomacea canaliculata | same species | 2.18 | 0.56 | 0.07 | 5 | 2 |
+| Physella acuta | same species (Physa acuta) | 1.93 | 2.29 | -0.31 | 0 | 1 |
+| Littorina saxatilis | 3 congeners | 2.07 | 1.86 | -0.05 | 6 | 1 |
+| Haliotis rufescens | 2 congeners | 14.4 | 0.57 | -0.21 | 2 | 1 |
+| Biomphalaria glabrata | Planorbarius (same family) | 1.24 | 0.39 | 0.32 | 1 | 1 |
+| Nautilus pompilius | Tajika & Klug 2020 | ~2.9 | 0 | ~0 | no genome | no genome |
+| *Lymnaea stagnalis* (reference) | same species | 2.03 | 2.33 | -0.16 | no RefSeq genome | Lsdia1/2 |
+
+- Cross-check: wild L. saxatilis W from the Larsson model (Koch 2022) has median 2.04
+  (IQR 1.87-2.22), close to its congeners' Raup-measured 2.07. The two methods agree.
+- Only 5 genome species can be placed, and two of them via relatives. That is far too few
+  to relate gene counts to geometry; no pattern is claimed. More power needs many more
+  species with both a shell measurement and an annotated genome.
+
 ## Caveats
 - Adding family as a covariate is conservative: it removes between-family genetic
   differences, which lowers LODs. Both versions are reported.

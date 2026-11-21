@@ -17,6 +17,7 @@ public data only.
 - The LG6 inversion holds the periwinkle version of *Lsdia1*, the formin gene that sets coiling direction in the pond snail *Lymnaea* (66-69% protein identity).
 - Several LG6 genes are strongly mantle-specific (the shell-building tissue). A dispatched-gene cluster in the W region is not.
 - Gene trees: periwinkle has a single diaphanous gene (the LG6 one). Six of its LG17 dispatched genes belong to a mollusc-only lineage that is present in 12 of 14 shelled species and absent from all 5 shell-less or internal-shell species examined.
+- In 1,130 wild snails, the LG6 inversion predicts shell size and coil expansion (W) beyond habitat; the LG17 F2 effect on W does not replicate clearly; an LG12 inversion replicates for opening size and W.
 - These are candidate regions and genes, not demonstrated causes.
 
 ## Scripts
@@ -31,6 +32,8 @@ public data only.
 | `analysis/gene_trees.py`, `run_trees.sh` | Gene trees for formins and dispatched (MAFFT, trimAl, IQ-TREE) |
 | `analysis/dev_expression.py` | Candidate genes across larvae and adult tissues in oyster and Ruditapes (NCBI TPMs) |
 | `analysis/dev_timecourse.py` | Candidate genes through development in mussel (PRJNA996031) and apple snail (GSE240084) |
+| `analysis/wild_inversions.py` | Inversion karyotypes vs shell traits in 1,130 wild snails (Koch 2022) |
+| `analysis/morphospace.py` | Places the genome species in Raup morphospace (Noshita 2012, 358 gastropods) |
 | `site/build.py` | Rebuilds `docs/index.html` from the results |
 
 Python 3.11 with numpy, pandas, matplotlib, biopython. Gene trees use MAFFT, trimAl and IQ-TREE
@@ -43,6 +46,9 @@ Python 3.11 with numpy, pandas, matplotlib, biopython. Gene trees use MAFFT, tri
 | `data/littorina_v1/` | Westram et al. 2018 assembly, [Zenodo 5003441](https://zenodo.org/records/5003441) |
 | `data/littorina_v2/` | NCBI RefSeq [GCF_037325665.1](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/037/325/665/GCF_037325665.1_US_GU_Lsax_2.0/): chromosomes NC_090250.1 (LG6) and NC_090261.1 (LG17), `genomic.gff`, `protein.faa`, and `expression/` (RS_2024_12 expression tables and RNA-seq run list) |
 | `data/gene_trees/` | Written by `analysis/gene_trees.py fetch` (NCBI) |
+| `data/dev_expression/` | Written by `dev_expression.py` and `dev_timecourse.py` (NCBI RefSeq, GEO GSE240084) |
+| `data/koch2022/` | Koch et al. 2022, Dryad [doi:10.5061/dryad.m905qfv4b](https://datadryad.org/dataset/doi:10.5061/dryad.m905qfv4b) (`Data_Transects.txt`) |
+| `data/noshita2012/` | Noshita et al. 2012, Dryad [doi:10.5061/dryad.6mk023c0](https://datadryad.org/dataset/doi:10.5061/dryad.6mk023c0) (supplementary table PDFs) |
 
 ## References
 - Raup 1966, J. Paleontology 40:1178-1190.

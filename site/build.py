@@ -40,6 +40,12 @@ def plot_data():
     pos = pd.read_csv(os.path.join(RES, "marker_v2_positions.csv")).merge(lods[["marker", "S"]], on="marker")
     lg6 = pos[pos.LG == 6]
     out["lg6"] = [[round(b / 1e6, 2), round(c, 1), round(s, 2)] for b, c, s in lg6[["bp", "cM", "S"]].values]
+    nos = pd.read_csv(os.path.join(RES, "noshita2012_raup_parameters.csv")).groupby("species")[["W", "T"]].mean()
+    out["noshita"] = [[round(w, 3), round(t, 3)] for w, t in nos.values]
+    g = pd.read_csv(os.path.join(RES, "morphospace_genome_species.csv"))
+    out["genome_sp"] = [[r.genome_species, round(r.W, 3), round(r.T, 3), r.match] for r in g.itertuples()]
+    ly = nos.loc["Lymnaea stagnalis"]
+    out["genome_sp"].append(["Lymnaea stagnalis", round(ly.W, 3), round(ly["T"], 3), "reference"])
     return out
 
 
