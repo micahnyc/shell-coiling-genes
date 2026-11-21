@@ -1,0 +1,403 @@
+<title>Periwinkle Shell Genes</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column (~860px) of findings; each section pairs a diagram with its table. Palette from the periwinkle shell: slate-blue body, ochre banding, kelp green. */
+:root {
+  --bg: #f6f7f9;
+  --surface: #ffffff;
+  --fg: #1d2530;
+  --muted: #5b6676;
+  --line: #d9dee6;
+  --shade: #eef1f5;
+  --accent: #b8741a;      /* ochre: shell banding, LG6 / shape */
+  --accent2: #3e6f8e;     /* slate blue: LG17 / coiling */
+  --kelp: #4d7c4f;        /* mantle expression */
+  --warn: #a8432f;
+  --heat0: #f3efe6; --heat1: #ead6b2; --heat2: #ddb877; --heat3: #c9933d; --heat4: #a86d17;
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12161c; --surface: #1a2028; --fg: #e3e8ef; --muted: #9aa6b6; --line: #2c3540; --shade: #212933;
+  --accent: #e0a24a; --accent2: #7fb0d0; --kelp: #86b787; --warn: #e07a62;
+  --heat0: #232a33; --heat1: #4a3f2c; --heat2: #6e5429; --heat3: #946c25; --heat4: #bf8a2a;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12161c; --surface: #1a2028; --fg: #e3e8ef; --muted: #9aa6b6; --line: #2c3540; --shade: #212933;
+  --accent: #e0a24a; --accent2: #7fb0d0; --kelp: #86b787; --warn: #e07a62;
+  --heat0: #232a33; --heat1: #4a3f2c; --heat2: #6e5429; --heat3: #946c25; --heat4: #bf8a2a;
+  color-scheme: dark }
+
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.55; }
+.wrap { max-width: 880px; margin: 0 auto; padding-block: 40px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 48px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; line-height: 1.2; }
+h1 { font-size: 2.1rem; font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 1.35rem; font-weight: 600; }
+h3 { font-size: 1rem; font-weight: 600; }
+p { margin: 0; max-width: 68ch; }
+section { display: grid; gap: 14px; min-width: 0; }
+.eyebrow { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.lede { color: var(--muted); font-size: 1.02rem; }
+.note { color: var(--muted); font-size: 0.86rem; }
+.figure { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px; overflow-x: auto; }
+.figure svg { display: block; width: 100%; height: auto; min-width: 560px; }
+.figure svg text { fill: var(--fg); font-family: var(--font-body); }
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.86rem; }
+th, td { padding: 7px 10px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-weight: 600; font-size: 0.75rem; letter-spacing: 0.03em; text-transform: uppercase; color: var(--muted); background: var(--shade); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.c { text-align: center; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.pill { display: inline-block; font-size: 0.72rem; font-weight: 600; padding: 1px 8px; border-radius: 999px; white-space: nowrap; border: 1px solid currentColor; }
+.pill.sig { color: var(--kelp); } .pill.edge { color: var(--accent); } .pill.no { color: var(--muted); }
+.lg17 { color: var(--accent2); font-weight: 600; } .lg6 { color: var(--accent); font-weight: 600; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.8rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.summary > div { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+.summary .tag { font-family: var(--font-mono); font-size: 0.75rem; }
+ul.plain { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; max-width: 70ch; }
+.hm td.c { color: var(--fg); }
+a { color: var(--accent2); }
+@media (max-width: 520px) { h1 { font-size: 1.65rem; } }
+</style>
+
+<div class="wrap">
+
+<header style="display:grid; gap:12px">
+  <div class="eyebrow">Littorina saxatilis · rough periwinkle · public data only</div>
+  <h1>Periwinkle Shell Genes</h1>
+  <p class="lede">Which parts of a snail's genome go with Raup's coiling parameters? Results so far from an F2 cross of two periwinkle ecotypes (Crab and Wave), placed on the 2024 genome, checked against tissue expression, and compared across 20 molluscs.</p>
+</header>
+
+<section>
+  <div class="summary">
+    <div><span class="tag lg17">LG17 · 64–70 Mb</span><h3>Coil expansion (W) and distance from axis (D)</h3><p class="note">W is significant (LOD 4.43). D sits at the threshold. 174 genes, including a cluster of dispatched genes that is barely expressed in the mantle.</p></div>
+    <div><span class="tag lg6">LG6 · 0–17.7 Mb inversion</span><h3>Opening shape (S) and shell size</h3><p class="note">Just below the threshold (LOD 3.82). Holds the periwinkle version of the pond-snail coiling gene and 8 strongly mantle-specific genes.</p></div>
+    <div><span class="tag" style="color:var(--kelp)">Status</span><h3>Candidates, not causes</h3><p class="note">Each region is millions of bases inherited as a block. Separating genes needs recombinant snails or expression at the shell edge.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">1 · Shell parameters</div>
+  <h2>From shell geometry to measured traits</h2>
+  <p>Raup (1966) builds any coiled shell by sweeping a growing opening around an axis. Koch et al. (2021) measured 350 F2 snails with a growth model that translates into Raup's terms.</p>
+  <div class="figure"><svg id="raup" viewBox="0 0 820 210" role="img" aria-label="Diagram of Raup's four parameters W, D, T and S"></svg></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Raup</th><th>What it controls</th><th>Measured as (Larsson 2020 model)</th><th>Genome region</th></tr></thead>
+    <tbody>
+      <tr><td><b>W</b></td><td>How fast the tube widens each turn</td><td>exp(2π · width growth per radian)</td><td class="lg17">LG17</td></tr>
+      <tr><td><b>D</b></td><td>How far the tube sits from the coiling axis</td><td>aperture position / (position + size)</td><td class="lg17">LG17</td></tr>
+      <tr><td><b>T</b></td><td>How far each turn moves down the axis (spire height)</td><td>height growth (related)</td><td>no QTL once family is included</td></tr>
+      <tr><td><b>S</b></td><td>Shape of the opening (round vs elongated)</td><td>aperture shape <i>c</i></td><td class="lg6">LG6</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="eyebrow">2 · Genome scan</div>
+  <h2>Where each parameter maps</h2>
+  <p>LOD score at each of 19,849 markers across the 17 chromosomes (linkage groups). Dashed line: the genome-wide 5% threshold from 1,000 permutations. Family, batch, sex and shell length are included as covariates.</p>
+  <div class="figure"><svg id="scan" viewBox="0 0 820 470" role="img" aria-label="Genome-wide LOD scores for W, D, S and shell length"></svg></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Trait</th><th>Best region</th><th class="num">LOD</th><th class="num">5% threshold</th><th class="num">Variance explained</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>W (coil expansion)</td><td class="lg17">LG17, 64–67 cM</td><td class="num">4.43</td><td class="num">3.88</td><td class="num">5.7%</td><td><span class="pill sig">significant</span></td></tr>
+      <tr><td>D (distance from axis)</td><td class="lg17">LG17, 48–64 cM</td><td class="num">3.95</td><td class="num">3.93</td><td class="num">5.1%</td><td><span class="pill edge">at threshold</span></td></tr>
+      <tr><td>S (opening shape)</td><td class="lg6">LG6, 42–68 cM</td><td class="num">3.82</td><td class="num">3.99</td><td class="num">4.9%</td><td><span class="pill edge">just below</span></td></tr>
+      <tr><td>Shell length (size)</td><td class="lg6">LG6, 49–69 cM</td><td class="num">3.23</td><td class="num">3.92</td><td class="num">4.1%</td><td><span class="pill no">suggestive</span></td></tr>
+      <tr><td>Opening size</td><td>LG12</td><td class="num">3.44</td><td class="num">3.89</td><td class="num">4.4%</td><td><span class="pill no">suggestive</span></td></tr>
+      <tr><td>Height expansion (T-related)</td><td>LG17 start / LG2</td><td class="num">2.86</td><td class="num">3.94</td><td class="num">3.7%</td><td><span class="pill no">not significant</span></td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">The scan reproduces the paper's own peaks with its covariates: heightGrowth LOD 4.38 vs 4.16 (LG17), aperturePosition 6.36 vs 6.16 (LG17), apertureShape 4.07 vs 4.36 (LG6). Adding family as a covariate is stricter, which is why LODs are lower above.</p>
+</section>
+
+<section>
+  <div class="eyebrow">3 · Genes in the regions</div>
+  <h2>The two regions on the 2024 genome</h2>
+  <p>Markers were placed on the chromosome-level genome by sequence matching (358 of 1,370 on LG17, 266 of 1,174 on LG6), then genes were listed from NCBI's annotation.</p>
+  <div class="figure"><svg id="chroms" viewBox="0 0 820 250" role="img" aria-label="LG17 and LG6 with QTL regions and candidate genes"></svg></div>
+  <div class="tbl"><table>
+    <thead><tr><th>Region</th><th>Position</th><th class="num">Protein-coding genes</th><th>Notable families</th></tr></thead>
+    <tbody>
+      <tr><td class="lg17">W, LG17</td><td class="num">63.9–70.3 Mb</td><td class="num">174</td><td>4 of the genome's 8 dispatched genes (Hedgehog release)</td></tr>
+      <tr><td class="lg17">D, LG17</td><td class="num">54.0–67.3 Mb</td><td class="num">347</td><td>overlaps W</td></tr>
+      <tr><td class="lg6">S, LG6</td><td class="num">1.4–25.7 Mb</td><td class="num">539</td><td>5 of 12 formins, incl. diaphanous-2-like; perlucin</td></tr>
+      <tr><td class="lg6">Shell length, LG6</td><td class="num">1.4–17.7 Mb</td><td class="num">384</td><td>same inversion block</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Shell and signalling gene names as a group are not enriched in any region (2.0–2.9% vs 2.9% genome-wide). The formin and dispatched clusters were spotted after looking, so their p-values (2×10⁻⁶ and 10⁻⁷) overstate the evidence.</p>
+</section>
+
+<section>
+  <div class="eyebrow">4 · The pond-snail coiling gene</div>
+  <h2>LG6 holds the periwinkle version of Lsdia1</h2>
+  <p>In the pond snail <i>Lymnaea</i>, losing the formin Lsdia1 flips the coil from right- to left-handed (Davison et al. 2016). Protein alignment shows the LG6 diaphanous gene is periwinkle's match for it.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Periwinkle protein</th><th class="num">vs Lymnaea Lsdia1</th><th class="num">vs Lymnaea Lsdia2</th></tr></thead>
+    <tbody>
+      <tr><td><span class="lg6">diaphanous-2-like, LG6 QTL</span> <span class="note">XP_070197016.1</span></td><td class="num"><b>65.7%</b></td><td class="num"><b>69.2%</b></td></tr>
+      <tr><td>diaphanous-1-like, LG3 <span class="note">XP_070189802.1</span></td><td class="num">34.8%</td><td class="num">33.7%</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Lsdia1 and Lsdia2 are 87.9% identical to each other: a duplication in the Lymnaea lineage. Periwinkle has one gene matching the pair.</p>
+</section>
+
+<section>
+  <div class="eyebrow">5 · Mantle expression</div>
+  <h2>Which candidates are switched on in shell-building tissue</h2>
+  <p>Gene activity (TPM) from NCBI's tissue panel: mantle ×2, foot ×2, hepatopancreas ×2, reproductive ×2, penis, head. Genes are ranked by how mantle-biased they are among 23,211 expressed genes. Known shell genes (carbonic anhydrases, tyrosinase, chitin synthase, nacrein) rank in the top 2%, so the ranking picks up shell genes.</p>
+  <div class="figure"><svg id="tissue" viewBox="0 0 820 300" role="img" aria-label="Expression across tissues for candidate genes"></svg></div>
+  <div class="legend" id="tissue-legend"></div>
+  <ul class="plain">
+    <li><b>Diaphanous-2-like (LG6)</b> is active in the mantle, but about as much in foot and head. Lsdia1 acts in the early embryo, so adult tissue cannot test it.</li>
+    <li><b>The LG17 dispatched genes</b> are close to silent in the mantle. This weakens them as shell-growth candidates, at least in adults.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="eyebrow">6 · LG6 in detail</div>
+  <h2>A 17 Mb block with no recombination</h2>
+  <p>Top: genetic position (cM) against physical position (Mb). The flat run from 0 to 17.7 Mb means no crossing-over, the signature of an inversion. Bottom: the S signal along the chromosome, with the 14 genes that rank in the genome's top 5% for mantle bias.</p>
+  <div class="figure"><svg id="lg6" viewBox="0 0 820 430" role="img" aria-label="LG6 genetic map, S LOD and mantle genes by position"></svg></div>
+  <div class="tbl"><table>
+    <thead><tr><th class="num">#</th><th class="num">Mb</th><th>Block</th><th>Gene (NCBI name)</th><th class="num">Mantle TPM</th><th class="num">Other tissues</th></tr></thead>
+    <tbody id="mantle-rows"></tbody>
+  </table></div>
+  <p class="note">The S peak (14.8 Mb) sits beside CD109-like and cytochrome P450 2U1-like, but an F2 cross cannot tell genes inside the block apart. The mantle also makes mucus and immune proteins, so CD109, murinoglobulin and lipoxygenase may not be shell genes.</p>
+</section>
+
+<section>
+  <div class="eyebrow">7 · Across molluscs</div>
+  <h2>The same gene families in 19 other molluscs</h2>
+  <p>Gene counts by NCBI annotation name. Names are similarity labels, so a gene tree check is under way.</p>
+  <div class="tbl"><table class="hm">
+    <thead><tr><th>Species</th><th>Shell</th><th class="num">Diaphanous</th><th class="num">Inverted formin</th><th class="num">Formin-2</th><th class="num">Dispatched</th><th class="num">Perlucin</th></tr></thead>
+    <tbody id="fam-rows"></tbody>
+  </table></div>
+  <ul class="plain">
+    <li><b>Dispatched</b> is highest in periwinkle's group (caenogastropods, 6–8) and lowest in octopus and squid (1).</li>
+    <li><b>Diaphanous:</b> both left-coiling snails have 1 copy and most right-coiling snails have 2. Suggestive only, since some others also have 1.</li>
+    <li><b>Perlucin</b> counts are inflated by look-alike immune lectins, so they are not a clean shell signal.</li>
+  </ul>
+  <p class="note">Not shown: Lottia (its annotation uses different names) and nautilus (no NCBI-annotated genome).</p>
+</section>
+
+<section>
+  <div class="eyebrow">Sources</div>
+  <ul class="plain note">
+    <li>Koch et al. 2021, Evolution Letters: F2 cross, markers and shell measurements (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8190449" target="_blank" rel="noopener">article</a>, <a href="https://datadryad.org/dataset/doi:10.5061/dryad.zgmsbccb4" target="_blank" rel="noopener">Dryad data</a>)</li>
+    <li>Larsson et al. 2020, J. R. Soc. Interface: shell growth model (<a href="https://eprints.whiterose.ac.uk/158980/1/rsif.2019.0721.pdf" target="_blank" rel="noopener">pdf</a>)</li>
+    <li>De Jode et al. 2024: chromosome-level genome GCF_037325665.1 (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11050657/" target="_blank" rel="noopener">article</a>); Westram et al. 2018 assembly (<a href="https://zenodo.org/records/5003441" target="_blank" rel="noopener">Zenodo</a>)</li>
+    <li>NCBI RefSeq annotation GCF_037325665.1-RS_2024_12: genes and tissue TPMs (PRJNA550990)</li>
+    <li>Davison et al. 2016, Current Biology: Lsdia1 and coiling direction in Lymnaea</li>
+  </ul>
+</section>
+
+</div>
+
+<script>
+const DATA = /*DATA*/;
+const NS = "http://www.w3.org/2000/svg";
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+function el(parent, tag, attrs, text) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (text != null) e.textContent = text;
+  parent.appendChild(e); return e;
+}
+const C = { fg: "var(--fg)", muted: "var(--muted)", line: "var(--line)", shade: "var(--shade)",
+  a: "var(--accent)", b: "var(--accent2)", kelp: "var(--kelp)", surface: "var(--surface)" };
+
+/* 1. Raup parameter sketches */
+(function () {
+  const s = document.getElementById("raup");
+  const panels = [
+    { k: "W", t: "whorl expansion", draw: g => { // log spiral
+        let d = ""; for (let i = 0; i <= 220; i++) { const th = i / 220 * 5 * Math.PI, r = 4 * Math.pow(1.9, th / (2 * Math.PI));
+          d += (i ? "L" : "M") + (100 + r * Math.cos(th)).toFixed(1) + " " + (95 - r * Math.sin(th)).toFixed(1); }
+        el(g, "path", { d, fill: "none", stroke: C.b, "stroke-width": 2.2 }); } },
+    { k: "D", t: "distance from axis", draw: g => {
+        el(g, "line", { x1: 100, y1: 30, x2: 100, y2: 160, stroke: C.muted, "stroke-dasharray": "4 4" });
+        el(g, "circle", { cx: 100, cy: 95, r: 14, fill: "none", stroke: C.b, "stroke-width": 2 });
+        el(g, "circle", { cx: 100, cy: 95, r: 50, fill: "none", stroke: C.b, "stroke-width": 2 });
+        el(g, "line", { x1: 100, y1: 95, x2: 114, y2: 95, stroke: C.fg, "stroke-width": 1.5 });
+        el(g, "text", { x: 104, y: 90, "font-size": 11 }, "D"); } },
+    { k: "T", t: "translation down the axis", draw: g => {
+        el(g, "line", { x1: 100, y1: 25, x2: 100, y2: 165, stroke: C.muted, "stroke-dasharray": "4 4" });
+        [[100, 45, 10], [100, 75, 17], [100, 115, 26]].forEach(([x, y, r]) => el(g, "ellipse", { cx: x, cy: y, rx: r * 1.9, ry: r * 0.8, fill: "none", stroke: C.b, "stroke-width": 2 })); } },
+    { k: "S", t: "opening shape", draw: g => {
+        el(g, "ellipse", { cx: 70, cy: 95, rx: 28, ry: 28, fill: "none", stroke: C.a, "stroke-width": 2.2 });
+        el(g, "ellipse", { cx: 135, cy: 95, rx: 20, ry: 42, fill: "none", stroke: C.a, "stroke-width": 2.2 });
+        el(g, "text", { x: 70, y: 145, "font-size": 10, "text-anchor": "middle", fill: C.muted }, "round");
+        el(g, "text", { x: 135, y: 152, "font-size": 10, "text-anchor": "middle", fill: C.muted }, "elongated"); } },
+  ];
+  panels.forEach((p, i) => {
+    const g = el(s, "g", { transform: `translate(${i * 205},0)` });
+    p.draw(g);
+    el(g, "text", { x: 100, y: 188, "text-anchor": "middle", "font-size": 15, "font-weight": 700, "font-family": "Space Grotesk, sans-serif", fill: p.k === "S" ? C.a : C.b }, p.k);
+    el(g, "text", { x: 100, y: 204, "text-anchor": "middle", "font-size": 11, fill: C.muted }, p.t);
+  });
+})();
+
+/* 2. Genome scan */
+(function () {
+  const s = document.getElementById("scan");
+  const traits = [["W", "W · coil expansion", 3.88, C.b], ["D_like", "D · distance from axis", 3.93, C.b],
+                  ["S", "S · opening shape", 3.99, C.a], ["shellLength", "Shell length", 3.92, C.a]];
+  const lgs = Object.keys(DATA.lens).map(Number).sort((a, b) => a - b);
+  const gap = 6, L = 60, R = 810, total = lgs.reduce((a, k) => a + DATA.lens[k], 0) + gap * (lgs.length - 1);
+  const sx = (R - L) / total, off = {}; let acc = 0;
+  lgs.forEach(k => { off[k] = acc; acc += DATA.lens[k] + gap; });
+  const rowH = 100, top0 = 14, ymax = 5;
+  traits.forEach(([key, label, thr, col], r) => {
+    const y0 = top0 + r * (rowH + 8), yb = y0 + rowH - 18, ys = v => yb - v / ymax * (rowH - 30);
+    lgs.forEach((k, i) => { if (i % 2 === 0) el(s, "rect", { x: L + off[k] * sx, y: ys(ymax), width: DATA.lens[k] * sx, height: yb - ys(ymax), fill: C.shade }); });
+    [0, 2, 4].forEach(v => { el(s, "text", { x: L - 6, y: ys(v) + 3, "font-size": 9, "text-anchor": "end", fill: C.muted }, v); });
+    el(s, "line", { x1: L, x2: R, y1: yb, y2: yb, stroke: C.line });
+    lgs.forEach(k => {
+      const pts = DATA[key].filter(d => d[0] === k).sort((a, b) => a[1] - b[1]);
+      el(s, "polyline", { points: pts.map(d => `${(L + (off[k] + d[1]) * sx).toFixed(1)},${ys(d[2]).toFixed(1)}`).join(" "), fill: "none", stroke: col, "stroke-width": 1.3 });
+    });
+    el(s, "line", { x1: L, x2: R, y1: ys(thr), y2: ys(thr), stroke: C.muted, "stroke-dasharray": "4 3", "stroke-width": 1 });
+    el(s, "text", { x: L + 4, y: y0 + 8, "font-size": 11, "font-weight": 600, fill: col }, label);
+    if (r === 3) lgs.forEach(k => el(s, "text", { x: L + (off[k] + DATA.lens[k] / 2) * sx, y: yb + 13, "font-size": 9, "text-anchor": "middle", fill: (k === 6 ? C.a : k === 17 ? C.b : C.muted), "font-weight": (k === 6 || k === 17) ? 700 : 400 }, k));
+  });
+  el(s, "text", { x: 14, y: 230, "font-size": 10, fill: C.muted, transform: "rotate(-90 14 230)", "text-anchor": "middle" }, "LOD");
+  el(s, "text", { x: (L + R) / 2, y: 466, "font-size": 10, "text-anchor": "middle", fill: C.muted }, "linkage group (chromosome)");
+})();
+
+/* 3. Chromosome diagrams */
+(function () {
+  const s = document.getElementById("chroms");
+  const L = 40, R = 800, maxMb = 72, sx = (R - L) / maxMb, X = mb => L + mb * sx;
+  function chrom(y, name, len, col, regions, genes) {
+    el(s, "text", { x: L, y: y - 30, "font-size": 13, "font-weight": 700, fill: col, "font-family": "Space Grotesk, sans-serif" }, name);
+    regions.forEach(([a, b, lab, row]) => {
+      const yy = y - 22 + row * 0;
+      el(s, "rect", { x: X(a), y: y - 8, width: X(b) - X(a), height: 16, fill: col, opacity: 0.28 });
+    });
+    el(s, "rect", { x: L, y: y - 8, width: len * sx, height: 16, rx: 8, fill: "none", stroke: C.fg, "stroke-width": 1.2 });
+    regions.forEach(([a, b, lab, row]) => {
+      el(s, "line", { x1: X(a), x2: X(b), y1: y - 14 - row * 12, y2: y - 14 - row * 12, stroke: col, "stroke-width": 2 });
+      el(s, "text", { x: X(b) + 4, y: y - 11 - row * 12, "font-size": 10, fill: col }, lab);
+    });
+    genes.forEach(([mb, lab, dy, anchor]) => {
+      el(s, "line", { x1: X(mb), x2: X(mb), y1: y + 8, y2: y + 18 + dy, stroke: C.fg, "stroke-width": 1 });
+      el(s, "text", { x: X(mb) + (anchor === "end" ? -3 : 3), y: y + 28 + dy, "font-size": 10, "text-anchor": anchor || "start" }, lab);
+    });
+    [0, 10, 20, 30, 40, 50, 60, 70].filter(v => v <= len).forEach(v => el(s, "text", { x: X(v), y: y + 64, "font-size": 9, fill: C.muted, "text-anchor": "middle" }, v + " Mb"));
+  }
+  chrom(55, "LG17", 71.65, C.b, [[54.0, 67.3, "D", 1], [63.9, 70.3, "W", 0]],
+    [[64.2, "dispatched ×3", 0, "end"], [70.04, "dispatched", 14, "end"]]);
+  chrom(180, "LG6", 57.43, C.a, [[1.35, 17.7, "inversion · size", 1], [1.35, 25.65, "S", 0]],
+    [[6.39, "diaphanous-2-like", 0], [5.94, "perlucin", 14, "end"], [9.4, "Ly6 (mantle)", 14], [14.8, "S peak", 0]]);
+})();
+
+/* 5. Tissue expression */
+(function () {
+  const s = document.getElementById("tissue");
+  const tissues = ["mantle", "foot", "head", "hepatopancreas", "reproductive", "penis"];
+  const genes = [
+    ["diaphanous-2-like (LG6)", [21.5, 21.0, 19.3, 6.8, 9.2, 15.8], C.a],
+    ["perlucin-like (LG6)", [16.8, 8.2, 5.0, 4.7, 12.8, 2.6], C.a],
+    ["Ly6/uPAR crok-like (LG6)", [87.9, 4.3, 1.0, 1.5, 3.0, 0.2], C.a],
+    ["dispatched-1-like (LG17, W)", [0.0, 0.1, 0.1, 4.0, 2.3, 0.1], C.b],
+    ["dispatched-1-like (LG17, W)", [0.2, 0.6, 1.4, 0.1, 0.2, 0.5], C.b],
+    ["dispatched-1-like (LG17)", [0.9, 1.3, 0.9, 0.7, 0.8, 0.4], C.b],
+  ];
+  const L = 200, R = 810, top = 24, rowH = 44, colW = (R - L) / tissues.length;
+  const shades = ["var(--heat0)", "var(--heat1)", "var(--heat2)", "var(--heat3)", "var(--heat4)"];
+  const bin = v => v < 1 ? 0 : v < 5 ? 1 : v < 15 ? 2 : v < 40 ? 3 : 4;
+  tissues.forEach((t, j) => el(s, "text", { x: L + colW * (j + 0.5), y: 14, "font-size": 11, "text-anchor": "middle", "font-weight": j === 0 ? 700 : 400, fill: j === 0 ? C.kelp : C.muted }, t));
+  genes.forEach(([name, v, col], i) => {
+    const y = top + i * rowH;
+    el(s, "text", { x: L - 10, y: y + rowH / 2 + 4, "font-size": 11, "text-anchor": "end", fill: col, "font-weight": 600 }, name);
+    v.forEach((x, j) => {
+      el(s, "rect", { x: L + colW * j + 2, y: y + 3, width: colW - 4, height: rowH - 6, rx: 3, fill: shades[bin(x)], stroke: j === 0 ? C.kelp : "none", "stroke-width": 1.5 });
+      el(s, "text", { x: L + colW * (j + 0.5), y: y + rowH / 2 + 4, "font-size": 11, "text-anchor": "middle", "font-family": "JetBrains Mono, monospace" }, x.toFixed(1));
+    });
+  });
+  const lg = document.getElementById("tissue-legend");
+  ["<1", "1–5", "5–15", "15–40", "40+"].forEach((t, i) => lg.insertAdjacentHTML("beforeend", `<span><i class="sw" style="background:${shades[i]};border:1px solid var(--line)"></i>${t} TPM</span>`));
+})();
+
+/* 6. LG6 detail */
+const MANTLE = [
+  [5.94, "in", "perlucin-like protein", 16.8, 6.7], [9.42, "in", "UPAR/Ly6 domain-containing protein crok-like", 87.9, 2.0],
+  [9.48, "in", "protocadherin-9-like", 9.9, 2.6], [10.20, "in", "S-acyl fatty acid synthase thioesterase-like", 4.0, 0.1],
+  [13.16, "in", "beta-1,3-galactosyltransferase 1-like", 5.0, 1.5], [14.81, "in", "cytochrome P450 2U1-like", 6.7, 2.4],
+  [14.84, "in", "CD109 antigen-like", 8.6, 0.2], [17.59, "in", "rho GTPase-activating protein 6-like", 11.4, 1.5],
+  [18.87, "out", "murinoglobulin-2-like", 8.1, 0.4], [19.25, "out", "trichohyalin-like", 2.9, 0.1],
+  [21.36, "out", "CD109 antigen-like", 5.0, 0.2], [21.49, "out", "uncharacterized LOC138968731", 10.7, 0.9],
+  [22.81, "out", "solute carrier family 4 member 11-like (bicarbonate transporters)", 11.1, 1.8], [23.68, "out", "arachidonate 12-lipoxygenase-like", 9.0, 0.9],
+];
+(function () {
+  const s = document.getElementById("lg6");
+  const L = 56, R = 805, X = mb => L + mb / 58 * (R - L);
+  // inversion band
+  el(s, "rect", { x: X(0), y: 8, width: X(17.7) - X(0), height: 370, fill: C.a, opacity: 0.1 });
+  el(s, "text", { x: X(8.85), y: 22, "font-size": 10, "text-anchor": "middle", fill: C.a, "font-weight": 600 }, "inversion (no recombination)");
+  // panel A: cM vs Mb
+  const aT = 30, aB = 190, yA = cm => aB - cm / 70 * (aB - aT);
+  [0, 20, 40, 60].forEach(v => { el(s, "line", { x1: L, x2: R, y1: yA(v), y2: yA(v), stroke: C.line }); el(s, "text", { x: L - 6, y: yA(v) + 3, "font-size": 9, "text-anchor": "end", fill: C.muted }, v); });
+  DATA.lg6.forEach(d => el(s, "circle", { cx: X(d[0]), cy: yA(d[1]), r: 2.3, fill: C.b, opacity: 0.75 }));
+  el(s, "text", { x: 14, y: (aT + aB) / 2, "font-size": 10, fill: C.muted, transform: `rotate(-90 14 ${(aT + aB) / 2})`, "text-anchor": "middle" }, "cM");
+  // panel B: S LOD
+  const bT = 215, bB = 360, yB = v => bB - v / 4.5 * (bB - bT);
+  [0, 1, 2, 3, 4].forEach(v => { el(s, "line", { x1: L, x2: R, y1: yB(v), y2: yB(v), stroke: C.line }); el(s, "text", { x: L - 6, y: yB(v) + 3, "font-size": 9, "text-anchor": "end", fill: C.muted }, v); });
+  el(s, "line", { x1: L, x2: R, y1: yB(3.99), y2: yB(3.99), stroke: C.muted, "stroke-dasharray": "4 3" });
+  el(s, "text", { x: R, y: yB(3.99) - 4, "font-size": 9, "text-anchor": "end", fill: C.muted }, "5% threshold");
+  DATA.lg6.forEach(d => el(s, "circle", { cx: X(d[0]), cy: yB(d[2]), r: 2.3, fill: C.a }));
+  el(s, "text", { x: 14, y: (bT + bB) / 2, "font-size": 10, fill: C.muted, transform: `rotate(-90 14 ${(bT + bB) / 2})`, "text-anchor": "middle" }, "S LOD");
+  // mantle gene ticks
+  MANTLE.forEach((m, i) => {
+    el(s, "line", { x1: X(m[0]), x2: X(m[0]), y1: bB + 4, y2: bB + 14, stroke: C.kelp, "stroke-width": 2 });
+    const lane = i % 2;
+    el(s, "text", { x: X(m[0]), y: bB + 25 + lane * 10, "font-size": 8.5, "text-anchor": "middle", fill: C.kelp, "font-weight": 600 }, i + 1);
+  });
+  [0, 10, 20, 30, 40, 50].forEach(v => el(s, "text", { x: X(v), y: 424, "font-size": 9, "text-anchor": "middle", fill: C.muted }, v + " Mb"));
+  const tb = document.getElementById("mantle-rows");
+  MANTLE.forEach((m, i) => tb.insertAdjacentHTML("beforeend",
+    `<tr><td class="num" style="color:var(--kelp)">${i + 1}</td><td class="num">${m[0].toFixed(2)}</td><td>${m[1] === "in" ? '<span class="lg6">inversion</span>' : "outside"}</td><td>${m[2]}</td><td class="num"><b>${m[3].toFixed(1)}</b></td><td class="num">${m[4].toFixed(1)}</td></tr>`));
+})();
+
+/* 7. Family counts heat table */
+(function () {
+  const rows = [
+    ["Littorina saxatilis (periwinkle)", "coiled, right", 2, 4, 2, 8, 10, 1],
+    ["Pomacea canaliculata", "coiled, right", 2, 3, 0, 6, 27],
+    ["Babylonia areolata", "coiled, right", 2, 4, 0, 8, 2],
+    ["Gigantopelta aegis", "coiled, right", 1, 4, 2, 2, 29],
+    ["Biomphalaria glabrata", "coiled flat, left", 1, 3, 2, 3, 15],
+    ["Physella acuta", "coiled, left", 1, 3, 2, 3, 11],
+    ["Haliotis rufescens (abalone)", "ear-shaped", 2, 3, 4, 4, 98],
+    ["Patella vulgata (limpet)", "cap", 2, 3, 2, 5, 1],
+    ["Aplysia californica", "reduced, internal", 3, 3, 3, 2, 7],
+    ["Berghia stephanieae (sea slug)", "none", 1, 2, 0, 2, 11],
+    ["Mercenaria mercenaria", "two valves", 1, 7, 0, 3, 118],
+    ["Mya arenaria", "two valves", 2, 4, 4, 4, 97],
+    ["Ruditapes philippinarum", "two valves", 1, 5, 0, 5, 153],
+    ["Crassostrea virginica (oyster)", "two valves", 2, 6, 0, 3, 98],
+    ["Pecten maximus (scallop)", "two valves", 1, 3, 6, 4, 69],
+    ["Liolophura sinensis (chiton)", "eight plates", 1, 4, 2, 6, 3],
+    ["Euprymna scolopes (squid)", "reduced, internal", 1, 2, 0, 1, 0],
+    ["Octopus bimaculoides", "none", 1, 2, 0, 1, 1],
+    ["Octopus sinensis", "none", 2, 3, 2, 1, 1],
+  ];
+  const shade = (v, max) => `var(--heat${v === 0 ? 0 : Math.min(4, 1 + Math.floor(3.99 * v / max))})`;
+  const maxes = [3, 7, 6, 8, 153];
+  const tb = document.getElementById("fam-rows");
+  rows.forEach(r => tb.insertAdjacentHTML("beforeend",
+    `<tr><td${r[7] ? ' style="font-weight:600"' : ""}><i>${r[0]}</i></td><td class="note">${r[1]}</td>` +
+    r.slice(2, 7).map((v, j) => `<td class="c" style="background:${shade(v, maxes[j])}">${v}</td>`).join("") + "</tr>"));
+})();
+</script>

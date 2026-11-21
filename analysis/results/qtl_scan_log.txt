@@ -1,0 +1,22 @@
+W             n=350  5% threshold LOD=3.88  max LOD=4.43
+W_height      n=350  5% threshold LOD=3.94  max LOD=2.86
+D_like        n=350  5% threshold LOD=3.93  max LOD=3.95
+S             n=350  5% threshold LOD=3.99  max LOD=3.82
+apertureSize  n=350  5% threshold LOD=3.89  max LOD=3.44
+shellLength   n=354  5% threshold LOD=3.92  max LOD=3.23
+
+Significant QTL peaks (best marker per linkage group):
+ trait  LG  peak_cM interval_cM  LOD  threshold  pve_percent  additive_effect_SD   n
+     W  17    65.46   64.1-67.2 4.43       3.88         5.67               -0.29 350
+D_like  17    58.17   47.7-64.1 3.95       3.93         5.06               -0.25 350
+
+Trait correlations:
+                  W  W_height  D_like     S  apertureSize  shellLength
+W             1.00      0.76   -0.08  0.27          0.82        -0.17
+W_height      0.76      1.00   -0.29  0.31          0.76        -0.29
+D_like       -0.08     -0.29    1.00 -0.40         -0.45         0.20
+S             0.27      0.31   -0.40  1.00          0.50        -0.06
+apertureSize  0.82      0.76   -0.45  0.50          1.00        -0.42
+shellLength  -0.17     -0.29    0.20 -0.06         -0.42         1.00
+
+saved c:\micah\shells\analysis\results\qtl_scan.png

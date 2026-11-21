@@ -1,0 +1,21 @@
+species,group,shell,accession,diaphanous formin,inverted formin (INF2),formin-2 (FMN2),dispatched,perlucin
+Littorina saxatilis,snail,"coiled, right-handed",GCF_037325665.1,2,4,2,8,10
+Pomacea canaliculata,snail,"coiled, right-handed",GCF_003073045.1,2,3,0,6,27
+Babylonia areolata,snail,"coiled, right-handed",GCF_041734735.1,2,4,0,8,2
+Gigantopelta aegis,snail,"coiled, right-handed",GCF_016097555.1,1,4,2,2,29
+Biomphalaria glabrata,snail,"coiled flat, left-handed",GCF_947242115.1,1,3,2,3,15
+Physella acuta,snail,"coiled, left-handed",GCF_028476545.2,1,3,2,3,11
+Haliotis rufescens,snail,ear-shaped (abalone),GCF_023055435.1,2,3,4,4,98
+Lottia gigantea,snail,cap (limpet),GCF_000327385.1,0,0,0,0,0
+Patella vulgata,snail,cap (limpet),GCF_932274485.2,2,3,2,5,1
+Aplysia californica,snail,"reduced, internal",GCF_000002075.1,3,3,3,2,7
+Berghia stephanieae,snail,none (sea slug),GCF_034508935.2,1,2,0,2,11
+Mercenaria mercenaria,clam,two valves,GCF_021730395.1,1,7,0,3,118
+Mya arenaria,clam,two valves,GCF_026914265.1,2,4,4,4,97
+Ruditapes philippinarum,clam,two valves,GCF_026571515.1,1,5,0,5,153
+Crassostrea virginica,clam,two valves (oyster),GCF_053477285.1,2,6,0,3,98
+Pecten maximus,clam,two valves (scallop),GCF_902652985.1,1,3,6,4,69
+Liolophura sinensis,chiton,eight plates,GCF_032854445.1,1,4,2,6,3
+Euprymna scolopes,cephalopod,"reduced, internal",GCF_053919585.1,1,2,0,1,0
+Octopus bimaculoides,cephalopod,none,GCF_046866305.1,1,2,0,1,1
+Octopus sinensis,cephalopod,none,GCF_006345805.1,2,3,2,1,1

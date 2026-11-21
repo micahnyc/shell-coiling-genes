@@ -1,0 +1,9 @@
+# downloaded data (~1 GB); the scripts fetch it from the original public sources
+data/
+__pycache__/
+*.pyc
+# photos measured with measure.py stay local unless added on purpose
+*.jpg
+*.jpeg
+*.heic
+*.landmarks.json
