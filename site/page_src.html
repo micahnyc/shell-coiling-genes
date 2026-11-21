@@ -103,7 +103,7 @@ a { color: var(--accent2); }
       <tr><td>Two LG6 inversion genes, a Ly6/uPAR crok-like gene and rhoGAP6, behave like shell genes in another mollusc</td><td>Mantle-specific in periwinkle; their oyster counterparts are mantle-biased like known shell genes (most other LG6 candidates are not)</td><td><span class="pill edge">candidates</span></td></tr>
       <tr><td>The <span class="lg17">LG17 inversion</span> goes with coil expansion (W) and distance from axis (D)</td><td>Significant in the F2 cross, inside the inversion; in wild snails only before allowing for habitat, which the inversion tracks</td><td><span class="pill edge">consistent, not confirmed</span></td></tr>
       <tr><td>An <span>LG12</span> inversion goes with opening size and W</td><td>Suggestive in the F2 cross, strong in wild snails</td><td><span class="pill sig">strong</span></td></tr>
-      <tr><td>A mollusc-only dispatched gene lineage on LG17 helps build shell</td><td>Present in 12 of 14 shelled species and none of 5 shell-less ones, but active mainly in gills and ciliated larval cells</td><td><span class="pill no">probably cilia, not shell</span></td></tr>
+      <tr><td>A mollusc-only dispatched gene lineage on LG17 helps build shell</td><td>Present in 13 of 15 shelled species including nautilus, and none of 5 shell-less ones; but active mainly in gills and ciliated larval cells</td><td><span class="pill no">pattern fits shells, activity fits cilia</span></td></tr>
     </tbody>
   </table></div>
 
@@ -234,9 +234,10 @@ a { color: var(--accent2); }
       <tr><td><b>Mollusc-specific lineage</b>, sister to DISP1/2</td><td>none</td><td class="num"><b>6</b></td><td>all on <span class="lg17">LG17</span>, 3 of them in the W region; expanded in periwinkle's group</td></tr>
     </tbody>
   </table></div>
-  <div class="figure"><svg id="displin" viewBox="0 0 820 300" role="img" aria-label="Copies of the mollusc-specific dispatched lineage per species, grouped by shell"></svg></div>
+  <div class="figure"><svg id="displin" viewBox="0 0 820 320" role="img" aria-label="Copies of the mollusc-specific dispatched lineage per species, grouped by shell"></svg></div>
   <ul class="plain">
-    <li>The mollusc-specific lineage is in <b>12 of 14 species with an external shell</b> and <b>none of the 5 without one</b> (octopuses, squid, Aplysia, sea slug).</li>
+    <li>The mollusc-specific lineage is in <b>13 of 15 species with an external shell</b> and <b>none of the 5 without one</b> (octopuses, squid, Aplysia, sea slug).</li>
+    <li><b>Nautilus has it.</b> Nautilus is the one living cephalopod with an external shell, and has a sequenced but unannotated genome. Aligning our proteins to it found one complete gene in this lineage. Octopus and squid, which lost the external shell, have none. Within cephalopods, losing the gene goes with losing the shell.</li>
     <li>Those 5 absences come from only 2–3 independent losses, and a missing gene can be an annotation gap, so this is a lead, not a result.</li>
     <li>Periwinkle's copies are barely active in the adult mantle. A test would need the developing shell gland or juvenile mantle.</li>
     <li><b>Diaphanous</b> is single-copy in 13 of 19 molluscs, including periwinkle and both left-coiling snails. Copy number does not track coiling direction.</li>
@@ -578,7 +579,7 @@ const MANTLE = [
   const groups = [
     ["External shell", [["Littorina", 6, 1], ["Babylonia", 6], ["Pomacea", 5], ["Liolophura (chiton)", 4], ["Patella", 3],
       ["Haliotis", 2], ["Mya", 2], ["Pecten", 2], ["Ruditapes", 2], ["Crassostrea", 2], ["Mercenaria", 1], ["Biomphalaria", 1],
-      ["Physella", 0], ["Gigantopelta", 0]]],
+      ["Nautilus (genome search)", 1], ["Physella", 0], ["Gigantopelta", 0]]],
     ["No shell or internal", [["Aplysia", 0], ["Berghia", 0], ["Euprymna", 0], ["O. bimaculoides", 0], ["O. sinensis", 0]]],
   ];
   const L = 150, R = 800, max = 6, X = v => L + v / max * (R - L - 30);

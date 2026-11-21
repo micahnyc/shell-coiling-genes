@@ -184,6 +184,21 @@ The mollusc-specific lineage:
   (bootstrap 100 clades), followed by tandem copies within each species: Littorina's 6 sit
   as two groups of 3 on LG17.
 
+**Nautilus, the shelled cephalopod** (`analysis/orthologs/run_nautilus.sh`). Nautilus
+pompilius has a genome (GCA_018389105.1, Zhang et al. 2021) but no gene annotation, so the
+dispatched and diaphanous proteins were aligned to it with miniprot and the best model per
+locus was added to the dispatched tree (`results/trees/dispatched_nautilus.*`).
+- Nautilus has one gene in the **mollusc-specific lineage** (982 aa, no stop codons or
+  frameshifts; inside the lineage clade, bootstrap 96), plus one DISP1/2 that groups with
+  octopus and squid DISP1/2 (bootstrap 100), one diaphanous and one patched.
+- So the lineage is present in the one cephalopod with an external shell and absent in the
+  three shell-less ones (two octopuses, Euprymna). Within cephalopods its loss coincides
+  with loss of the external shell, a cleaner contrast than across classes. Updated tally:
+  present in 13 of 15 species with an external shell, absent in all 5 without one.
+- This sits uneasily with the expression evidence (gill- and cilia-biased in bivalves and
+  Dreissena larvae). Both could be true, e.g. a role in a ciliated epithelium that shell-less
+  lineages no longer need, so the pattern is a lead, not a shell function.
+
 So the caenogastropod "dispatched expansion" is real, and it is this mollusc-specific
 lineage, not the Hedgehog-releasing DISP1. Against a shell role in adults: Littorina's
 copies are barely expressed in the mantle (0-1.4 TPM). The pattern makes the lineage worth

@@ -16,7 +16,7 @@ public data only.
 - Opening shape **S** and shell size map to a 17 Mb inversion on LG6 (just below threshold).
 - The LG6 inversion holds the periwinkle version of *Lsdia1*, the formin gene that sets coiling direction in the pond snail *Lymnaea* (66-69% protein identity).
 - Several LG6 genes are strongly mantle-specific (the shell-building tissue). A dispatched-gene cluster in the W region is not.
-- Gene trees: periwinkle has a single diaphanous gene (the LG6 one). Six of its LG17 dispatched genes belong to a mollusc-only lineage that is present in 12 of 14 shelled species and absent from all 5 shell-less or internal-shell species examined.
+- Gene trees: periwinkle has a single diaphanous gene (the LG6 one). Six of its LG17 dispatched genes belong to a mollusc-only lineage that is present in 13 of 15 shelled species (including Nautilus) and absent from all 5 shell-less or internal-shell species examined.
 - In 1,130 wild snails, the LG6 inversion predicts shell size and coil expansion (W) beyond habitat; the LG17 F2 effect on W lies inside the LG17 inversion and is consistent with, but not confirmed by, the wild data (the inversion tracks habitat); an LG12 inversion replicates for opening size and W.
 - The mollusc-only dispatched lineage is active mainly in gills and ciliated larval cells (Dreissena single cells), so it is probably a cilia gene, not a shell gene.
 - Of the LG6 inversion's mantle-specific genes, a Ly6/uPAR crok-like gene and rhoGAP6 are also mantle-biased in oyster, like known shell genes; the rest are not.
@@ -38,6 +38,7 @@ public data only.
 | `analysis/dreissena_singlecell.py` | Dispatched lineage vs cilia and shell-field cells in a Dreissena larva (GSE192624) |
 | `analysis/lg6_orthologs.py`, `orthologs/run_rbh.sh` | LG6 candidates vs known shell genes in oyster, mussel and Dreissena (reciprocal best hits) |
 | `analysis/shell_proteome_homologs.py`, `orthologs/run_shellprot.sh` | Periwinkle counterparts of proteins in six published shell proteomes; enrichment in the inversions |
+| `analysis/orthologs/run_nautilus.sh` | Aligns dispatched and diaphanous proteins to the unannotated Nautilus genome (miniprot); loci in `results/trees/nautilus_miniprot_loci.faa` |
 | `analysis/morphospace.py` | Places the genome species in Raup morphospace (Noshita 2012, 358 gastropods) |
 | `site/build.py` | Rebuilds `docs/index.html` from the results |
 
@@ -55,6 +56,7 @@ Python 3.11 with numpy, pandas, matplotlib, biopython. Gene trees use MAFFT, tri
 | `data/dreissena_sc/` | GEO GSE192624 (Dreissena single cells); `analysis/dreissena/run_diamond.sh` (copy into this folder) searches its proteins with the marker files kept there |
 | `data/shell_proteomes/` | Shell-matrix proteins from Mann 2012, Batzel 2022, Crepidula atrasolea 2024, Mann 2018, Liu 2015, Mann & Jackson 2014 (GenBank and paper supplements) |
 | `data/orthologs/` | NCBI RefSeq proteomes (mussel, oyster) and feature tables used by `orthologs/*.sh` |
+| `data/nautilus/` | Nautilus pompilius genome GCA_018389105.1 (NCBI) |
 | `data/koch2022/` | Koch et al. 2022, Dryad [doi:10.5061/dryad.m905qfv4b](https://datadryad.org/dataset/doi:10.5061/dryad.m905qfv4b) (`Data_Transects.txt`) |
 | `data/noshita2012/` | Noshita et al. 2012, Dryad [doi:10.5061/dryad.6mk023c0](https://datadryad.org/dataset/doi:10.5061/dryad.6mk023c0) (supplementary table PDFs) |
 
