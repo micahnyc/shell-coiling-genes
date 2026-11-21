@@ -19,6 +19,7 @@ public data only.
 - Gene trees: periwinkle has a single diaphanous gene (the LG6 one). Six of its LG17 dispatched genes belong to a mollusc-only lineage that is present in 12 of 14 shelled species and absent from all 5 shell-less or internal-shell species examined.
 - In 1,130 wild snails, the LG6 inversion predicts shell size and coil expansion (W) beyond habitat; the LG17 F2 effect on W lies inside the LG17 inversion and is consistent with, but not confirmed by, the wild data (the inversion tracks habitat); an LG12 inversion replicates for opening size and W.
 - The mollusc-only dispatched lineage is active mainly in gills and ciliated larval cells (Dreissena single cells), so it is probably a cilia gene, not a shell gene.
+- Of the LG6 inversion's mantle-specific genes, a Ly6/uPAR crok-like gene and rhoGAP6 are also mantle-biased in oyster, like known shell genes; the rest are not.
 - These are candidate regions and genes, not demonstrated causes.
 
 ## Scripts
@@ -35,6 +36,7 @@ public data only.
 | `analysis/dev_timecourse.py` | Candidate genes through development in mussel (PRJNA996031) and apple snail (GSE240084) |
 | `analysis/wild_inversions.py` | Inversion karyotypes vs shell traits in 1,130 wild snails (Koch 2022) |
 | `analysis/dreissena_singlecell.py` | Dispatched lineage vs cilia and shell-field cells in a Dreissena larva (GSE192624) |
+| `analysis/lg6_orthologs.py`, `orthologs/run_rbh.sh` | LG6 candidates vs known shell genes in oyster, mussel and Dreissena (reciprocal best hits) |
 | `analysis/morphospace.py` | Places the genome species in Raup morphospace (Noshita 2012, 358 gastropods) |
 | `site/build.py` | Rebuilds `docs/index.html` from the results |
 

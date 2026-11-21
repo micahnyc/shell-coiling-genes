@@ -75,7 +75,8 @@ def kmeans(X, k, restarts, rng):
     return best[1]
 
 
-def main():
+def load_cells(verbose=True):
+    """Filtered log-normalised cells, gene index, PCs, k-means labels and marker-set scores."""
     rng = np.random.default_rng(SEED)
     m = scipy.io.mmread(gzip.open(os.path.join(D, "GSM5753523_matrix.mtx.gz"))).tocsc()
     genes = pd.read_csv(os.path.join(D, "GSM5753523_features.tsv.gz")).gene_short_name.values
@@ -84,7 +85,8 @@ def main():
     X = np.asarray(m[:, keep].todense(), dtype=float)  # genes x cells
     X = np.log1p(X / X.sum(0) * 1e4)
     gi = {g: i for i, g in enumerate(genes)}
-    print(f"{keep.sum()} cells with >= {MIN_UMI} UMIs (paper: 632)")
+    if verbose:
+        print(f"{keep.sum()} cells with >= {MIN_UMI} UMIs (paper: 632)")
 
     expressed = (X > 0).sum(1) >= 5
     mu, var = X.mean(1), X.var(1)
@@ -102,10 +104,17 @@ def main():
     for s, g in mk.groupby("set"):
         idx = [gi[x] for x in g.s.unique() if x in gi and X[gi[x]].any()]
         if not idx:  # e.g. the Caveolin hits are not detected in any cell
-            print(f"{s}: no marker detected in these cells; skipped")
+            if verbose:
+                print(f"{s}: no marker detected in these cells; skipped")
             continue
         scores[s] = zs[idx].mean(0)
-        print(f"{s}: {len(idx)} genes -> {', '.join(g.marker)}")
+        if verbose:
+            print(f"{s}: {len(idx)} genes -> {', '.join(g.marker)}")
+    return X, gi, pcs, lab, scores
+
+
+def main():
+    X, gi, pcs, lab, scores = load_cells()
     dg = dispatched_genes()
 
     rows = []

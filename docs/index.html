@@ -98,6 +98,7 @@ a { color: var(--accent2); }
     <li>Checked which genes are active in the mantle, the tissue that builds the shell.</li>
     <li>Built gene trees for two candidate families across 19 other molluscs, human and fly.</li>
     <li>Followed the candidates through larval development in a mussel, an apple snail, an oyster and a clam, and into single cells of a mussel-relative larva.</li>
+    <li>Matched the LG6 candidates to their oyster counterparts and compared them with known shell genes.</li>
     <li>Tested the periwinkle regions again in 1,130 wild snails (Koch et al. 2022).</li>
     <li>Placed the species with genomes among 358 snail shells measured in Raup's terms (Noshita et al. 2012).</li>
   </ol>
@@ -108,7 +109,7 @@ a { color: var(--accent2); }
     <tbody>
       <tr><td><span class="lg6">The LG6 inversion</span> goes with shell size and coil expansion (W)</td><td>F2 cross (size, S near threshold); 1,130 wild snails, after allowing for habitat and the other 15 inversions</td><td><span class="pill sig">strong</span></td></tr>
       <tr><td>The same inversion holds the periwinkle version of <i>Lsdia1</i>, the gene that sets coiling direction in the pond snail</td><td>66–69% protein identity; the only diaphanous gene in periwinkle (gene tree)</td><td><span class="pill edge">candidate</span></td></tr>
-      <tr><td>Several genes in the LG6 inversion are switched on almost only in the mantle</td><td>Tissue panel; known shell genes rank the same way</td><td><span class="pill edge">candidates</span></td></tr>
+      <tr><td>Two LG6 inversion genes, a Ly6/uPAR crok-like gene and rhoGAP6, behave like shell genes in another mollusc</td><td>Mantle-specific in periwinkle; their oyster counterparts are mantle-biased like known shell genes (most other LG6 candidates are not)</td><td><span class="pill edge">candidates</span></td></tr>
       <tr><td>The <span class="lg17">LG17 inversion</span> goes with coil expansion (W) and distance from axis (D)</td><td>Significant in the F2 cross, inside the inversion; in wild snails only before allowing for habitat, which the inversion tracks</td><td><span class="pill edge">consistent, not confirmed</span></td></tr>
       <tr><td>An <span>LG12</span> inversion goes with opening size and W</td><td>Suggestive in the F2 cross, strong in wild snails</td><td><span class="pill sig">strong</span></td></tr>
       <tr><td>A mollusc-only dispatched gene lineage on LG17 helps build shell</td><td>Present in 12 of 14 shelled species and none of 5 shell-less ones, but active mainly in gills and ciliated larval cells</td><td><span class="pill no">probably cilia, not shell</span></td></tr>
@@ -117,7 +118,7 @@ a { color: var(--accent2); }
 
   <h2>What is still open</h2>
   <ul class="plain">
-    <li>Which genes inside the LG6 inversion matter. Recombination is suppressed there, so mapping alone cannot separate them.</li>
+    <li>Which genes inside the LG6 inversion matter. Recombination is suppressed there, so mapping alone cannot separate them. The shortlist is now the crok-like Ly6 gene, rhoGAP6 and diaphanous.</li>
     <li>Whether the periwinkle diaphanous gene affects shell shape, as its pond-snail relative affects coiling direction.</li>
     <li>Clams, nautilus and horns. Few of these species have annotated genomes and measured shells, too few for a comparison across species.</li>
   </ul>
@@ -285,7 +286,28 @@ a { color: var(--accent2); }
 </section>
 
 <section>
-  <div class="eyebrow">10 · Wild snails</div>
+  <div class="eyebrow">10 · LG6 candidates in other molluscs</div>
+  <h2>Which LG6 genes behave like shell genes elsewhere?</h2>
+  <p>Each mantle-specific gene from the LG6 region was matched to its counterpart in the oyster, and checked for whether the oyster uses it mostly in the mantle. Nine known shell genes from periwinkle went through the same test as controls, and their oyster counterparts rank at a median of the 94th percentile for mantle bias, so the test picks up shell genes.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Periwinkle gene</th><th>Where</th><th class="num">Oyster mantle bias (percentile)</th><th class="num">Oyster 1-day larvae (percentile)</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td>Known shell genes (9 controls)</td><td>across the genome</td><td class="num">median 94</td><td class="num">median 60</td><td><span class="pill sig">reference</span></td></tr>
+      <tr><td>Ly6/uPAR crok-like</td><td class="lg6">inversion, 9.4 Mb</td><td class="num"><b>92</b></td><td class="num"><b>99</b></td><td><span class="pill sig">shell-gene-like</span></td></tr>
+      <tr><td>rho GTPase-activating protein 6-like</td><td class="lg6">inversion edge, 17.6 Mb</td><td class="num"><b>89</b></td><td class="num"><b>90</b></td><td><span class="pill sig">shell-gene-like</span></td></tr>
+      <tr><td>Diaphanous-2-like (coiling candidate)</td><td class="lg6">inversion, 6.4 Mb</td><td class="num">59</td><td class="num">80</td><td><span class="pill no">general</span></td></tr>
+      <tr><td>Other 12 mantle-specific LG6 genes (10 with an oyster match)</td><td>inside and outside</td><td class="num">median 55</td><td class="num">median 57</td><td><span class="pill no">not shell-like</span></td></tr>
+    </tbody>
+  </table></div>
+  <ul class="plain">
+    <li>The candidates as a group sit well below the shell-gene controls (Mann-Whitney p = 3×10⁻⁴), so being mantle-specific in periwinkle is not enough.</li>
+    <li>The crok-like gene belongs to a family of 4 in periwinkle. The oyster gene matches the family rather than this one copy, but the LG6 copy is the most mantle-specific of the four (88 vs 2 TPM).</li>
+    <li>Mussel development and single larval cells were also tested, but the shell-gene controls do not behave consistently there, so those results carry little weight.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="eyebrow">11 · Wild snails</div>
   <h2>Do the inversions predict shell shape in the wild?</h2>
   <p>1,130 snails from three Swedish shores where Crab and Wave snails meet (Koch et al. 2022), each with the same shape measures as the F2 cross and a genotype for 16 inversions. Every test adjusts for habitat, island, sex and shell size, since inversions and shell shape both change between boulder and rock habitats. Effects are per inversion copy, in standard deviations.</p>
   <div class="tbl"><table>
@@ -304,7 +326,7 @@ a { color: var(--accent2); }
 </section>
 
 <section>
-  <div class="eyebrow">11 · Morphospace</div>
+  <div class="eyebrow">12 · Morphospace</div>
   <h2>Where the genome species sit among 358 snail shells</h2>
   <p>Raup's W and T measured on museum shells of 358 living gastropod species (Noshita et al. 2012). Orange: species we have genomes for, measured directly or (*) through close relatives. Blue: the pond snail, whose Lsdia1 gene sets coiling direction.</p>
   <div class="figure"><svg id="morpho" viewBox="0 0 820 360" role="img" aria-label="W versus T for 358 gastropod species with genome species highlighted"></svg></div>

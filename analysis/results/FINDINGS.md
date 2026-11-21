@@ -268,6 +268,40 @@ clustering is coarse (one large mixed cluster); 3 of the 4 lineage genes are det
 few cells to place; one species and one stage. This weakens, but does not rule out, a shell
 role in gastropods.
 
+### Do the LG6 candidates behave like shell genes in other molluscs?
+Script: `analysis/lg6_orthologs.py` (orthologs by reciprocal best DIAMOND hits,
+`analysis/orthologs/run_rbh.sh`), figure `lg6_orthologs.png`, table `lg6_orthologs.csv`.
+The 14 mantle-specific genes of the LG6 shape region and the LG6 diaphanous gene were
+matched to oyster (adult tissues + 1-day larvae), mussel (0-72 h development) and Dreissena
+(larval single cells). Nine known shell genes that are mantle-biased in periwinkle
+(carbonic anhydrases, tyrosinase, chitin synthase, nacrein, perlucin) went through the same
+tests as controls.
+
+- **Calibration:** the oyster mantle-bias test works: the controls' oyster matches have median
+  mantle-bias percentile 94 (8 genes). The mussel time course and the Dreissena cells are not
+  consistent for the controls (several carbonic anhydrases are flat or fall in the mussel;
+  most controls are too sparse in the single-cell data), so they carry little weight.
+- **Most LG6 candidates do not behave like shell genes:** median oyster mantle-bias percentile
+  57 (13 genes) vs 94 for controls (Mann-Whitney p = 3e-4).
+- **Two exceptions inside the inversion:**
+  - **UPAR/Ly6 domain-containing protein crok-like** (9.42 Mb): oyster match at the 92nd percentile
+    for mantle bias and the 99th for level in 1-day larvae. Periwinkle has 4 crok-like genes;
+    the LG6 one is the most mantle-specific (88 vs 2 TPM), and the oyster gene matches the
+    family rather than this copy alone (best reciprocal hit is another periwinkle crok-like
+    gene, 139 vs 129 bits). So: a mantle-expressed gene family in both species, with the
+    most mantle-specific periwinkle copy inside the LG6 inversion.
+  - **rho GTPase-activating protein 6-like** (17.59 Mb, near the inversion edge): reciprocal
+    best hits in all three species; oyster mantle bias 89th percentile, larvae 90th; rises
+    into the mussel veliger (+1.65 log2).
+- Protocadherin-9-like rises ~85-fold into the mussel shell-field window, but its mussel
+  match is not reciprocal and its oyster mantle bias is average (57th percentile).
+- Diaphanous: average in every test, as before.
+- CD109 and murinoglobulin (alpha-macroglobulin family) share one non-reciprocal mussel match,
+  so their mussel values are the same gene; not informative.
+
+Updated candidate shortlist for the LG6 inversion: the crok-like Ly6 gene and rhoGAP6 as
+mantle/shell-type genes, plus diaphanous as the coiling-direction candidate.
+
 ## Wild snails: inversion karyotypes vs shell shape
 Script: `analysis/wild_inversions.py`. Data: Koch et al. 2022 (Evolution 76:2332, Dryad
 doi:10.5061/dryad.m905qfv4b): 1,130 snails from three Swedish Crab-Wave transects, with the

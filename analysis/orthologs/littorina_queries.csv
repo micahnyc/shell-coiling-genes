@@ -1,0 +1,25 @@
+gene_id,set,description,protein
+138968375,LG6 inversion,perlucin-like protein,XP_070197055.1
+138968436,LG6 inversion,UPAR/Ly6 domain-containing protein crok-like,XP_070197117.1
+138968432,LG6 inversion,protocadherin-9-like,XP_070197112.1
+138968462,LG6 inversion,"S-acyl fatty acid synthase thioesterase, medium chain-like",XP_070197138.1
+138968552,LG6 inversion,"beta-1,3-galactosyltransferase 1-like",XP_070197232.1
+138968590,LG6 inversion,cytochrome P450 2U1-like,XP_070197281.1
+138969612,LG6 inversion,CD109 antigen-like,XP_070198572.1
+138968639,LG6 inversion,rho GTPase-activating protein 6-like,XP_070197337.1
+138968150,"LG6 S region, outside inversion",murinoglobulin-2-like,XP_070196814.1
+138968685,"LG6 S region, outside inversion",trichohyalin-like,XP_070197388.1
+138968735,"LG6 S region, outside inversion",CD109 antigen-like,XP_070197469.1
+138968731,"LG6 S region, outside inversion",uncharacterized LOC138968731,XP_070197464.1
+138968777,"LG6 S region, outside inversion",solute carrier family 4 member 11-like,XP_070197517.1
+138967962,"LG6 S region, outside inversion","arachidonate 12-lipoxygenase, 12R-type-like",XP_070196623.1
+138968364,LG6 inversion (diaphanous),protein diaphanous homolog 2-like,XP_070197016.1
+138977967,control: known shell gene,carbonic anhydrase 1-like,XP_070206671.1
+138963908,control: known shell gene,tyrosinase-like protein,XP_070191865.1
+138975428,control: known shell gene,carbonic anhydrase 2-like,XP_070204207.1
+138981550,control: known shell gene,carbonic anhydrase 1-like,XP_070210605.1
+138976901,control: known shell gene,carbonic anhydrase 14-like,XP_070205896.1
+138981280,control: known shell gene,perlucin-like protein,XP_070210230.1
+138949353,control: known shell gene,chitin synthase chs-2-like,XP_070177250.1
+138973285,control: known shell gene,nacrein-like protein P2,XP_070202109.1
+138975754,control: known shell gene,carbonic anhydrase 7-like,XP_070204602.1
