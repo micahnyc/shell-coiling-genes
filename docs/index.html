@@ -7,7 +7,7 @@
 body{margin:0;font:14px system-ui,sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
 </head>
 <body>
-<title>Periwinkle Shell Genes</title>
+<title>Shell Coiling Genes</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
@@ -72,7 +72,7 @@ td.c { text-align: center; font-family: var(--font-mono); font-variant-numeric: 
 .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
 .summary > div { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 14px 16px; display: grid; gap: 6px; align-content: start; min-width: 0; }
 .summary .tag { font-family: var(--font-mono); font-size: 0.75rem; }
-ul.plain { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; max-width: 70ch; }
+ul.plain, ol.plain { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; max-width: 70ch; }
 .hm td.c { color: var(--fg); }
 a { color: var(--accent2); }
 @media (max-width: 520px) { h1 { font-size: 1.65rem; } }
@@ -81,17 +81,47 @@ a { color: var(--accent2); }
 <div class="wrap">
 
 <header style="display:grid; gap:12px">
-  <div class="eyebrow">Littorina saxatilis · rough periwinkle · public data only</div>
-  <h1>Periwinkle Shell Genes</h1>
-  <p class="lede">Which parts of a snail's genome go with Raup's coiling parameters? Results so far from an F2 cross of two periwinkle ecotypes (Crab and Wave), placed on the 2024 genome, checked against tissue expression, and compared across 20 molluscs.</p>
+  <div class="eyebrow">Raup's coiling model · mollusc genomes · public data only</div>
+  <h1>Shell Coiling Genes</h1>
+  <p class="lede">Snail shells, clams, nautilus and ram's horns are all one tube growing around an axis. Raup (1966) showed that four numbers describe most of them. This project asks which parts of the genome set those numbers.</p>
 </header>
 
 <section>
-  <div class="summary">
-    <div><span class="tag lg17">LG17 · 64–70 Mb</span><h3>Coil expansion (W) and distance from axis (D)</h3><p class="note">W is significant in the F2 cross (LOD 4.43), but does not replicate clearly in wild snails. 174 genes, including dispatched genes from a mollusc-only lineage that is missing in shell-less species.</p></div>
-    <div><span class="tag lg6">LG6 · 0–17.7 Mb inversion</span><h3>Opening shape (S) and shell size</h3><p class="note">Just below the threshold (LOD 3.82). Holds the periwinkle version of the pond-snail coiling gene and 8 strongly mantle-specific genes. In 1,130 wild snails this inversion predicts size and coil expansion.</p></div>
-    <div><span class="tag" style="color:var(--kelp)">Status</span><h3>Candidates, not causes</h3><p class="note">Each region is millions of bases inherited as a block. Separating genes needs recombinant snails or expression at the shell edge.</p></div>
-  </div>
+  <div class="eyebrow">Overview</div>
+  <h2>The question</h2>
+  <p>Raup's four parameters are <b>W</b>, how fast the tube widens each turn; <b>D</b>, how far it sits from the coiling axis; <b>T</b>, how far each turn moves down the axis; and <b>S</b>, the shape of the opening. Change them and a nautilus becomes a periwinkle or a clam. If a few genes control a few parameters, shell diversity has a simple genetic basis. The best place to look is the rough periwinkle, <i>Littorina saxatilis</i>, whose Crab and Wave forms differ in shell shape and have been crossed and genotyped.</p>
+
+  <h2>What we did</h2>
+  <ol class="plain">
+    <li>Mapped W, D, T-related and S in 350 periwinkles from a Crab × Wave cross (Koch et al. 2021).</li>
+    <li>Placed the mapped regions on the 2024 genome and listed their genes.</li>
+    <li>Checked which genes are active in the mantle, the tissue that builds the shell.</li>
+    <li>Built gene trees for two candidate families across 19 other molluscs, human and fly.</li>
+    <li>Followed the candidates through larval development in a mussel, an apple snail, an oyster and a clam, and into single cells of a mussel-relative larva.</li>
+    <li>Tested the periwinkle regions again in 1,130 wild snails (Koch et al. 2022).</li>
+    <li>Placed the species with genomes among 358 snail shells measured in Raup's terms (Noshita et al. 2012).</li>
+  </ol>
+
+  <h2>What we found</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Finding</th><th>Evidence</th><th>How solid</th></tr></thead>
+    <tbody>
+      <tr><td><span class="lg6">The LG6 inversion</span> goes with shell size and coil expansion (W)</td><td>F2 cross (size, S near threshold); 1,130 wild snails, after allowing for habitat and the other 15 inversions</td><td><span class="pill sig">strong</span></td></tr>
+      <tr><td>The same inversion holds the periwinkle version of <i>Lsdia1</i>, the gene that sets coiling direction in the pond snail</td><td>66–69% protein identity; the only diaphanous gene in periwinkle (gene tree)</td><td><span class="pill edge">candidate</span></td></tr>
+      <tr><td>Several genes in the LG6 inversion are switched on almost only in the mantle</td><td>Tissue panel; known shell genes rank the same way</td><td><span class="pill edge">candidates</span></td></tr>
+      <tr><td>The <span class="lg17">LG17 inversion</span> goes with coil expansion (W) and distance from axis (D)</td><td>Significant in the F2 cross, inside the inversion; in wild snails only before allowing for habitat, which the inversion tracks</td><td><span class="pill edge">consistent, not confirmed</span></td></tr>
+      <tr><td>An <span>LG12</span> inversion goes with opening size and W</td><td>Suggestive in the F2 cross, strong in wild snails</td><td><span class="pill sig">strong</span></td></tr>
+      <tr><td>A mollusc-only dispatched gene lineage on LG17 helps build shell</td><td>Present in 12 of 14 shelled species and none of 5 shell-less ones, but active mainly in gills and ciliated larval cells</td><td><span class="pill no">probably cilia, not shell</span></td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>What is still open</h2>
+  <ul class="plain">
+    <li>Which genes inside the LG6 inversion matter. Recombination is suppressed there, so mapping alone cannot separate them.</li>
+    <li>Whether the periwinkle diaphanous gene affects shell shape, as its pond-snail relative affects coiling direction.</li>
+    <li>Clams, nautilus and horns. Few of these species have annotated genomes and measured shells, too few for a comparison across species.</li>
+  </ul>
+  <p class="note">The sections below hold the data behind each step. Every result is from public data; the code is at <a href="https://github.com/micahnyc/shell-coiling-genes" target="_blank" rel="noopener">github.com/micahnyc/shell-coiling-genes</a>.</p>
 </section>
 
 <section>
@@ -239,8 +269,19 @@ a { color: var(--accent2); }
   </table></div>
   <ul class="plain">
     <li>The mussel timing fits a shell-field role. The adult gill bias and the ciliated band that also forms at 12–16 h fit a role in ciliated tissue just as well.</li>
-    <li>Whole-embryo data cannot say which cells express a gene. Single-cell or in situ data would settle it.</li>
   </ul>
+  <h3>Single cells settle it toward cilia</h3>
+  <p>Single-cell RNA-seq of a <i>Dreissena</i> larva (a freshwater mussel relative, 575 cells at the shell-field stage) shows which cells use the gene. Its most active copy of the mollusc-only lineage is in 40% of the cells with the strongest cilia signature, and in 0–3% of cells leaning toward shell field. Cell by cell it tracks cilia genes (ρ = 0.36) much more than shell-field genes (ρ = 0.15).</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Cell group</th><th class="num">Cells</th><th class="num">Cilia score</th><th class="num">Shell-field score</th><th class="num">Cells using the gene</th></tr></thead>
+    <tbody>
+      <tr><td>Ciliated cells</td><td class="num">83</td><td class="num">+1.40</td><td class="num">−0.14</td><td class="num"><b>40%</b></td></tr>
+      <tr><td>Mixed main group</td><td class="num">376</td><td class="num">−0.22</td><td class="num">−0.01</td><td class="num">19%</td></tr>
+      <tr><td>Shell-field leaning, group A</td><td class="num">29</td><td class="num">−0.38</td><td class="num">+0.39</td><td class="num">0%</td></tr>
+      <tr><td>Shell-field leaning, group B</td><td class="num">39</td><td class="num">−0.37</td><td class="num">+0.22</td><td class="num">3%</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Scores are mean standardised expression of marker genes found by similarity to human proteins (cilia: FOXJ1, tektins, radial spoke and dynein genes; shell field: engrailed, Hox1, BMP2/4, GATA2/3). Three smaller groups are omitted. One species at one stage, with coarse clustering.</p>
 </section>
 
 <section>
@@ -251,12 +292,13 @@ a { color: var(--accent2); }
     <thead><tr><th>Inversion</th><th>F2 cross</th><th>Wild snails</th><th>Verdict</th></tr></thead>
     <tbody>
       <tr><td class="lg6">LG6</td><td>S and size (just below threshold)</td><td>size −0.54 (p 10⁻⁶⁹), coil expansion W +0.23 (p 10⁻¹¹), opening size +0.16, S −0.15 (p 7×10⁻⁴); size and W hold with all 16 inversions in one model</td><td><span class="pill sig">replicates, adds W</span></td></tr>
-      <tr><td class="lg17">LG17</td><td>W and D</td><td>W −0.10 (p 0.015), D +0.11 (p 0.02); S +0.22 (p 10⁻⁵) and size, which mostly vanish alongside the other inversions</td><td><span class="pill edge">W and D not replicated</span></td></tr>
+      <tr><td class="lg17">LG17</td><td>W and D, inside the LG17 inversion</td><td>W −0.10 (p 0.015), D +0.11 (p 0.02); without the habitat adjustment W p 0.0015. S +0.22 (p 10⁻⁵) and size, which mostly vanish alongside the other inversions</td><td><span class="pill edge">consistent, not confirmed</span></td></tr>
       <tr><td>LG12</td><td>opening size (suggestive)</td><td>height expansion −0.30 (p 10⁻²³), W −0.22, opening size −0.19, all holding in the joint model</td><td><span class="pill sig">replicates</span></td></tr>
     </tbody>
   </table></div>
   <ul class="plain">
-    <li>The F2 LG17 signal may sit outside the LG17 inversion itself, or belong to the crossed families. The F2 markers have not been matched to the inversion's boundaries.</li>
+    <li>The F2 LG17 signal sits inside the LG17 inversion, which spans 63.0–70.3 Mb on the 2024 genome (inversion bounds from Koch et al. 2021, placed with our markers). The coil-expansion region, 63.9–70.3 Mb, is entirely within it.</li>
+    <li>In the wild this inversion goes up and down with habitat, so adjusting for habitat removes much of its effect. The cross shuffles inversions independently of habitat, which is why it shows the effect clearly. The wild data are consistent with it but cannot confirm it on their own.</li>
     <li>These tests are for whole inversions. Recombination is suppressed inside an inversion, so the wild data cannot narrow LG6 down to genes.</li>
   </ul>
 </section>
@@ -282,7 +324,7 @@ a { color: var(--accent2); }
     <li>Davison et al. 2016, Current Biology: Lsdia1 and coiling direction in Lymnaea</li>
     <li>Koch et al. 2022, Evolution: wild hybrid-zone snails with inversion karyotypes (<a href="https://datadryad.org/dataset/doi:10.5061/dryad.m905qfv4b" target="_blank" rel="noopener">Dryad</a>)</li>
     <li>Noshita, Asami &amp; Ubukata 2012, Paleobiology: Raup parameters of 358 gastropods (<a href="https://datadryad.org/dataset/doi:10.5061/dryad.6mk023c0" target="_blank" rel="noopener">Dryad</a>); Tajika &amp; Klug 2020, PeerJ: Nautilus</li>
-    <li>Development data: Miglioli et al. 2024 (mussel, PRJNA996031); Accorsi et al. 2025 (apple snail, GEO GSE240084); NCBI RefSeq expression tables for oyster and Ruditapes</li>
+    <li>Development data: Miglioli et al. 2024 (mussel, PRJNA996031); Accorsi et al. 2025 (apple snail, GEO GSE240084); NCBI RefSeq expression tables for oyster and Ruditapes; Salamanca-Díaz et al. 2022 (Dreissena single cells, GEO GSE192624)</li>
   </ul>
 </section>
 

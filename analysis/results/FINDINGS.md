@@ -244,6 +244,30 @@ Reading this:
 - Telling these apart needs spatial data: a single-cell atlas of a trochophore with a
   shell-field cluster (for example Dreissena, GSE192624) or in situ hybridisation.
 
+### Single cells: shell field or ciliated cells?
+Script: `analysis/dreissena_singlecell.py`, figure `dreissena_singlecell.png`. Data: Dreissena
+rostriformis trochophore (13-15 h), 10x single-cell RNA-seq, GEO GSE192624 (Salamanca-Diaz et
+al. 2022), whose authors describe shell-field, prototroch and other ciliated populations.
+- The deposited gene models were translated and searched with DIAMOND. By best hit against
+  our dispatched set, Dreissena has 4 genes in the mollusc-specific lineage, 1 DISP3 and
+  fragments of DISP1/2 (best-hit assignment, not a tree).
+- Marker sets were taken as best hits of human proteins: cilia (FOXJ1, 3 tektins, 3 radial
+  spoke proteins, axonemal dyneins DNAI1/2/DNALI1, SPAG6, CFAP52) and shell field (engrailed,
+  Hox1, BMP2/4, GATA2/3, SMAD1, CHRDL1). Caveolin hits were not detected in any cell.
+- 575 cells (>= 300 UMIs), PCA, k-means (k = 7).
+
+Result: the most widely expressed lineage gene (Gene.32991, 113 cells) is concentrated in the
+cluster with the strongest cilia signature (40% of its cells express it) and nearly absent
+from the two clusters leaning to shell field (0% and 3%). Per cell it correlates with the
+cilia score (Spearman rho = 0.36, p = 7e-19) much more than with the shell-field score
+(rho = 0.15). Together with gill-biased expression in adult oyster and Ruditapes, this points
+to a role in ciliated epithelia rather than shell secretion.
+
+Limits: the shell-field marker set is inferred from human genes and weak in this data; the
+clustering is coarse (one large mixed cluster); 3 of the 4 lineage genes are detected in too
+few cells to place; one species and one stage. This weakens, but does not rule out, a shell
+role in gastropods.
+
 ## Wild snails: inversion karyotypes vs shell shape
 Script: `analysis/wild_inversions.py`. Data: Koch et al. 2022 (Evolution 76:2332, Dryad
 doi:10.5061/dryad.m905qfv4b): 1,130 snails from three Swedish Crab-Wave transects, with the
@@ -268,9 +292,21 @@ What this adds:
   adjusting for habitat and for all other inversions.
 - **LG17's F2 effect on W and D does not replicate clearly** in the wild (W p = 0.015, not
   significant after correction). LG17 instead goes with opening shape (S) and size, and
-  those mostly vanish once the other inversions are in the model. The F2 LG17 QTL may sit
-  outside the LGC17.1 inversion (not checked: the F2 markers were not mapped to inversion
-  breakpoints), or it may be specific to the crossed families.
+  those mostly vanish once the other inversions are in the model.
+- **The F2 LG17 QTL lies inside the LGC17.1 inversion**, so that is not the explanation.
+  Koch et al. 2021 Table S1 places inv17.1 at 58.3-66.1 cM on the F2 map; through our marker
+  placement that is 63.0-70.3 Mb on the 2024 genome, which contains the whole W region
+  (63.9-70.3 Mb, peak 65.5 cM). Koch 2021 also found inv17.1 genotype affects width growth in
+  the F2 (FDR p = 0.009; their Table S7). Check of the method: their inv6.1/2 bounds
+  (0.75-19.65 cM) convert to 1.4-15.0 Mb, matching the flat block. Note that Koch's
+  supplementary tables count LG6 from the opposite end to Geno.QTL.csv (their aperture-shape
+  peak 18.6 cM = 69.1 - our 50.5 cM); LG17 runs the same way in both.
+- The likely reason for the weak wild result: inv17.1 frequency tracks the Crab/Wave
+  habitat, so the habitat term absorbs much of its effect. Without the habitat term the wild
+  W effect is p = 0.0015. The F2 cross breaks that link (arrangements are shuffled across
+  families), which is why it detects the effect. So the LG17 result is "consistent but not
+  independently confirmed", rather than "contradicted". The dispatched cluster (64.1-64.3 Mb)
+  and DISP1 (70.0 Mb) lie inside the inversion.
 - **LG12 replicates**: the F2 cross had a suggestive opening-size QTL there; in the wild
   LGC12.2 is one of the strongest shape inversions.
 - Size, W and S are correlated, and inversions are correlated with each other and with the
