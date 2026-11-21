@@ -193,8 +193,25 @@ locus was added to the dispatched tree (`results/trees/dispatched_nautilus.*`).
   octopus and squid DISP1/2 (bootstrap 100), one diaphanous and one patched.
 - So the lineage is present in the one cephalopod with an external shell and absent in the
   three shell-less ones (two octopuses, Euprymna). Within cephalopods its loss coincides
-  with loss of the external shell, a cleaner contrast than across classes. Updated tally:
-  present in 13 of 15 species with an external shell, absent in all 5 without one.
+  with loss of the external shell, a cleaner contrast than across classes.
+- **Absences checked in the genomes themselves** (`analysis/absence_check.py`,
+  `orthologs/run_absence_check.sh` + `run_absence_align.sh`, table `absence_check.csv`).
+  All dispatched-family proteins were aligned with miniprot (-N 20 --outs=0.5) to the five
+  annotated genomes lacking the lineage, and to periwinkle LG17 as a control (every lineage
+  region and DISP1 recovered and correctly labelled; tandem copies merge, so this counts
+  presence, not copy number):
+  - Octopus bimaculoides: only ~140-aa fragments at ~32% identity (lineage-like and
+    DISP3-like alike), not genes; intact DISP1/2 and patched found. **Absent.**
+  - Berghia stephanieae (no shell): **absent**; DISP1/2, DISP3, patched found.
+  - Gigantopelta aegis (external shell): **absent**; DISP1/2, DISP3, patched found.
+  - Physella acuta (external shell): **present but split**, two pieces (480 and 363 aa, 72%
+    identity, frameshifts) on small unplaced scaffolds. Missed by the annotation.
+  - Aplysia californica (small internal shell): **one partial copy** (668 aa, 45% identity,
+    2 frameshifts). Could be a decaying gene or errors in the older AplCal3.0 assembly.
+  - Euprymna and Octopus sinensis were not re-checked (annotation only).
+  Revised tally: present in 14 of 15 species with an external shell (absent in
+  Gigantopelta); in the 5 without one, absent (octopuses, Euprymna, Berghia) or a broken
+  partial copy (Aplysia).
 - This sits uneasily with the expression evidence (gill- and cilia-biased in bivalves and
   Dreissena larvae). Both could be true, e.g. a role in a ciliated epithelium that shell-less
   lineages no longer need, so the pattern is a lead, not a shell function.
