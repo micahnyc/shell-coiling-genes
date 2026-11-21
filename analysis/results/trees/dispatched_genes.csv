@@ -69,6 +69,12 @@ dispatched,Liolophura sinensis,chiton,eight plates,135475725,LOC135475725,protei
 dispatched,Euprymna scolopes,cephalopod,"reduced, internal",145260537,LOC145260537,protein dispatched homolog 1-like,36,XP_079974874.1,1111,Euprymna_scolopes|LOC145260537|XP_079974874.1
 dispatched,Octopus bimaculoides,cephalopod,none,106873114,LOC106873114,protein dispatched homolog 1,11,XP_052827489.1,1083,Octopus_bimaculoides|LOC106873114|XP_052827489.1
 dispatched,Octopus sinensis,cephalopod,none,115217466,LOC115217466,protein dispatched homolog 1-like,LG11,XP_029643031.2,1073,Octopus_sinensis|LOC115217466|XP_029643031.2
+dispatched,Mytilus galloprovincialis,clam,two valves (mussel),143068152,LOC143068152,protein dispatched homolog 1-like,3,XP_076098075.1,1128,Mytilus_galloprovincialis|LOC143068152|XP_076098075.1
+dispatched,Mytilus galloprovincialis,clam,two valves (mussel),143069149,LOC143069149,protein dispatched homolog 1-like,3,XP_076099750.1,1193,Mytilus_galloprovincialis|LOC143069149|XP_076099750.1
+dispatched,Mytilus galloprovincialis,clam,two valves (mussel),143069148,LOC143069148,protein dispatched homolog 1-like,3,XP_076099747.1,1104,Mytilus_galloprovincialis|LOC143069148|XP_076099747.1
+dispatched,Mytilus galloprovincialis,clam,two valves (mussel),143069150,LOC143069150,protein dispatched homolog 1-like,3,XP_076099751.1,1104,Mytilus_galloprovincialis|LOC143069150|XP_076099751.1
+dispatched,Mytilus galloprovincialis,clam,two valves (mussel),143051730,LOC143051730,protein dispatched homolog 1-like,11,XP_076080756.1,1137,Mytilus_galloprovincialis|LOC143051730|XP_076080756.1
+dispatched,Mytilus galloprovincialis,clam,two valves (mussel),143056896,LOC143056896,protein dispatched homolog 3-like,13,XP_076086185.1,1307,Mytilus_galloprovincialis|LOC143056896|XP_076086185.1
 dispatched,Homo sapiens,human,reference,57540,DISP3,dispatched RND transporter family member 3,1,NP_065831.1,1392,Homo_sapiens|DISP3|NP_065831.1
 dispatched,Homo sapiens,human,reference,84976,DISP1,dispatched RND transporter family member 1,1,NP_116279.2,1524,Homo_sapiens|DISP1|NP_116279.2
 dispatched,Homo sapiens,human,reference,85455,DISP2,dispatched RND transporter family member 2,15,NP_277045.1,1401,Homo_sapiens|DISP2|NP_277045.1

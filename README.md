@@ -29,6 +29,8 @@ public data only.
 | `analysis/mantle_expression.py` | Ranks genes by mantle-specific expression (NCBI tissue TPMs) |
 | `analysis/gene_family_counts.py` | Counts candidate gene families in 20 molluscs |
 | `analysis/gene_trees.py`, `run_trees.sh` | Gene trees for formins and dispatched (MAFFT, trimAl, IQ-TREE) |
+| `analysis/dev_expression.py` | Candidate genes across larvae and adult tissues in oyster and Ruditapes (NCBI TPMs) |
+| `analysis/dev_timecourse.py` | Candidate genes through development in mussel (PRJNA996031) and apple snail (GSE240084) |
 | `site/build.py` | Rebuilds `docs/index.html` from the results |
 
 Python 3.11 with numpy, pandas, matplotlib, biopython. Gene trees use MAFFT, trimAl and IQ-TREE

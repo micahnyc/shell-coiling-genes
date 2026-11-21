@@ -189,6 +189,61 @@ lineage, not the Hedgehog-releasing DISP1. Against a shell role in adults: Litto
 copies are barely expressed in the mantle (0-1.4 TPM). The pattern makes the lineage worth
 checking in developing shell gland or juvenile mantle data.
 
+### Expression during development (bivalves)
+Script: `analysis/dev_expression.py`. NCBI RefSeq TPM tables for the two bivalves whose
+annotation includes larval RNA-seq: Crassostrea virginica (1-day larvae, when the first
+shell forms, 23 runs; 22-day juveniles; adult mantle, gill, gonad, hemocytes) and Ruditapes
+philippinarum (larvae, umbo larvae, mantle and 13 other tissues). No gastropod in our set
+has embryo or larval samples in its RefSeq annotation. Mercenaria ships raw counts only.
+Output: `dev_expression_long.csv`, `dev_expression.png`.
+
+Highest TPM of any gene in each group:
+
+| Group | Oyster: larvae (1 d) | Oyster: mantle | Oyster: top tissue | Ruditapes: larva | Ruditapes: mantle | Ruditapes: top tissue |
+|---|---|---|---|---|---|---|
+| Mollusc-specific dispatched-like | 10.9 | 9.8 | gill 49.6 | 6.1 | 6.3 | gill 41.1 |
+| DISP1/2 | 3.9 | 6.2 | hemocytes 22.5 | 6.1 | 1.8 | foot/whole 7-8 |
+| Diaphanous | 15.5 | 16.8 | whole oyster 30.3 | 6.0 | 5.2 | whole-organism 10.4 |
+
+- **The mollusc-specific dispatched-like lineage is gill-biased in both bivalves** (and
+  hepatopancreas/reproductive in Littorina), with only moderate expression in larvae and
+  mantle. That does not look like a shell-forming gene. Its absence in shell-less species
+  may track something else they share; the lead is weakened.
+- **Diaphanous is expressed at moderate levels in every tissue and stage,** larvae included,
+  as expected for a general actin regulator. Its known role (chirality in Lymnaea) is set in
+  the first cleavages, earlier than any stage sampled here.
+
+### Developmental time courses (mussel and apple snail)
+Script: `analysis/dev_timecourse.py`, figure `dev_timecourse.png`. Expression in CPM
+(compare one gene across stages, not genes with each other). Reference curve: mean scaled
+profile of shell-forming gene names reaching >= 5 CPM.
+- *Mytilus galloprovincialis* (Miglioli et al. 2024, PRJNA996031; NCBI RefSeq counts),
+  0-72 h, 15 stages x 2. Added to the dispatched tree: 4 genes in the mollusc-specific
+  lineage, 1 DISP1/2, 1 DISP3.
+- *Pomacea canaliculata* (Accorsi et al. 2025, GEO GSE240084), stages 2-10 and hatchling, 3-4
+  replicates. The stage-to-morphology mapping is not in the deposit.
+
+| Species | Gene (group) | Pattern |
+|---|---|---|
+| Mussel | LOC143069148, LOC143069150 (mollusc-specific) | ~0.5 CPM to 10-16 CPM between 12 and 16 h, as the shell field forms; stay at 5-10 |
+| Mussel | LOC143069149 (mollusc-specific) | switches on earlier, peak 120 CPM at 8 h (gastrula), then 40-80 |
+| Mussel | LOC143051730 (mollusc-specific) | maternal (34 CPM in egg), dips, then 15-28 |
+| Mussel | DISP1/2, DISP3 | present throughout, no shell-field change |
+| Mussel | shell-gene reference | rises steadily from ~16 h to a maximum at 72 h (D-veliger) |
+| Apple snail | LOC112571125 (mollusc-specific) | 0.1 to ~2-3 CPM from stage 7 on, rising with the shell-gene reference; other 4 copies near zero |
+| Apple snail | DISP1/2 | flat, 35-54 CPM |
+| Apple snail | diaphanous LOC112560687 | high throughout (60-115 CPM) |
+
+Reading this:
+- In the mussel, two copies of the mollusc-specific lineage switch on exactly as the shell
+  field forms, and before the bulk of shell genes. That fits a shell-field role. In the
+  snail the lineage is barely expressed, though one copy tracks shell formation.
+- Whole-embryo data cannot say which cells express a gene. The 12-16 h window also brings
+  the ciliated prototroch, and adult expression is gill-biased in both bivalves (ciliated
+  tissue). So "ciliated epithelium gene" fits as well as "shell gene".
+- Telling these apart needs spatial data: a single-cell atlas of a trochophore with a
+  shell-field cluster (for example Dreissena, GSE192624) or in situ hybridisation.
+
 ## Caveats
 - Adding family as a covariate is conservative: it removes between-family genetic
   differences, which lowers LODs. Both versions are reported.

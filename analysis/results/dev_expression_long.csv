@@ -1,0 +1,175 @@
+species,group,gene,name,sample_type,runs,TPM,pct_within_sample
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111130293,protein dispatched homolog 1-like,gill,16,49.599,91.119
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111130293,protein dispatched homolog 1-like,gonad,12,1.551,55.610
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111130293,protein dispatched homolog 1-like,hemocytes,17,4.598,62.426
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111130293,protein dispatched homolog 1-like,juvenile (22 day),11,2.170,53.531
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111130293,protein dispatched homolog 1-like,larvae (1 day),23,3.792,62.067
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111130293,protein dispatched homolog 1-like,mantle,12,9.551,73.776
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111130293,protein dispatched homolog 1-like,whole body,4,8.232,60.900
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111130293,protein dispatched homolog 1-like,whole oyster tissue,20,22.972,80.175
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111131095,protein dispatched homolog 1-like,gill,16,33.049,86.317
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111131095,protein dispatched homolog 1-like,gonad,12,2.091,58.861
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111131095,protein dispatched homolog 1-like,hemocytes,17,4.839,63.036
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111131095,protein dispatched homolog 1-like,juvenile (22 day),11,3.932,63.206
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111131095,protein dispatched homolog 1-like,larvae (1 day),23,10.868,76.918
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111131095,protein dispatched homolog 1-like,mantle,12,9.828,74.194
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111131095,protein dispatched homolog 1-like,whole body,4,5.954,53.412
+Crassostrea virginica,mollusc-specific dispatched-like lineage,LOC111131095,protein dispatched homolog 1-like,whole oyster tissue,20,17.586,75.682
+Crassostrea virginica,DISP1/2 (Hedgehog-releasing orthologs),LOC111129952,protein dispatched homolog 1-like,gill,16,10.951,68.061
+Crassostrea virginica,DISP1/2 (Hedgehog-releasing orthologs),LOC111129952,protein dispatched homolog 1-like,gonad,12,4.038,65.307
+Crassostrea virginica,DISP1/2 (Hedgehog-releasing orthologs),LOC111129952,protein dispatched homolog 1-like,hemocytes,17,22.548,81.986
+Crassostrea virginica,DISP1/2 (Hedgehog-releasing orthologs),LOC111129952,protein dispatched homolog 1-like,juvenile (22 day),11,1.973,52.103
+Crassostrea virginica,DISP1/2 (Hedgehog-releasing orthologs),LOC111129952,protein dispatched homolog 1-like,larvae (1 day),23,3.930,62.478
+Crassostrea virginica,DISP1/2 (Hedgehog-releasing orthologs),LOC111129952,protein dispatched homolog 1-like,mantle,12,6.194,66.686
+Crassostrea virginica,DISP1/2 (Hedgehog-releasing orthologs),LOC111129952,protein dispatched homolog 1-like,whole body,4,3.674,43.824
+Crassostrea virginica,DISP1/2 (Hedgehog-releasing orthologs),LOC111129952,protein dispatched homolog 1-like,whole oyster tissue,20,10.592,67.122
+Crassostrea virginica,diaphanous,LOC111124853,protein diaphanous homolog 2-like,gill,16,25.833,82.652
+Crassostrea virginica,diaphanous,LOC111124853,protein diaphanous homolog 2-like,gonad,12,7.815,72.338
+Crassostrea virginica,diaphanous,LOC111124853,protein diaphanous homolog 2-like,hemocytes,17,18.874,79.902
+Crassostrea virginica,diaphanous,LOC111124853,protein diaphanous homolog 2-like,juvenile (22 day),11,10.513,79.268
+Crassostrea virginica,diaphanous,LOC111124853,protein diaphanous homolog 2-like,larvae (1 day),23,15.462,81.670
+Crassostrea virginica,diaphanous,LOC111124853,protein diaphanous homolog 2-like,mantle,12,16.846,82.695
+Crassostrea virginica,diaphanous,LOC111124853,protein diaphanous homolog 2-like,whole body,4,16.928,76.729
+Crassostrea virginica,diaphanous,LOC111124853,protein diaphanous homolog 2-like,whole oyster tissue,20,29.941,84.483
+Crassostrea virginica,diaphanous,LOC111125745,protein diaphanous homolog 2-like,gill,16,27.598,83.710
+Crassostrea virginica,diaphanous,LOC111125745,protein diaphanous homolog 2-like,gonad,12,14.978,80.799
+Crassostrea virginica,diaphanous,LOC111125745,protein diaphanous homolog 2-like,hemocytes,17,13.113,75.517
+Crassostrea virginica,diaphanous,LOC111125745,protein diaphanous homolog 2-like,juvenile (22 day),11,13.177,82.323
+Crassostrea virginica,diaphanous,LOC111125745,protein diaphanous homolog 2-like,larvae (1 day),23,14.554,80.889
+Crassostrea virginica,diaphanous,LOC111125745,protein diaphanous homolog 2-like,mantle,12,14.129,80.182
+Crassostrea virginica,diaphanous,LOC111125745,protein diaphanous homolog 2-like,whole body,4,11.380,68.575
+Crassostrea virginica,diaphanous,LOC111125745,protein diaphanous homolog 2-like,whole oyster tissue,20,30.263,84.683
+Crassostrea virginica,shell-gene controls (median),controls,154 genes,gill,16,0.244,21.446
+Crassostrea virginica,shell-gene controls (median),controls,154 genes,gonad,12,0.714,46.139
+Crassostrea virginica,shell-gene controls (median),controls,154 genes,hemocytes,17,0.141,24.876
+Crassostrea virginica,shell-gene controls (median),controls,154 genes,juvenile (22 day),11,3.866,65.295
+Crassostrea virginica,shell-gene controls (median),controls,154 genes,larvae (1 day),23,0.309,41.944
+Crassostrea virginica,shell-gene controls (median),controls,154 genes,mantle,12,0.213,26.591
+Crassostrea virginica,shell-gene controls (median),controls,154 genes,whole body,4,0.521,49.329
+Crassostrea virginica,shell-gene controls (median),controls,154 genes,whole oyster tissue,20,2.017,43.480
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,adductor muscle,34,1.032,66.300
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,complete individual,12,13.400,89.594
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,digestive gland,13,0.540,49.278
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,foot,1,10.400,77.964
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,gill,10,41.137,96.142
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,gonad,51,1.684,60.745
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,haemocytes,5,0.090,28.326
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,hepatopancreas,12,0.682,42.270
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,labial palp,1,12.038,76.042
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,larva,3,4.710,68.725
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,mantle,32,3.461,77.778
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,mixed,6,12.797,82.836
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,ovary,12,4.689,76.301
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,siphon,16,10.817,86.277
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,testis,12,4.229,72.061
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,umbo larva,1,3.888,65.142
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,whole-organism,3,9.659,80.028
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132755103,protein dispatched homolog 3-like,wholesoftbody,9,4.097,71.952
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,adductor muscle,34,1.434,71.546
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,complete individual,12,16.231,90.871
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,digestive gland,13,0.444,46.128
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,foot,1,8.506,74.308
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,gill,10,40.312,96.076
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,gonad,51,1.655,60.448
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,haemocytes,5,0.031,15.029
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,hepatopancreas,12,0.465,35.865
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,labial palp,1,25.988,88.603
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,larva,3,5.920,72.230
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,mantle,32,6.335,85.388
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,mixed,6,16.621,86.556
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,ovary,12,4.902,77.057
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,siphon,16,10.308,85.789
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,testis,12,3.973,71.032
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,umbo larva,1,4.000,65.535
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,whole-organism,3,12.765,83.787
+Ruditapes philippinarum,mollusc-specific dispatched-like lineage,LOC132728813,protein dispatched homolog 3-like,wholesoftbody,9,3.771,70.415
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,adductor muscle,34,0.958,65.121
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,complete individual,12,1.145,56.254
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,digestive gland,13,1.079,60.762
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,foot,1,7.234,71.375
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,gill,10,2.873,68.891
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,gonad,51,3.172,70.430
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,haemocytes,5,6.461,81.895
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,hepatopancreas,12,3.114,70.741
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,labial palp,1,6.793,64.115
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,larva,3,6.104,72.725
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,mantle,32,1.755,67.670
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,mixed,6,4.765,65.098
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,ovary,12,3.142,69.702
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,siphon,16,7.660,81.886
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,testis,12,3.926,70.832
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,umbo larva,1,4.903,68.412
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,whole-organism,3,7.913,76.994
+Ruditapes philippinarum,DISP1/2 (Hedgehog-releasing orthologs),LOC132719435,protein dispatched homolog 1-like,wholesoftbody,9,3.744,70.288
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,adductor muscle,34,0.776,61.634
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,complete individual,12,0.444,39.659
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,digestive gland,13,0.494,47.830
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,foot,1,3.240,56.348
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,gill,10,1.145,53.226
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,gonad,51,1.943,62.918
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,haemocytes,5,1.134,59.777
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,hepatopancreas,12,0.329,30.599
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,labial palp,1,3.098,48.699
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,larva,3,8.024,76.806
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,mantle,32,1.420,64.446
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,mixed,6,6.143,70.039
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,ovary,12,2.684,67.019
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,siphon,16,2.004,60.399
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,testis,12,3.493,69.005
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,umbo larva,1,8.901,77.235
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,whole-organism,3,5.701,71.576
+Ruditapes philippinarum,DISP3,LOC132748580,protein dispatched homolog 3-like,wholesoftbody,9,0.549,34.383
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,adductor muscle,34,2.508,79.592
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,complete individual,12,1.304,58.592
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,digestive gland,13,1.250,63.271
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,foot,1,11.991,80.436
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,gill,10,2.433,66.023
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,gonad,51,4.601,76.176
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,haemocytes,5,3.376,73.667
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,hepatopancreas,12,1.377,55.035
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,labial palp,1,8.597,69.134
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,larva,3,20.880,88.904
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,mantle,32,3.860,79.350
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,mixed,6,11.195,80.784
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,ovary,12,4.965,77.251
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,siphon,16,6.864,80.262
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,testis,12,6.570,79.072
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,umbo larva,1,25.594,90.150
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,whole-organism,3,9.265,79.377
+Ruditapes philippinarum,DISP3,LOC132757710,protein dispatched homolog 3-like,wholesoftbody,9,2.130,59.551
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,adductor muscle,34,2.485,79.450
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,complete individual,12,0.991,53.679
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,digestive gland,13,1.394,65.225
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,foot,1,9.701,76.760
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,gill,10,2.227,64.595
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,gonad,51,5.213,77.885
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,haemocytes,5,3.593,74.476
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,hepatopancreas,12,2.201,64.038
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,labial palp,1,9.845,71.980
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,larva,3,6.046,72.577
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,mantle,32,5.219,83.253
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,mixed,6,9.359,77.813
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,ovary,12,3.064,69.323
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,siphon,16,4.045,71.928
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,testis,12,4.318,72.348
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,umbo larva,1,5.811,70.910
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,whole-organism,3,10.354,81.043
+Ruditapes philippinarum,diaphanous,LOC132725171,protein diaphanous homolog 2-like,wholesoftbody,9,1.128,47.126
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,adductor muscle,34,0.056,35.308
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,complete individual,12,6.617,82.964
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,digestive gland,13,0.945,60.531
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,foot,1,0.000,23.125
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,gill,10,0.148,30.378
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,gonad,51,0.520,43.011
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,haemocytes,5,0.007,25.545
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,hepatopancreas,12,3.367,72.361
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,labial palp,1,0.376,32.102
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,larva,3,0.307,41.843
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,mantle,32,0.058,23.850
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,mixed,6,2.362,52.143
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,ovary,12,1.196,54.542
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,siphon,16,0.063,21.486
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,testis,12,0.831,47.014
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,umbo larva,1,0.040,24.821
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,whole-organism,3,0.846,45.000
+Ruditapes philippinarum,shell-gene controls (median),controls,209 genes,wholesoftbody,9,2.150,60.592

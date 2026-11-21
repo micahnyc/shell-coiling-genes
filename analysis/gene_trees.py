@@ -14,8 +14,8 @@ and dispatched), to replace name-based counts with tree-based orthology.
           species, and draw the trees.
 
 Usage:
-  python analysis/gene_trees.py fetch
-  wsl -d Ubuntu -- bash /mnt/c/micah/shells/analysis/run_trees.sh
+  python analysis/gene_trees.py fetch [family]
+  wsl -d Ubuntu -- bash /mnt/c/micah/shells/analysis/run_trees.sh [family ...]
   python analysis/gene_trees.py read
 """
 
@@ -55,6 +55,9 @@ FAMILIES = {
         name_re=r"dispatched",
         exclude_re=r"$^"),
 }
+# extra species added to one family's tree only (for dev_expression.py: Mytilus has a
+# RefSeq developmental time course, PRJNA996031)
+EXTRA_SPECIES = {"dispatched": [("GCF_965363235.1", "Mytilus galloprovincialis", "clam", "two valves (mussel)")]}
 # outgroup for the dispatched tree: human patched 1 (same sterol-sensing protein family)
 EXTRA = {"dispatched": [("GCF_000001405.40", "Homo sapiens", "patched 1", r"^patched 1$")]}
 LYMNAEA = {"AOV18871.1": "Lymnaea_stagnalis|Lsdia1", "AOV18874.1": "Lymnaea_stagnalis|Lsdia2"}
@@ -116,11 +119,13 @@ def efetch(accs):
     return {k: "".join(v) for k, v in seqs.items()}
 
 
-def fetch():
+def fetch(only=None):
     os.makedirs(OUT, exist_ok=True)
     for fam, spec in FAMILIES.items():
+        if only and fam != only:
+            continue
         rows = []
-        for acc, sp, grp, shell in SPECIES + REFS:
+        for acc, sp, grp, shell in SPECIES + EXTRA_SPECIES.get(fam, []) + REFS:
             seen = set()
             for s in spec["searches"]:
                 for rep in reports(acc, s):
@@ -178,7 +183,7 @@ def subfamily(symbol):
     return None
 
 
-def read():
+def read(*_):
     from Bio import Phylo
     import matplotlib.pyplot as plt
 
@@ -263,4 +268,4 @@ def read():
 
 
 if __name__ == "__main__":
-    {"fetch": fetch, "read": read}[sys.argv[1]]()
+    {"fetch": fetch, "read": read}[sys.argv[1]](*sys.argv[2:])
